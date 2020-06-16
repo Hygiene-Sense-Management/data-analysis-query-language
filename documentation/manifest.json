@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/Users/daniel.egger/source/repos/HsmDataAnalysisService/DotNet/Hsm.DataAnalysisService.QueryLanguage.Documentation",
+  "source_base_path": "C:/Users/daniel.egger/source/repos/HsmDataAnalysisServiceQueryLanguage/DotNet/Hsm.DataAnalysisService.QueryLanguage.Documentation",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.Sdk.SchemaStub.html",
-          "hash": "hj5VTxfVkXeO85DcJzrvOw=="
+          "hash": "ZFldSbLEdLAvRaC356soWg=="
         }
       },
       "is_incremental": false,
@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "Vj4qiupZannkuvBL0YniZg=="
+          "hash": "qetvXwfOLYcmzlOuxHZ5Ig=="
         }
       },
       "is_incremental": false,
@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "cErGHi/uWwwuxxLCzX2agQ=="
+          "hash": "H3dcUf59tA8wjGS+LTyYDQ=="
         }
       },
       "is_incremental": false,
@@ -81,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "l58gFWzuw57SxZXXV4QhJw=="
+          "hash": "XYJzA4jVk0GMZvac6N1DZA=="
         }
       },
       "is_incremental": false,
