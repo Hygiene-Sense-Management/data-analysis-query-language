@@ -144,6 +144,25 @@ references:
   commentId: F:Hsm.DataAnalysisService.QueryLanguage.Sdk.ResourceAggregationFunction.Sum
   fullName: Hsm.DataAnalysisService.QueryLanguage.Sdk.ResourceAggregationFunction.Sum
   nameWithType: ResourceAggregationFunction.Sum
+- uid: Hsm.DataAnalysisService.QueryLanguage.Sdk.Source
+  name: Source
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Sdk.Source.html
+  commentId: T:Hsm.DataAnalysisService.QueryLanguage.Sdk.Source
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Sdk.Source
+  nameWithType: Source
+- uid: Hsm.DataAnalysisService.QueryLanguage.Sdk.Source.#ctor(System.String,System.Int16,System.Int16)
+  name: Source(String, Int16, Int16)
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Sdk.Source.html#Hsm_DataAnalysisService_QueryLanguage_Sdk_Source__ctor_System_String_System_Int16_System_Int16_
+  commentId: M:Hsm.DataAnalysisService.QueryLanguage.Sdk.Source.#ctor(System.String,System.Int16,System.Int16)
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Sdk.Source.Source(System.String, System.Int16, System.Int16)
+  nameWithType: Source.Source(String, Int16, Int16)
+- uid: Hsm.DataAnalysisService.QueryLanguage.Sdk.Source.#ctor*
+  name: Source
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Sdk.Source.html#Hsm_DataAnalysisService_QueryLanguage_Sdk_Source__ctor_
+  commentId: Overload:Hsm.DataAnalysisService.QueryLanguage.Sdk.Source.#ctor
+  isSpec: "True"
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Sdk.Source.Source
+  nameWithType: Source.Source
 - uid: Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeAggregationBehaviour
   name: TimeAggregationBehaviour
   href: api/Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeAggregationBehaviour.html
@@ -162,6 +181,32 @@ references:
   commentId: T:Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeSeriesRequest
   fullName: Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeSeriesRequest
   nameWithType: TimeSeriesRequest
+- uid: Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeSeriesRequest.#ctor
+  name: TimeSeriesRequest()
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeSeriesRequest.html#Hsm_DataAnalysisService_QueryLanguage_Sdk_TimeSeriesRequest__ctor
+  commentId: M:Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeSeriesRequest.#ctor
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeSeriesRequest.TimeSeriesRequest()
+  nameWithType: TimeSeriesRequest.TimeSeriesRequest()
+- uid: Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeSeriesRequest.#ctor*
+  name: TimeSeriesRequest
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeSeriesRequest.html#Hsm_DataAnalysisService_QueryLanguage_Sdk_TimeSeriesRequest__ctor_
+  commentId: Overload:Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeSeriesRequest.#ctor
+  isSpec: "True"
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeSeriesRequest.TimeSeriesRequest
+  nameWithType: TimeSeriesRequest.TimeSeriesRequest
+- uid: Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeSeriesRequest.SourceSeries
+  name: SourceSeries
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeSeriesRequest.html#Hsm_DataAnalysisService_QueryLanguage_Sdk_TimeSeriesRequest_SourceSeries
+  commentId: P:Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeSeriesRequest.SourceSeries
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeSeriesRequest.SourceSeries
+  nameWithType: TimeSeriesRequest.SourceSeries
+- uid: Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeSeriesRequest.SourceSeries*
+  name: SourceSeries
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeSeriesRequest.html#Hsm_DataAnalysisService_QueryLanguage_Sdk_TimeSeriesRequest_SourceSeries_
+  commentId: Overload:Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeSeriesRequest.SourceSeries
+  isSpec: "True"
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeSeriesRequest.SourceSeries
+  nameWithType: TimeSeriesRequest.SourceSeries
 - uid: Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeSeriesRequest.TimeAggregationBehaviour
   name: TimeAggregationBehaviour
   href: api/Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeSeriesRequest.html#Hsm_DataAnalysisService_QueryLanguage_Sdk_TimeSeriesRequest_TimeAggregationBehaviour
