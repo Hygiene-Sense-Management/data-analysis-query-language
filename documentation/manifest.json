@@ -1,15 +1,159 @@
 {
   "homepages": [],
-  "source_base_path": "C:/Users/daniel.egger/source/repos/HsmDataAnalysisServiceQueryLanguage/DotNet/Hsm.DataAnalysisService.QueryLanguage.Documentation",
+  "source_base_path": "C:/Users/david.herzog/source/repos/HsM Data Analysis Service Query Language A/DotNet/Hsm.DataAnalysisService.QueryLanguage.Documentation",
   "xrefmap": "xrefmap.yml",
   "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Sdk.AggregationTimeInterval.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Sdk.AggregationTimeInterval.html",
+          "hash": "iWd3oiVjOcljh7hhbL4oeQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Sdk.MinMaxValueFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Sdk.MinMaxValueFilter.html",
+          "hash": "cAHKP7jWOuUDHKADwvC9zA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Sdk.ResourceAggregationFunction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Sdk.ResourceAggregationFunction.html",
+          "hash": "SbPZviRKwBLwcQ9PJj+vWQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeAggregationBehaviour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeAggregationBehaviour.html",
+          "hash": "Jt3prld7aLxuhCprlh/OKA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeAggregationDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeAggregationDefinition.html",
+          "hash": "bBN8jiq1/22xv7eyZWy6aw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeSeriesRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeSeriesRequest.html",
+          "hash": "TrPuZ2DiyNlcDF4+IeBrZg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Sdk.ValueFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Sdk.ValueFilter.html",
+          "hash": "obByaiixnMJq+JLcgk+0AA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Sdk.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Sdk.html",
+          "hash": "ImhHF1ootZLhIbwsKvukEQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hsm.DataAnalysisService.Sdk.DataPoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hsm.DataAnalysisService.Sdk.DataPoint.html",
+          "hash": "ZjZKkmIr8dujtFKDGvOIkQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hsm.DataAnalysisService.Sdk.DataRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hsm.DataAnalysisService.Sdk.DataRequest.html",
+          "hash": "rJMuD+ytqkCfr1/5+pyIHA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hsm.DataAnalysisService.Sdk.Request.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hsm.DataAnalysisService.Sdk.Request.html",
+          "hash": "cU0i5RBgcEN7tQ+QT8aOvg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/Hsm.DataAnalysisService.Sdk.SchemaStub.yml",
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.Sdk.SchemaStub.html",
-          "hash": "ZFldSbLEdLAvRaC356soWg=="
+          "hash": "OrCvN+7HvnH/6gCmAW2nAQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hsm.DataAnalysisService.Sdk.TransmissionPath.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hsm.DataAnalysisService.Sdk.TransmissionPath.html",
+          "hash": "uittknEI4XSxfcw9vaUJrQ=="
         }
       },
       "is_incremental": false,
@@ -21,7 +165,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.Sdk.html",
-          "hash": "HtHTLOlHPUMazBOcdVRLsw=="
+          "hash": "mk4rvNb3szx2jPvAiNxATA=="
         }
       },
       "is_incremental": false,
@@ -33,7 +177,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "qetvXwfOLYcmzlOuxHZ5Ig=="
+          "hash": "2ctu80ZeNptqvvw/kmGI/Q=="
         }
       },
       "is_incremental": false,
@@ -45,7 +189,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "BOylRZuvvEiMpfZfi8j+eQ=="
+          "hash": "UYPAQvwcdBXwdF21YPUdQQ=="
         }
       },
       "is_incremental": false,
@@ -57,7 +201,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "H3dcUf59tA8wjGS+LTyYDQ=="
+          "hash": "NMyP1s5VtBgS5t6DPgdhEg=="
         }
       },
       "is_incremental": false,
@@ -81,7 +225,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "XYJzA4jVk0GMZvac6N1DZA=="
+          "hash": "yEKLhZ1QJ5l/Kvl/7+h7SQ=="
         }
       },
       "is_incremental": false,
@@ -120,7 +264,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 2,
+          "total_file_count": 14,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
