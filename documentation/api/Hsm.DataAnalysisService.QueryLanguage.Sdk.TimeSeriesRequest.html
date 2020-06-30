@@ -73,7 +73,7 @@
   
   <h1 id="Hsm_DataAnalysisService_QueryLanguage_Sdk_TimeSeriesRequest" data-uid="Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeSeriesRequest" class="text-break">Class TimeSeriesRequest
   </h1>
-  <div class="markdown level0 summary"><p>Represents a TimeSeries Request.</p>
+  <div class="markdown level0 summary"><p>Represents a TimeSeriesRequest Request. Some kind of Query.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -84,6 +84,12 @@
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Hsm.DataAnalysisService.Sdk.Request.html#Hsm_DataAnalysisService_Sdk_Request_StartTime">Request.StartTime</a>
+    </div>
+    <div>
+      <a class="xref" href="Hsm.DataAnalysisService.Sdk.Request.html#Hsm_DataAnalysisService_Sdk_Request_EndTime">Request.EndTime</a>
+    </div>
     <div>
       <a class="xref" href="Hsm.DataAnalysisService.Sdk.Request.html#Hsm_DataAnalysisService_Sdk_Request_TransmissionPaths">Request.TransmissionPaths</a>
     </div>
@@ -119,22 +125,47 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/hsm%20data%20analysis%20service/_git/hsm%20data%20analysis%20service%20query%20language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage.Sdk/TimeSeriesRequest.cs&amp;version=GBmaster&amp;line=18">View Source</a>
+    <a href="https://dev.azure.com/hagleitner-dev/hsm%20data%20analysis%20service/_git/hsm%20data%20analysis%20service%20query%20language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage.Sdk/TimeSeriesRequest.cs&amp;version=GBmaster&amp;line=19">View Source</a>
   </span>
   <a id="Hsm_DataAnalysisService_QueryLanguage_Sdk_TimeSeriesRequest__ctor_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeSeriesRequest.#ctor*"></a>
-  <h4 id="Hsm_DataAnalysisService_QueryLanguage_Sdk_TimeSeriesRequest__ctor" data-uid="Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeSeriesRequest.#ctor">TimeSeriesRequest()</h4>
-  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeSeriesRequest.html">TimeSeriesRequest</a> class.</p>
+  <h4 id="Hsm_DataAnalysisService_QueryLanguage_Sdk_TimeSeriesRequest__ctor_System_DateTime_System_DateTime_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeSeriesRequest.#ctor(System.DateTime,System.DateTime)">TimeSeriesRequest(DateTime, DateTime)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeSeriesRequest.html">TimeSeriesRequest</a> class.
+TODO: Order of operation....</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TimeSeriesRequest()</code></pre>
+    <pre><code class="lang-csharp hljs">public TimeSeriesRequest(DateTime startTime, DateTime endTime)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">startTime</span></td>
+        <td><p>The start time of the request interval.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">endTime</span></td>
+        <td><p>The end time of the request interval.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="properties">Properties
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/hsm%20data%20analysis%20service/_git/hsm%20data%20analysis%20service%20query%20language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage.Sdk/TimeSeriesRequest.cs&amp;version=GBmaster&amp;line=33">View Source</a>
+    <a href="https://dev.azure.com/hagleitner-dev/hsm%20data%20analysis%20service/_git/hsm%20data%20analysis%20service%20query%20language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage.Sdk/TimeSeriesRequest.cs&amp;version=GBmaster&amp;line=46">View Source</a>
   </span>
   <a id="Hsm_DataAnalysisService_QueryLanguage_Sdk_TimeSeriesRequest_SourceSeries_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeSeriesRequest.SourceSeries*"></a>
   <h4 id="Hsm_DataAnalysisService_QueryLanguage_Sdk_TimeSeriesRequest_SourceSeries" data-uid="Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeSeriesRequest.SourceSeries">SourceSeries</h4>
@@ -162,17 +193,17 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/hsm%20data%20analysis%20service/_git/hsm%20data%20analysis%20service%20query%20language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage.Sdk/TimeSeriesRequest.cs&amp;version=GBmaster&amp;line=45">View Source</a>
+    <a href="https://dev.azure.com/hagleitner-dev/hsm%20data%20analysis%20service/_git/hsm%20data%20analysis%20service%20query%20language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage.Sdk/TimeSeriesRequest.cs&amp;version=GBmaster&amp;line=58">View Source</a>
   </span>
   <a id="Hsm_DataAnalysisService_QueryLanguage_Sdk_TimeSeriesRequest_TimeAggregationBehaviour_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeSeriesRequest.TimeAggregationBehaviour*"></a>
   <h4 id="Hsm_DataAnalysisService_QueryLanguage_Sdk_TimeSeriesRequest_TimeAggregationBehaviour" data-uid="Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeSeriesRequest.TimeAggregationBehaviour">TimeAggregationBehaviour</h4>
-  <div class="markdown level1 summary"><p>Gets or sets the the TimeAggregationBehaviour type.
+  <div class="markdown level1 summary"><p>Gets or sets the the TimePartitioningForAggregation type.
 TODO: Why don't we call it type than...</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TimeAggregationBehaviour TimeAggregationBehaviour { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public TimePartitioningForAggregation TimeAggregationBehaviour { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -184,14 +215,14 @@ TODO: Why don't we call it type than...</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeAggregationBehaviour.html">TimeAggregationBehaviour</a></td>
+        <td><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Sdk.TimePartitioningForAggregation.html">TimePartitioningForAggregation</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/hsm%20data%20analysis%20service/_git/hsm%20data%20analysis%20service%20query%20language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage.Sdk/TimeSeriesRequest.cs&amp;version=GBmaster&amp;line=39">View Source</a>
+    <a href="https://dev.azure.com/hagleitner-dev/hsm%20data%20analysis%20service/_git/hsm%20data%20analysis%20service%20query%20language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage.Sdk/TimeSeriesRequest.cs&amp;version=GBmaster&amp;line=52">View Source</a>
   </span>
   <a id="Hsm_DataAnalysisService_QueryLanguage_Sdk_TimeSeriesRequest_TimeAggregationDefinition_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeSeriesRequest.TimeAggregationDefinition*"></a>
   <h4 id="Hsm_DataAnalysisService_QueryLanguage_Sdk_TimeSeriesRequest_TimeAggregationDefinition" data-uid="Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeSeriesRequest.TimeAggregationDefinition">TimeAggregationDefinition</h4>
@@ -220,7 +251,7 @@ TODO: Why don't we call it type than...</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/hsm%20data%20analysis%20service/_git/hsm%20data%20analysis%20service%20query%20language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage.Sdk/TimeSeriesRequest.cs&amp;version=GBmaster&amp;line=27">View Source</a>
+    <a href="https://dev.azure.com/hagleitner-dev/hsm%20data%20analysis%20service/_git/hsm%20data%20analysis%20service%20query%20language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage.Sdk/TimeSeriesRequest.cs&amp;version=GBmaster&amp;line=40">View Source</a>
   </span>
   <a id="Hsm_DataAnalysisService_QueryLanguage_Sdk_TimeSeriesRequest_ValueFilter_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeSeriesRequest.ValueFilter*"></a>
   <h4 id="Hsm_DataAnalysisService_QueryLanguage_Sdk_TimeSeriesRequest_ValueFilter" data-uid="Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeSeriesRequest.ValueFilter">ValueFilter</h4>
@@ -247,6 +278,22 @@ TODO: What the hack are more than one? -&gt; Miss concept -&gt; should that be m
       </tr>
     </tbody>
   </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/hagleitner-dev/hsm%20data%20analysis%20service/_git/hsm%20data%20analysis%20service%20query%20language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage.Sdk/TimeSeriesRequest.cs&amp;version=GBmaster&amp;line=28">View Source</a>
+  </span>
+  <a id="Hsm_DataAnalysisService_QueryLanguage_Sdk_TimeSeriesRequest_Validate_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeSeriesRequest.Validate*"></a>
+  <h4 id="Hsm_DataAnalysisService_QueryLanguage_Sdk_TimeSeriesRequest_Validate" data-uid="Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeSeriesRequest.Validate">Validate()</h4>
+  <div class="markdown level1 summary"><p>Validates the given Parameters.
+Throws Exceptions if some parameters are missing or may be wrong.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Validate()</code></pre>
+  </div>
 </article>
           </div>
           
@@ -255,7 +302,7 @@ TODO: What the hack are more than one? -&gt; Miss concept -&gt; should that be m
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/hagleitner-dev/hsm%20data%20analysis%20service/_git/hsm%20data%20analysis%20service%20query%20language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage.Sdk/TimeSeriesRequest.cs&amp;version=GBmaster&amp;line=12" class="contribution-link">View Source</a>
+                    <a href="https://dev.azure.com/hagleitner-dev/hsm%20data%20analysis%20service/_git/hsm%20data%20analysis%20service%20query%20language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage.Sdk/TimeSeriesRequest.cs&amp;version=GBmaster&amp;line=11" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

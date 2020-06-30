@@ -39,6 +39,111 @@ references:
   isSpec: "True"
   fullName: Hsm.DataAnalysisService.QueryLanguage.Sdk.AggregationTimeInterval.Start
   nameWithType: AggregationTimeInterval.Start
+- uid: Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageBasedStatisticFunction
+  name: AverageBasedStatisticFunction
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageBasedStatisticFunction.html
+  commentId: T:Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageBasedStatisticFunction
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageBasedStatisticFunction
+  nameWithType: AverageBasedStatisticFunction
+- uid: Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageBasedStatisticFunction.Avg
+  name: Avg
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageBasedStatisticFunction.html#Hsm_DataAnalysisService_QueryLanguage_Sdk_AverageBasedStatisticFunction_Avg
+  commentId: F:Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageBasedStatisticFunction.Avg
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageBasedStatisticFunction.Avg
+  nameWithType: AverageBasedStatisticFunction.Avg
+- uid: Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageBasedStatisticFunction.Std
+  name: Std
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageBasedStatisticFunction.html#Hsm_DataAnalysisService_QueryLanguage_Sdk_AverageBasedStatisticFunction_Std
+  commentId: F:Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageBasedStatisticFunction.Std
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageBasedStatisticFunction.Std
+  nameWithType: AverageBasedStatisticFunction.Std
+- uid: Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageBasedStatisticFunction.Var
+  name: Var
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageBasedStatisticFunction.html#Hsm_DataAnalysisService_QueryLanguage_Sdk_AverageBasedStatisticFunction_Var
+  commentId: F:Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageBasedStatisticFunction.Var
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageBasedStatisticFunction.Var
+  nameWithType: AverageBasedStatisticFunction.Var
+- uid: Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageBasedStatistics
+  name: AverageBasedStatistics
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageBasedStatistics.html
+  commentId: T:Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageBasedStatistics
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageBasedStatistics
+  nameWithType: AverageBasedStatistics
+- uid: Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageBasedStatistics.AverageBasedStatisticFunction
+  name: AverageBasedStatisticFunction
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageBasedStatistics.html#Hsm_DataAnalysisService_QueryLanguage_Sdk_AverageBasedStatistics_AverageBasedStatisticFunction
+  commentId: P:Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageBasedStatistics.AverageBasedStatisticFunction
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageBasedStatistics.AverageBasedStatisticFunction
+  nameWithType: AverageBasedStatistics.AverageBasedStatisticFunction
+- uid: Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageBasedStatistics.AverageBasedStatisticFunction*
+  name: AverageBasedStatisticFunction
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageBasedStatistics.html#Hsm_DataAnalysisService_QueryLanguage_Sdk_AverageBasedStatistics_AverageBasedStatisticFunction_
+  commentId: Overload:Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageBasedStatistics.AverageBasedStatisticFunction
+  isSpec: "True"
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageBasedStatistics.AverageBasedStatisticFunction
+  nameWithType: AverageBasedStatistics.AverageBasedStatisticFunction
+- uid: Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageBasedStatistics.AverageWeighting
+  name: AverageWeighting
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageBasedStatistics.html#Hsm_DataAnalysisService_QueryLanguage_Sdk_AverageBasedStatistics_AverageWeighting
+  commentId: P:Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageBasedStatistics.AverageWeighting
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageBasedStatistics.AverageWeighting
+  nameWithType: AverageBasedStatistics.AverageWeighting
+- uid: Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageBasedStatistics.AverageWeighting*
+  name: AverageWeighting
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageBasedStatistics.html#Hsm_DataAnalysisService_QueryLanguage_Sdk_AverageBasedStatistics_AverageWeighting_
+  commentId: Overload:Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageBasedStatistics.AverageWeighting
+  isSpec: "True"
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageBasedStatistics.AverageWeighting
+  nameWithType: AverageBasedStatistics.AverageWeighting
+- uid: Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageWeighting
+  name: AverageWeighting
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageWeighting.html
+  commentId: T:Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageWeighting
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageWeighting
+  nameWithType: AverageWeighting
+- uid: Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageWeighting.Automatic
+  name: Automatic
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageWeighting.html#Hsm_DataAnalysisService_QueryLanguage_Sdk_AverageWeighting_Automatic
+  commentId: F:Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageWeighting.Automatic
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageWeighting.Automatic
+  nameWithType: AverageWeighting.Automatic
+- uid: Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageWeighting.Equal
+  name: Equal
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageWeighting.html#Hsm_DataAnalysisService_QueryLanguage_Sdk_AverageWeighting_Equal
+  commentId: F:Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageWeighting.Equal
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageWeighting.Equal
+  nameWithType: AverageWeighting.Equal
+- uid: Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageWeighting.HalfTimePreviousNext
+  name: HalfTimePreviousNext
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageWeighting.html#Hsm_DataAnalysisService_QueryLanguage_Sdk_AverageWeighting_HalfTimePreviousNext
+  commentId: F:Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageWeighting.HalfTimePreviousNext
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageWeighting.HalfTimePreviousNext
+  nameWithType: AverageWeighting.HalfTimePreviousNext
+- uid: Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageWeighting.TimeToNext
+  name: TimeToNext
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageWeighting.html#Hsm_DataAnalysisService_QueryLanguage_Sdk_AverageWeighting_TimeToNext
+  commentId: F:Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageWeighting.TimeToNext
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageWeighting.TimeToNext
+  nameWithType: AverageWeighting.TimeToNext
+- uid: Hsm.DataAnalysisService.QueryLanguage.Sdk.MaxVelocity
+  name: MaxVelocity
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Sdk.MaxVelocity.html
+  commentId: T:Hsm.DataAnalysisService.QueryLanguage.Sdk.MaxVelocity
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Sdk.MaxVelocity
+  nameWithType: MaxVelocity
+- uid: Hsm.DataAnalysisService.QueryLanguage.Sdk.MaxVelocity.EvaluationInterval
+  name: EvaluationInterval
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Sdk.MaxVelocity.html#Hsm_DataAnalysisService_QueryLanguage_Sdk_MaxVelocity_EvaluationInterval
+  commentId: P:Hsm.DataAnalysisService.QueryLanguage.Sdk.MaxVelocity.EvaluationInterval
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Sdk.MaxVelocity.EvaluationInterval
+  nameWithType: MaxVelocity.EvaluationInterval
+- uid: Hsm.DataAnalysisService.QueryLanguage.Sdk.MaxVelocity.EvaluationInterval*
+  name: EvaluationInterval
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Sdk.MaxVelocity.html#Hsm_DataAnalysisService_QueryLanguage_Sdk_MaxVelocity_EvaluationInterval_
+  commentId: Overload:Hsm.DataAnalysisService.QueryLanguage.Sdk.MaxVelocity.EvaluationInterval
+  isSpec: "True"
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Sdk.MaxVelocity.EvaluationInterval
+  nameWithType: MaxVelocity.EvaluationInterval
 - uid: Hsm.DataAnalysisService.QueryLanguage.Sdk.MinMaxValueFilter
   name: MinMaxValueFilter
   href: api/Hsm.DataAnalysisService.QueryLanguage.Sdk.MinMaxValueFilter.html
@@ -58,6 +163,19 @@ references:
   isSpec: "True"
   fullName: Hsm.DataAnalysisService.QueryLanguage.Sdk.MinMaxValueFilter.MinMaxValueFilter
   nameWithType: MinMaxValueFilter.MinMaxValueFilter
+- uid: Hsm.DataAnalysisService.QueryLanguage.Sdk.MinMaxValueFilter.IsInInterval(Hsm.DataAnalysisService.Sdk.DataPoint)
+  name: IsInInterval(DataPoint)
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Sdk.MinMaxValueFilter.html#Hsm_DataAnalysisService_QueryLanguage_Sdk_MinMaxValueFilter_IsInInterval_Hsm_DataAnalysisService_Sdk_DataPoint_
+  commentId: M:Hsm.DataAnalysisService.QueryLanguage.Sdk.MinMaxValueFilter.IsInInterval(Hsm.DataAnalysisService.Sdk.DataPoint)
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Sdk.MinMaxValueFilter.IsInInterval(Hsm.DataAnalysisService.Sdk.DataPoint)
+  nameWithType: MinMaxValueFilter.IsInInterval(DataPoint)
+- uid: Hsm.DataAnalysisService.QueryLanguage.Sdk.MinMaxValueFilter.IsInInterval*
+  name: IsInInterval
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Sdk.MinMaxValueFilter.html#Hsm_DataAnalysisService_QueryLanguage_Sdk_MinMaxValueFilter_IsInInterval_
+  commentId: Overload:Hsm.DataAnalysisService.QueryLanguage.Sdk.MinMaxValueFilter.IsInInterval
+  isSpec: "True"
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Sdk.MinMaxValueFilter.IsInInterval
+  nameWithType: MinMaxValueFilter.IsInInterval
 - uid: Hsm.DataAnalysisService.QueryLanguage.Sdk.MinMaxValueFilter.Max
   name: Max
   href: api/Hsm.DataAnalysisService.QueryLanguage.Sdk.MinMaxValueFilter.html#Hsm_DataAnalysisService_QueryLanguage_Sdk_MinMaxValueFilter_Max
@@ -84,6 +202,67 @@ references:
   isSpec: "True"
   fullName: Hsm.DataAnalysisService.QueryLanguage.Sdk.MinMaxValueFilter.Min
   nameWithType: MinMaxValueFilter.Min
+- uid: Hsm.DataAnalysisService.QueryLanguage.Sdk.NonAverageBasedStatistic
+  name: NonAverageBasedStatistic
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Sdk.NonAverageBasedStatistic.html
+  commentId: T:Hsm.DataAnalysisService.QueryLanguage.Sdk.NonAverageBasedStatistic
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Sdk.NonAverageBasedStatistic
+  nameWithType: NonAverageBasedStatistic
+- uid: Hsm.DataAnalysisService.QueryLanguage.Sdk.NonAverageBasedStatistic.NonAverageBasedStatisticFuntion
+  name: NonAverageBasedStatisticFuntion
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Sdk.NonAverageBasedStatistic.html#Hsm_DataAnalysisService_QueryLanguage_Sdk_NonAverageBasedStatistic_NonAverageBasedStatisticFuntion
+  commentId: P:Hsm.DataAnalysisService.QueryLanguage.Sdk.NonAverageBasedStatistic.NonAverageBasedStatisticFuntion
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Sdk.NonAverageBasedStatistic.NonAverageBasedStatisticFuntion
+  nameWithType: NonAverageBasedStatistic.NonAverageBasedStatisticFuntion
+- uid: Hsm.DataAnalysisService.QueryLanguage.Sdk.NonAverageBasedStatistic.NonAverageBasedStatisticFuntion*
+  name: NonAverageBasedStatisticFuntion
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Sdk.NonAverageBasedStatistic.html#Hsm_DataAnalysisService_QueryLanguage_Sdk_NonAverageBasedStatistic_NonAverageBasedStatisticFuntion_
+  commentId: Overload:Hsm.DataAnalysisService.QueryLanguage.Sdk.NonAverageBasedStatistic.NonAverageBasedStatisticFuntion
+  isSpec: "True"
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Sdk.NonAverageBasedStatistic.NonAverageBasedStatisticFuntion
+  nameWithType: NonAverageBasedStatistic.NonAverageBasedStatisticFuntion
+- uid: Hsm.DataAnalysisService.QueryLanguage.Sdk.NonAverageBasedStatisticFuntion
+  name: NonAverageBasedStatisticFuntion
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Sdk.NonAverageBasedStatisticFuntion.html
+  commentId: T:Hsm.DataAnalysisService.QueryLanguage.Sdk.NonAverageBasedStatisticFuntion
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Sdk.NonAverageBasedStatisticFuntion
+  nameWithType: NonAverageBasedStatisticFuntion
+- uid: Hsm.DataAnalysisService.QueryLanguage.Sdk.NonAverageBasedStatisticFuntion.Count
+  name: Count
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Sdk.NonAverageBasedStatisticFuntion.html#Hsm_DataAnalysisService_QueryLanguage_Sdk_NonAverageBasedStatisticFuntion_Count
+  commentId: F:Hsm.DataAnalysisService.QueryLanguage.Sdk.NonAverageBasedStatisticFuntion.Count
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Sdk.NonAverageBasedStatisticFuntion.Count
+  nameWithType: NonAverageBasedStatisticFuntion.Count
+- uid: Hsm.DataAnalysisService.QueryLanguage.Sdk.NonAverageBasedStatisticFuntion.LastFirst
+  name: LastFirst
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Sdk.NonAverageBasedStatisticFuntion.html#Hsm_DataAnalysisService_QueryLanguage_Sdk_NonAverageBasedStatisticFuntion_LastFirst
+  commentId: F:Hsm.DataAnalysisService.QueryLanguage.Sdk.NonAverageBasedStatisticFuntion.LastFirst
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Sdk.NonAverageBasedStatisticFuntion.LastFirst
+  nameWithType: NonAverageBasedStatisticFuntion.LastFirst
+- uid: Hsm.DataAnalysisService.QueryLanguage.Sdk.NonAverageBasedStatisticFuntion.Max
+  name: Max
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Sdk.NonAverageBasedStatisticFuntion.html#Hsm_DataAnalysisService_QueryLanguage_Sdk_NonAverageBasedStatisticFuntion_Max
+  commentId: F:Hsm.DataAnalysisService.QueryLanguage.Sdk.NonAverageBasedStatisticFuntion.Max
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Sdk.NonAverageBasedStatisticFuntion.Max
+  nameWithType: NonAverageBasedStatisticFuntion.Max
+- uid: Hsm.DataAnalysisService.QueryLanguage.Sdk.NonAverageBasedStatisticFuntion.MaxMin
+  name: MaxMin
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Sdk.NonAverageBasedStatisticFuntion.html#Hsm_DataAnalysisService_QueryLanguage_Sdk_NonAverageBasedStatisticFuntion_MaxMin
+  commentId: F:Hsm.DataAnalysisService.QueryLanguage.Sdk.NonAverageBasedStatisticFuntion.MaxMin
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Sdk.NonAverageBasedStatisticFuntion.MaxMin
+  nameWithType: NonAverageBasedStatisticFuntion.MaxMin
+- uid: Hsm.DataAnalysisService.QueryLanguage.Sdk.NonAverageBasedStatisticFuntion.Min
+  name: Min
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Sdk.NonAverageBasedStatisticFuntion.html#Hsm_DataAnalysisService_QueryLanguage_Sdk_NonAverageBasedStatisticFuntion_Min
+  commentId: F:Hsm.DataAnalysisService.QueryLanguage.Sdk.NonAverageBasedStatisticFuntion.Min
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Sdk.NonAverageBasedStatisticFuntion.Min
+  nameWithType: NonAverageBasedStatisticFuntion.Min
+- uid: Hsm.DataAnalysisService.QueryLanguage.Sdk.NonAverageBasedStatisticFuntion.Sum
+  name: Sum
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Sdk.NonAverageBasedStatisticFuntion.html#Hsm_DataAnalysisService_QueryLanguage_Sdk_NonAverageBasedStatisticFuntion_Sum
+  commentId: F:Hsm.DataAnalysisService.QueryLanguage.Sdk.NonAverageBasedStatisticFuntion.Sum
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Sdk.NonAverageBasedStatisticFuntion.Sum
+  nameWithType: NonAverageBasedStatisticFuntion.Sum
 - uid: Hsm.DataAnalysisService.QueryLanguage.Sdk.ResourceAggregationFunction
   name: ResourceAggregationFunction
   href: api/Hsm.DataAnalysisService.QueryLanguage.Sdk.ResourceAggregationFunction.html
@@ -150,12 +329,12 @@ references:
   commentId: T:Hsm.DataAnalysisService.QueryLanguage.Sdk.Source
   fullName: Hsm.DataAnalysisService.QueryLanguage.Sdk.Source
   nameWithType: Source
-- uid: Hsm.DataAnalysisService.QueryLanguage.Sdk.Source.#ctor(System.String,System.Int16,System.Int16)
-  name: Source(String, Int16, Int16)
-  href: api/Hsm.DataAnalysisService.QueryLanguage.Sdk.Source.html#Hsm_DataAnalysisService_QueryLanguage_Sdk_Source__ctor_System_String_System_Int16_System_Int16_
-  commentId: M:Hsm.DataAnalysisService.QueryLanguage.Sdk.Source.#ctor(System.String,System.Int16,System.Int16)
-  fullName: Hsm.DataAnalysisService.QueryLanguage.Sdk.Source.Source(System.String, System.Int16, System.Int16)
-  nameWithType: Source.Source(String, Int16, Int16)
+- uid: Hsm.DataAnalysisService.QueryLanguage.Sdk.Source.#ctor(Hsm.BaseTypes.Eui64,System.Int16,System.Int16)
+  name: Source(Eui64, Int16, Int16)
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Sdk.Source.html#Hsm_DataAnalysisService_QueryLanguage_Sdk_Source__ctor_Hsm_BaseTypes_Eui64_System_Int16_System_Int16_
+  commentId: M:Hsm.DataAnalysisService.QueryLanguage.Sdk.Source.#ctor(Hsm.BaseTypes.Eui64,System.Int16,System.Int16)
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Sdk.Source.Source(Hsm.BaseTypes.Eui64, System.Int16, System.Int16)
+  nameWithType: Source.Source(Eui64, Int16, Int16)
 - uid: Hsm.DataAnalysisService.QueryLanguage.Sdk.Source.#ctor*
   name: Source
   href: api/Hsm.DataAnalysisService.QueryLanguage.Sdk.Source.html#Hsm_DataAnalysisService_QueryLanguage_Sdk_Source__ctor_
@@ -163,30 +342,30 @@ references:
   isSpec: "True"
   fullName: Hsm.DataAnalysisService.QueryLanguage.Sdk.Source.Source
   nameWithType: Source.Source
-- uid: Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeAggregationBehaviour
-  name: TimeAggregationBehaviour
-  href: api/Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeAggregationBehaviour.html
-  commentId: T:Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeAggregationBehaviour
-  fullName: Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeAggregationBehaviour
-  nameWithType: TimeAggregationBehaviour
 - uid: Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeAggregationDefinition
   name: TimeAggregationDefinition
   href: api/Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeAggregationDefinition.html
   commentId: T:Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeAggregationDefinition
   fullName: Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeAggregationDefinition
   nameWithType: TimeAggregationDefinition
+- uid: Hsm.DataAnalysisService.QueryLanguage.Sdk.TimePartitioningForAggregation
+  name: TimePartitioningForAggregation
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Sdk.TimePartitioningForAggregation.html
+  commentId: T:Hsm.DataAnalysisService.QueryLanguage.Sdk.TimePartitioningForAggregation
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Sdk.TimePartitioningForAggregation
+  nameWithType: TimePartitioningForAggregation
 - uid: Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeSeriesRequest
   name: TimeSeriesRequest
   href: api/Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeSeriesRequest.html
   commentId: T:Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeSeriesRequest
   fullName: Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeSeriesRequest
   nameWithType: TimeSeriesRequest
-- uid: Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeSeriesRequest.#ctor
-  name: TimeSeriesRequest()
-  href: api/Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeSeriesRequest.html#Hsm_DataAnalysisService_QueryLanguage_Sdk_TimeSeriesRequest__ctor
-  commentId: M:Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeSeriesRequest.#ctor
-  fullName: Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeSeriesRequest.TimeSeriesRequest()
-  nameWithType: TimeSeriesRequest.TimeSeriesRequest()
+- uid: Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeSeriesRequest.#ctor(System.DateTime,System.DateTime)
+  name: TimeSeriesRequest(DateTime, DateTime)
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeSeriesRequest.html#Hsm_DataAnalysisService_QueryLanguage_Sdk_TimeSeriesRequest__ctor_System_DateTime_System_DateTime_
+  commentId: M:Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeSeriesRequest.#ctor(System.DateTime,System.DateTime)
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeSeriesRequest.TimeSeriesRequest(System.DateTime, System.DateTime)
+  nameWithType: TimeSeriesRequest.TimeSeriesRequest(DateTime, DateTime)
 - uid: Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeSeriesRequest.#ctor*
   name: TimeSeriesRequest
   href: api/Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeSeriesRequest.html#Hsm_DataAnalysisService_QueryLanguage_Sdk_TimeSeriesRequest__ctor_
@@ -233,6 +412,19 @@ references:
   isSpec: "True"
   fullName: Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeSeriesRequest.TimeAggregationDefinition
   nameWithType: TimeSeriesRequest.TimeAggregationDefinition
+- uid: Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeSeriesRequest.Validate
+  name: Validate()
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeSeriesRequest.html#Hsm_DataAnalysisService_QueryLanguage_Sdk_TimeSeriesRequest_Validate
+  commentId: M:Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeSeriesRequest.Validate
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeSeriesRequest.Validate()
+  nameWithType: TimeSeriesRequest.Validate()
+- uid: Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeSeriesRequest.Validate*
+  name: Validate
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeSeriesRequest.html#Hsm_DataAnalysisService_QueryLanguage_Sdk_TimeSeriesRequest_Validate_
+  commentId: Overload:Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeSeriesRequest.Validate
+  isSpec: "True"
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeSeriesRequest.Validate
+  nameWithType: TimeSeriesRequest.Validate
 - uid: Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeSeriesRequest.ValueFilter
   name: ValueFilter
   href: api/Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeSeriesRequest.html#Hsm_DataAnalysisService_QueryLanguage_Sdk_TimeSeriesRequest_ValueFilter
@@ -329,18 +521,51 @@ references:
   isSpec: "True"
   fullName: Hsm.DataAnalysisService.Sdk.DataPoint.Value
   nameWithType: DataPoint.Value
-- uid: Hsm.DataAnalysisService.Sdk.DataRequest
-  name: DataRequest
-  href: api/Hsm.DataAnalysisService.Sdk.DataRequest.html
-  commentId: T:Hsm.DataAnalysisService.Sdk.DataRequest
-  fullName: Hsm.DataAnalysisService.Sdk.DataRequest
-  nameWithType: DataRequest
 - uid: Hsm.DataAnalysisService.Sdk.Request
   name: Request
   href: api/Hsm.DataAnalysisService.Sdk.Request.html
   commentId: T:Hsm.DataAnalysisService.Sdk.Request
   fullName: Hsm.DataAnalysisService.Sdk.Request
   nameWithType: Request
+- uid: Hsm.DataAnalysisService.Sdk.Request.#ctor(System.DateTime,System.DateTime)
+  name: Request(DateTime, DateTime)
+  href: api/Hsm.DataAnalysisService.Sdk.Request.html#Hsm_DataAnalysisService_Sdk_Request__ctor_System_DateTime_System_DateTime_
+  commentId: M:Hsm.DataAnalysisService.Sdk.Request.#ctor(System.DateTime,System.DateTime)
+  fullName: Hsm.DataAnalysisService.Sdk.Request.Request(System.DateTime, System.DateTime)
+  nameWithType: Request.Request(DateTime, DateTime)
+- uid: Hsm.DataAnalysisService.Sdk.Request.#ctor*
+  name: Request
+  href: api/Hsm.DataAnalysisService.Sdk.Request.html#Hsm_DataAnalysisService_Sdk_Request__ctor_
+  commentId: Overload:Hsm.DataAnalysisService.Sdk.Request.#ctor
+  isSpec: "True"
+  fullName: Hsm.DataAnalysisService.Sdk.Request.Request
+  nameWithType: Request.Request
+- uid: Hsm.DataAnalysisService.Sdk.Request.EndTime
+  name: EndTime
+  href: api/Hsm.DataAnalysisService.Sdk.Request.html#Hsm_DataAnalysisService_Sdk_Request_EndTime
+  commentId: P:Hsm.DataAnalysisService.Sdk.Request.EndTime
+  fullName: Hsm.DataAnalysisService.Sdk.Request.EndTime
+  nameWithType: Request.EndTime
+- uid: Hsm.DataAnalysisService.Sdk.Request.EndTime*
+  name: EndTime
+  href: api/Hsm.DataAnalysisService.Sdk.Request.html#Hsm_DataAnalysisService_Sdk_Request_EndTime_
+  commentId: Overload:Hsm.DataAnalysisService.Sdk.Request.EndTime
+  isSpec: "True"
+  fullName: Hsm.DataAnalysisService.Sdk.Request.EndTime
+  nameWithType: Request.EndTime
+- uid: Hsm.DataAnalysisService.Sdk.Request.StartTime
+  name: StartTime
+  href: api/Hsm.DataAnalysisService.Sdk.Request.html#Hsm_DataAnalysisService_Sdk_Request_StartTime
+  commentId: P:Hsm.DataAnalysisService.Sdk.Request.StartTime
+  fullName: Hsm.DataAnalysisService.Sdk.Request.StartTime
+  nameWithType: Request.StartTime
+- uid: Hsm.DataAnalysisService.Sdk.Request.StartTime*
+  name: StartTime
+  href: api/Hsm.DataAnalysisService.Sdk.Request.html#Hsm_DataAnalysisService_Sdk_Request_StartTime_
+  commentId: Overload:Hsm.DataAnalysisService.Sdk.Request.StartTime
+  isSpec: "True"
+  fullName: Hsm.DataAnalysisService.Sdk.Request.StartTime
+  nameWithType: Request.StartTime
 - uid: Hsm.DataAnalysisService.Sdk.Request.TransmissionPaths
   name: TransmissionPaths
   href: api/Hsm.DataAnalysisService.Sdk.Request.html#Hsm_DataAnalysisService_Sdk_Request_TransmissionPaths

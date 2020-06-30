@@ -73,14 +73,14 @@
   
   <h1 id="Hsm_DataAnalysisService_Sdk_Request" data-uid="Hsm.DataAnalysisService.Sdk.Request" class="text-break">Class Request
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Defines a basic Request for data.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">Request</span></div>
       <div class="level2"><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeSeriesRequest.html">TimeSeriesRequest</a></div>
-      <div class="level2"><a class="xref" href="Hsm.DataAnalysisService.Sdk.DataRequest.html">DataRequest</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -112,15 +112,111 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class Request</code></pre>
   </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/hagleitner-dev/hsm%20data%20analysis%20service/_git/hsm%20data%20analysis%20service%20query%20language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage.Sdk/Request.cs&amp;version=GBmaster&amp;line=18">View Source</a>
+  </span>
+  <a id="Hsm_DataAnalysisService_Sdk_Request__ctor_" data-uid="Hsm.DataAnalysisService.Sdk.Request.#ctor*"></a>
+  <h4 id="Hsm_DataAnalysisService_Sdk_Request__ctor_System_DateTime_System_DateTime_" data-uid="Hsm.DataAnalysisService.Sdk.Request.#ctor(System.DateTime,System.DateTime)">Request(DateTime, DateTime)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Hsm.DataAnalysisService.Sdk.Request.html">Request</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Request(DateTime startTime, DateTime endTime)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">startTime</span></td>
+        <td><p>The start time of the request interval.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">endTime</span></td>
+        <td><p>The end time of the request interval.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="properties">Properties
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/hsm%20data%20analysis%20service/_git/hsm%20data%20analysis%20service%20query%20language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage.Sdk/Request.cs&amp;version=GBmaster&amp;line=10">View Source</a>
+    <a href="https://dev.azure.com/hagleitner-dev/hsm%20data%20analysis%20service/_git/hsm%20data%20analysis%20service%20query%20language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage.Sdk/Request.cs&amp;version=GBmaster&amp;line=50">View Source</a>
+  </span>
+  <a id="Hsm_DataAnalysisService_Sdk_Request_EndTime_" data-uid="Hsm.DataAnalysisService.Sdk.Request.EndTime*"></a>
+  <h4 id="Hsm_DataAnalysisService_Sdk_Request_EndTime" data-uid="Hsm.DataAnalysisService.Sdk.Request.EndTime">EndTime</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the end time of the request interval.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTime EndTime { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/hagleitner-dev/hsm%20data%20analysis%20service/_git/hsm%20data%20analysis%20service%20query%20language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage.Sdk/Request.cs&amp;version=GBmaster&amp;line=41">View Source</a>
+  </span>
+  <a id="Hsm_DataAnalysisService_Sdk_Request_StartTime_" data-uid="Hsm.DataAnalysisService.Sdk.Request.StartTime*"></a>
+  <h4 id="Hsm_DataAnalysisService_Sdk_Request_StartTime" data-uid="Hsm.DataAnalysisService.Sdk.Request.StartTime">StartTime</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the start time of the request interval.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTime StartTime { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/hagleitner-dev/hsm%20data%20analysis%20service/_git/hsm%20data%20analysis%20service%20query%20language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage.Sdk/Request.cs&amp;version=GBmaster&amp;line=59">View Source</a>
   </span>
   <a id="Hsm_DataAnalysisService_Sdk_Request_TransmissionPaths_" data-uid="Hsm.DataAnalysisService.Sdk.Request.TransmissionPaths*"></a>
   <h4 id="Hsm_DataAnalysisService_Sdk_Request_TransmissionPaths" data-uid="Hsm.DataAnalysisService.Sdk.Request.TransmissionPaths">TransmissionPaths</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Gets or sets TODO: define...</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -149,7 +245,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/hagleitner-dev/hsm%20data%20analysis%20service/_git/hsm%20data%20analysis%20service%20query%20language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage.Sdk/Request.cs&amp;version=GBmaster&amp;line=8" class="contribution-link">View Source</a>
+                    <a href="https://dev.azure.com/hagleitner-dev/hsm%20data%20analysis%20service/_git/hsm%20data%20analysis%20service%20query%20language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage.Sdk/Request.cs&amp;version=GBmaster&amp;line=10" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

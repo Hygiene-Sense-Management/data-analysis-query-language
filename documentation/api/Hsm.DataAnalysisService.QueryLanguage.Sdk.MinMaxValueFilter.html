@@ -74,7 +74,10 @@
   <h1 id="Hsm_DataAnalysisService_QueryLanguage_Sdk_MinMaxValueFilter" data-uid="Hsm.DataAnalysisService.QueryLanguage.Sdk.MinMaxValueFilter" class="text-break">Class MinMaxValueFilter
   </h1>
   <div class="markdown level0 summary"><p>Filter the minimum and maximium value of a graph's x dimension.
-Example: TimeSeries max value</p>
+A closed interval interval (which includes minimum and maximum points), in mathematics it is denoted with square brackets.
+For example, [0,1] means greater than or equal to 0 and less than or equal to 1.
+Example: TimeSeries max value...
+TODO: Check if closed interval was intended by Clemens.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -116,11 +119,13 @@ Example: TimeSeries max value</p>
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/hsm%20data%20analysis%20service/_git/hsm%20data%20analysis%20service%20query%20language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage.Sdk/MinMaxValueFilter.cs&amp;version=GBmaster&amp;line=18">View Source</a>
+    <a href="https://dev.azure.com/hagleitner-dev/hsm%20data%20analysis%20service/_git/hsm%20data%20analysis%20service%20query%20language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage.Sdk/MinMaxValueFilter.cs&amp;version=GBmaster&amp;line=23">View Source</a>
   </span>
   <a id="Hsm_DataAnalysisService_QueryLanguage_Sdk_MinMaxValueFilter__ctor_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Sdk.MinMaxValueFilter.#ctor*"></a>
   <h4 id="Hsm_DataAnalysisService_QueryLanguage_Sdk_MinMaxValueFilter__ctor_System_Double_System_Double_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Sdk.MinMaxValueFilter.#ctor(System.Double,System.Double)">MinMaxValueFilter(Double, Double)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Sdk.MinMaxValueFilter.html">MinMaxValueFilter</a> class.
+It defines a closed interval by given minimum and maximum value.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -139,12 +144,14 @@ Example: TimeSeries max value</p>
       <tr>
         <td><span class="xref">System.Double</span></td>
         <td><span class="parametername">min</span></td>
-        <td></td>
+        <td><p>A point in interval is creater or equal to min.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Double</span></td>
         <td><span class="parametername">max</span></td>
-        <td></td>
+        <td><p>A point in interval is less or equal to max.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -152,11 +159,12 @@ Example: TimeSeries max value</p>
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/hsm%20data%20analysis%20service/_git/hsm%20data%20analysis%20service%20query%20language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage.Sdk/MinMaxValueFilter.cs&amp;version=GBmaster&amp;line=16">View Source</a>
+    <a href="https://dev.azure.com/hagleitner-dev/hsm%20data%20analysis%20service/_git/hsm%20data%20analysis%20service%20query%20language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage.Sdk/MinMaxValueFilter.cs&amp;version=GBmaster&amp;line=37">View Source</a>
   </span>
   <a id="Hsm_DataAnalysisService_QueryLanguage_Sdk_MinMaxValueFilter_Max_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Sdk.MinMaxValueFilter.Max*"></a>
   <h4 id="Hsm_DataAnalysisService_QueryLanguage_Sdk_MinMaxValueFilter_Max" data-uid="Hsm.DataAnalysisService.QueryLanguage.Sdk.MinMaxValueFilter.Max">Max</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Gets or Sets the minimum Value.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -179,11 +187,12 @@ Example: TimeSeries max value</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/hsm%20data%20analysis%20service/_git/hsm%20data%20analysis%20service%20query%20language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage.Sdk/MinMaxValueFilter.cs&amp;version=GBmaster&amp;line=15">View Source</a>
+    <a href="https://dev.azure.com/hagleitner-dev/hsm%20data%20analysis%20service/_git/hsm%20data%20analysis%20service%20query%20language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage.Sdk/MinMaxValueFilter.cs&amp;version=GBmaster&amp;line=32">View Source</a>
   </span>
   <a id="Hsm_DataAnalysisService_QueryLanguage_Sdk_MinMaxValueFilter_Min_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Sdk.MinMaxValueFilter.Min*"></a>
   <h4 id="Hsm_DataAnalysisService_QueryLanguage_Sdk_MinMaxValueFilter_Min" data-uid="Hsm.DataAnalysisService.QueryLanguage.Sdk.MinMaxValueFilter.Min">Min</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Gets or Sets the mimimum value of the Interval.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -204,6 +213,55 @@ Example: TimeSeries max value</p>
       </tr>
     </tbody>
   </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/hagleitner-dev/hsm%20data%20analysis%20service/_git/hsm%20data%20analysis%20service%20query%20language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage.Sdk/MinMaxValueFilter.cs&amp;version=GBmaster&amp;line=44">View Source</a>
+  </span>
+  <a id="Hsm_DataAnalysisService_QueryLanguage_Sdk_MinMaxValueFilter_IsInInterval_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Sdk.MinMaxValueFilter.IsInInterval*"></a>
+  <h4 id="Hsm_DataAnalysisService_QueryLanguage_Sdk_MinMaxValueFilter_IsInInterval_Hsm_DataAnalysisService_Sdk_DataPoint_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Sdk.MinMaxValueFilter.IsInInterval(Hsm.DataAnalysisService.Sdk.DataPoint)">IsInInterval(DataPoint)</h4>
+  <div class="markdown level1 summary"><p>Checks if the <a class="xref" href="Hsm.DataAnalysisService.Sdk.DataPoint.html">DataPoint</a> is in the closed interval.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsInInterval(DataPoint dataPoint)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Hsm.DataAnalysisService.Sdk.DataPoint.html">DataPoint</a></td>
+        <td><span class="parametername">dataPoint</span></td>
+        <td><p>A DataPoint to check if its Value is in the interval.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True only if the DataPoint Value is in the interval.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           
@@ -212,7 +270,7 @@ Example: TimeSeries max value</p>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/hagleitner-dev/hsm%20data%20analysis%20service/_git/hsm%20data%20analysis%20service%20query%20language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage.Sdk/MinMaxValueFilter.cs&amp;version=GBmaster&amp;line=13" class="contribution-link">View Source</a>
+                    <a href="https://dev.azure.com/hagleitner-dev/hsm%20data%20analysis%20service/_git/hsm%20data%20analysis%20service%20query%20language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage.Sdk/MinMaxValueFilter.cs&amp;version=GBmaster&amp;line=15" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
