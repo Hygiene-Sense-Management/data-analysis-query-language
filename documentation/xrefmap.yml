@@ -495,19 +495,19 @@ references:
   isSpec: "True"
   fullName: Hsm.DataAnalysisService.Sdk.DataPoint.TimeStamp
   nameWithType: DataPoint.TimeStamp
-- uid: Hsm.DataAnalysisService.Sdk.DataPoint.TransmissionPath
-  name: TransmissionPath
-  href: api/Hsm.DataAnalysisService.Sdk.DataPoint.html#Hsm_DataAnalysisService_Sdk_DataPoint_TransmissionPath
-  commentId: P:Hsm.DataAnalysisService.Sdk.DataPoint.TransmissionPath
-  fullName: Hsm.DataAnalysisService.Sdk.DataPoint.TransmissionPath
-  nameWithType: DataPoint.TransmissionPath
-- uid: Hsm.DataAnalysisService.Sdk.DataPoint.TransmissionPath*
-  name: TransmissionPath
-  href: api/Hsm.DataAnalysisService.Sdk.DataPoint.html#Hsm_DataAnalysisService_Sdk_DataPoint_TransmissionPath_
-  commentId: Overload:Hsm.DataAnalysisService.Sdk.DataPoint.TransmissionPath
+- uid: Hsm.DataAnalysisService.Sdk.DataPoint.TransmissionMode
+  name: TransmissionMode
+  href: api/Hsm.DataAnalysisService.Sdk.DataPoint.html#Hsm_DataAnalysisService_Sdk_DataPoint_TransmissionMode
+  commentId: P:Hsm.DataAnalysisService.Sdk.DataPoint.TransmissionMode
+  fullName: Hsm.DataAnalysisService.Sdk.DataPoint.TransmissionMode
+  nameWithType: DataPoint.TransmissionMode
+- uid: Hsm.DataAnalysisService.Sdk.DataPoint.TransmissionMode*
+  name: TransmissionMode
+  href: api/Hsm.DataAnalysisService.Sdk.DataPoint.html#Hsm_DataAnalysisService_Sdk_DataPoint_TransmissionMode_
+  commentId: Overload:Hsm.DataAnalysisService.Sdk.DataPoint.TransmissionMode
   isSpec: "True"
-  fullName: Hsm.DataAnalysisService.Sdk.DataPoint.TransmissionPath
-  nameWithType: DataPoint.TransmissionPath
+  fullName: Hsm.DataAnalysisService.Sdk.DataPoint.TransmissionMode
+  nameWithType: DataPoint.TransmissionMode
 - uid: Hsm.DataAnalysisService.Sdk.DataPoint.Value
   name: Value
   href: api/Hsm.DataAnalysisService.Sdk.DataPoint.html#Hsm_DataAnalysisService_Sdk_DataPoint_Value
@@ -540,45 +540,45 @@ references:
   isSpec: "True"
   fullName: Hsm.DataAnalysisService.Sdk.Request.Request
   nameWithType: Request.Request
-- uid: Hsm.DataAnalysisService.Sdk.Request.EndTime
-  name: EndTime
-  href: api/Hsm.DataAnalysisService.Sdk.Request.html#Hsm_DataAnalysisService_Sdk_Request_EndTime
-  commentId: P:Hsm.DataAnalysisService.Sdk.Request.EndTime
-  fullName: Hsm.DataAnalysisService.Sdk.Request.EndTime
-  nameWithType: Request.EndTime
-- uid: Hsm.DataAnalysisService.Sdk.Request.EndTime*
-  name: EndTime
-  href: api/Hsm.DataAnalysisService.Sdk.Request.html#Hsm_DataAnalysisService_Sdk_Request_EndTime_
-  commentId: Overload:Hsm.DataAnalysisService.Sdk.Request.EndTime
+- uid: Hsm.DataAnalysisService.Sdk.Request.TransmissionModes
+  name: TransmissionModes
+  href: api/Hsm.DataAnalysisService.Sdk.Request.html#Hsm_DataAnalysisService_Sdk_Request_TransmissionModes
+  commentId: P:Hsm.DataAnalysisService.Sdk.Request.TransmissionModes
+  fullName: Hsm.DataAnalysisService.Sdk.Request.TransmissionModes
+  nameWithType: Request.TransmissionModes
+- uid: Hsm.DataAnalysisService.Sdk.Request.TransmissionModes*
+  name: TransmissionModes
+  href: api/Hsm.DataAnalysisService.Sdk.Request.html#Hsm_DataAnalysisService_Sdk_Request_TransmissionModes_
+  commentId: Overload:Hsm.DataAnalysisService.Sdk.Request.TransmissionModes
   isSpec: "True"
-  fullName: Hsm.DataAnalysisService.Sdk.Request.EndTime
-  nameWithType: Request.EndTime
-- uid: Hsm.DataAnalysisService.Sdk.Request.StartTime
-  name: StartTime
-  href: api/Hsm.DataAnalysisService.Sdk.Request.html#Hsm_DataAnalysisService_Sdk_Request_StartTime
-  commentId: P:Hsm.DataAnalysisService.Sdk.Request.StartTime
-  fullName: Hsm.DataAnalysisService.Sdk.Request.StartTime
-  nameWithType: Request.StartTime
-- uid: Hsm.DataAnalysisService.Sdk.Request.StartTime*
-  name: StartTime
-  href: api/Hsm.DataAnalysisService.Sdk.Request.html#Hsm_DataAnalysisService_Sdk_Request_StartTime_
-  commentId: Overload:Hsm.DataAnalysisService.Sdk.Request.StartTime
+  fullName: Hsm.DataAnalysisService.Sdk.Request.TransmissionModes
+  nameWithType: Request.TransmissionModes
+- uid: Hsm.DataAnalysisService.Sdk.Request.UtcEndTime
+  name: UtcEndTime
+  href: api/Hsm.DataAnalysisService.Sdk.Request.html#Hsm_DataAnalysisService_Sdk_Request_UtcEndTime
+  commentId: P:Hsm.DataAnalysisService.Sdk.Request.UtcEndTime
+  fullName: Hsm.DataAnalysisService.Sdk.Request.UtcEndTime
+  nameWithType: Request.UtcEndTime
+- uid: Hsm.DataAnalysisService.Sdk.Request.UtcEndTime*
+  name: UtcEndTime
+  href: api/Hsm.DataAnalysisService.Sdk.Request.html#Hsm_DataAnalysisService_Sdk_Request_UtcEndTime_
+  commentId: Overload:Hsm.DataAnalysisService.Sdk.Request.UtcEndTime
   isSpec: "True"
-  fullName: Hsm.DataAnalysisService.Sdk.Request.StartTime
-  nameWithType: Request.StartTime
-- uid: Hsm.DataAnalysisService.Sdk.Request.TransmissionPaths
-  name: TransmissionPaths
-  href: api/Hsm.DataAnalysisService.Sdk.Request.html#Hsm_DataAnalysisService_Sdk_Request_TransmissionPaths
-  commentId: P:Hsm.DataAnalysisService.Sdk.Request.TransmissionPaths
-  fullName: Hsm.DataAnalysisService.Sdk.Request.TransmissionPaths
-  nameWithType: Request.TransmissionPaths
-- uid: Hsm.DataAnalysisService.Sdk.Request.TransmissionPaths*
-  name: TransmissionPaths
-  href: api/Hsm.DataAnalysisService.Sdk.Request.html#Hsm_DataAnalysisService_Sdk_Request_TransmissionPaths_
-  commentId: Overload:Hsm.DataAnalysisService.Sdk.Request.TransmissionPaths
+  fullName: Hsm.DataAnalysisService.Sdk.Request.UtcEndTime
+  nameWithType: Request.UtcEndTime
+- uid: Hsm.DataAnalysisService.Sdk.Request.UtcStartTime
+  name: UtcStartTime
+  href: api/Hsm.DataAnalysisService.Sdk.Request.html#Hsm_DataAnalysisService_Sdk_Request_UtcStartTime
+  commentId: P:Hsm.DataAnalysisService.Sdk.Request.UtcStartTime
+  fullName: Hsm.DataAnalysisService.Sdk.Request.UtcStartTime
+  nameWithType: Request.UtcStartTime
+- uid: Hsm.DataAnalysisService.Sdk.Request.UtcStartTime*
+  name: UtcStartTime
+  href: api/Hsm.DataAnalysisService.Sdk.Request.html#Hsm_DataAnalysisService_Sdk_Request_UtcStartTime_
+  commentId: Overload:Hsm.DataAnalysisService.Sdk.Request.UtcStartTime
   isSpec: "True"
-  fullName: Hsm.DataAnalysisService.Sdk.Request.TransmissionPaths
-  nameWithType: Request.TransmissionPaths
+  fullName: Hsm.DataAnalysisService.Sdk.Request.UtcStartTime
+  nameWithType: Request.UtcStartTime
 - uid: Hsm.DataAnalysisService.Sdk.SchemaStub
   name: SchemaStub
   href: api/Hsm.DataAnalysisService.Sdk.SchemaStub.html
@@ -611,21 +611,21 @@ references:
   isSpec: "True"
   fullName: Hsm.DataAnalysisService.Sdk.SchemaStub.Text
   nameWithType: SchemaStub.Text
-- uid: Hsm.DataAnalysisService.Sdk.TransmissionPath
-  name: TransmissionPath
-  href: api/Hsm.DataAnalysisService.Sdk.TransmissionPath.html
-  commentId: T:Hsm.DataAnalysisService.Sdk.TransmissionPath
-  fullName: Hsm.DataAnalysisService.Sdk.TransmissionPath
-  nameWithType: TransmissionPath
-- uid: Hsm.DataAnalysisService.Sdk.TransmissionPath.MobileGateway
-  name: MobileGateway
-  href: api/Hsm.DataAnalysisService.Sdk.TransmissionPath.html#Hsm_DataAnalysisService_Sdk_TransmissionPath_MobileGateway
-  commentId: F:Hsm.DataAnalysisService.Sdk.TransmissionPath.MobileGateway
-  fullName: Hsm.DataAnalysisService.Sdk.TransmissionPath.MobileGateway
-  nameWithType: TransmissionPath.MobileGateway
-- uid: Hsm.DataAnalysisService.Sdk.TransmissionPath.StationaryGateway
-  name: StationaryGateway
-  href: api/Hsm.DataAnalysisService.Sdk.TransmissionPath.html#Hsm_DataAnalysisService_Sdk_TransmissionPath_StationaryGateway
-  commentId: F:Hsm.DataAnalysisService.Sdk.TransmissionPath.StationaryGateway
-  fullName: Hsm.DataAnalysisService.Sdk.TransmissionPath.StationaryGateway
-  nameWithType: TransmissionPath.StationaryGateway
+- uid: Hsm.DataAnalysisService.Sdk.TransmissionMode
+  name: TransmissionMode
+  href: api/Hsm.DataAnalysisService.Sdk.TransmissionMode.html
+  commentId: T:Hsm.DataAnalysisService.Sdk.TransmissionMode
+  fullName: Hsm.DataAnalysisService.Sdk.TransmissionMode
+  nameWithType: TransmissionMode
+- uid: Hsm.DataAnalysisService.Sdk.TransmissionMode.Continuous
+  name: Continuous
+  href: api/Hsm.DataAnalysisService.Sdk.TransmissionMode.html#Hsm_DataAnalysisService_Sdk_TransmissionMode_Continuous
+  commentId: F:Hsm.DataAnalysisService.Sdk.TransmissionMode.Continuous
+  fullName: Hsm.DataAnalysisService.Sdk.TransmissionMode.Continuous
+  nameWithType: TransmissionMode.Continuous
+- uid: Hsm.DataAnalysisService.Sdk.TransmissionMode.Occasional
+  name: Occasional
+  href: api/Hsm.DataAnalysisService.Sdk.TransmissionMode.html#Hsm_DataAnalysisService_Sdk_TransmissionMode_Occasional
+  commentId: F:Hsm.DataAnalysisService.Sdk.TransmissionMode.Occasional
+  fullName: Hsm.DataAnalysisService.Sdk.TransmissionMode.Occasional
+  nameWithType: TransmissionMode.Occasional
