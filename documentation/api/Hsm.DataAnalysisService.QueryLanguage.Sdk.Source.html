@@ -73,7 +73,7 @@
   
   <h1 id="Hsm_DataAnalysisService_QueryLanguage_Sdk_Source" data-uid="Hsm.DataAnalysisService.QueryLanguage.Sdk.Source" class="text-break">Class Source
   </h1>
-  <div class="markdown level0 summary"><p>Represents a source series consisting of a system id, a resource type id and a resource instance number.</p>
+  <div class="markdown level0 summary"><p>TODO: Transfer to upper projects... such as HSM.datatype</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -115,16 +115,18 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analysis%20Service/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage.Sdk/Source.cs&amp;version=GBmaster&amp;line=20">View Source</a>
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analysis%20Service/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage.Sdk/Source.cs&amp;version=GBmaster&amp;line=34">View Source</a>
   </span>
   <a id="Hsm_DataAnalysisService_QueryLanguage_Sdk_Source__ctor_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Sdk.Source.#ctor*"></a>
   <h4 id="Hsm_DataAnalysisService_QueryLanguage_Sdk_Source__ctor_Hsm_BaseTypes_Eui64_System_Int16_System_Int16_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Sdk.Source.#ctor(Hsm.BaseTypes.Eui64,System.Int16,System.Int16)">Source(Eui64, Int16, Int16)</h4>
-  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Sdk.Source.html">Source</a> class.</p>
+  <div class="markdown level1 summary"><param name="systemId">The Id of the System, e.g. of the Device
+<param name="resourceId">
+<param name="resourceTypeId">
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Source(Eui64 systemId, short resourceInstanceNumber, short resourceTypeId)</code></pre>
+    <pre><code class="lang-csharp hljs">public Source(Eui64 systemId, short resourceId, short resourceTypeId)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -143,98 +145,12 @@
       </tr>
       <tr>
         <td><span class="xref">System.Int16</span></td>
-        <td><span class="parametername">resourceInstanceNumber</span></td>
+        <td><span class="parametername">resourceId</span></td>
         <td></td>
       </tr>
       <tr>
         <td><span class="xref">System.Int16</span></td>
         <td><span class="parametername">resourceTypeId</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="properties">Properties
-  </h3>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analysis%20Service/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage.Sdk/Source.cs&amp;version=GBmaster&amp;line=36">View Source</a>
-  </span>
-  <a id="Hsm_DataAnalysisService_QueryLanguage_Sdk_Source_ResourceInstanceNumber_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Sdk.Source.ResourceInstanceNumber*"></a>
-  <h4 id="Hsm_DataAnalysisService_QueryLanguage_Sdk_Source_ResourceInstanceNumber" data-uid="Hsm.DataAnalysisService.QueryLanguage.Sdk.Source.ResourceInstanceNumber">ResourceInstanceNumber</h4>
-  <div class="markdown level1 summary"><p>Gets or sets the resource instance id.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public short ResourceInstanceNumber { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int16</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analysis%20Service/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage.Sdk/Source.cs&amp;version=GBmaster&amp;line=42">View Source</a>
-  </span>
-  <a id="Hsm_DataAnalysisService_QueryLanguage_Sdk_Source_ResourceTypeId_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Sdk.Source.ResourceTypeId*"></a>
-  <h4 id="Hsm_DataAnalysisService_QueryLanguage_Sdk_Source_ResourceTypeId" data-uid="Hsm.DataAnalysisService.QueryLanguage.Sdk.Source.ResourceTypeId">ResourceTypeId</h4>
-  <div class="markdown level1 summary"><p>Gets or sets the resource type id.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public short ResourceTypeId { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int16</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analysis%20Service/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage.Sdk/Source.cs&amp;version=GBmaster&amp;line=30">View Source</a>
-  </span>
-  <a id="Hsm_DataAnalysisService_QueryLanguage_Sdk_Source_SystemId_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Sdk.Source.SystemId*"></a>
-  <h4 id="Hsm_DataAnalysisService_QueryLanguage_Sdk_Source_SystemId" data-uid="Hsm.DataAnalysisService.QueryLanguage.Sdk.Source.SystemId">SystemId</h4>
-  <div class="markdown level1 summary"><p>Gets or sets the Id of the system, e.g. of the device.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Eui64 SystemId { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Hsm.BaseTypes.Eui64</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -247,7 +163,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analysis%20Service/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage.Sdk/Source.cs&amp;version=GBmaster&amp;line=12" class="contribution-link">View Source</a>
+                    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analysis%20Service/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage.Sdk/Source.cs&amp;version=GBmaster&amp;line=11" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

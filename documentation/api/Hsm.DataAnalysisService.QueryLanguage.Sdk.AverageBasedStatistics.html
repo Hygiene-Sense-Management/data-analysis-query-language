@@ -78,7 +78,7 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeAggregation.html">TimeAggregation</a></div>
+    <div class="level1"><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Sdk.TimePartitioningForAggregation.html">TimePartitioningForAggregation</a></div>
     <div class="level2"><span class="xref">AverageBasedStatistics</span></div>
   </div>
   <div class="inheritedMembers">
@@ -109,17 +109,17 @@
   <h6><strong>Assembly</strong>: Hsm.DataAnalysisService.QueryLanguage.Sdk.dll</h6>
   <h5 id="Hsm_DataAnalysisService_QueryLanguage_Sdk_AverageBasedStatistics_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class AverageBasedStatistics : TimeAggregation</code></pre>
+    <pre><code class="lang-csharp hljs">public class AverageBasedStatistics : TimePartitioningForAggregation</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analysis%20Service/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage.Sdk/AverageBasedStatistics.cs&amp;version=GBmaster&amp;line=15">View Source</a>
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analysis%20Service/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage.Sdk/AverageBasedStatistics.cs&amp;version=GBmaster&amp;line=21">View Source</a>
   </span>
   <a id="Hsm_DataAnalysisService_QueryLanguage_Sdk_AverageBasedStatistics_AverageBasedStatisticFunction_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageBasedStatistics.AverageBasedStatisticFunction*"></a>
   <h4 id="Hsm_DataAnalysisService_QueryLanguage_Sdk_AverageBasedStatistics_AverageBasedStatisticFunction" data-uid="Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageBasedStatistics.AverageBasedStatisticFunction">AverageBasedStatisticFunction</h4>
-  <div class="markdown level1 summary"><p>Gets or sets</p>
+  <div class="markdown level1 summary"><p>Gets or sets the average statistic function of the time aggregation.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -143,16 +143,16 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analysis%20Service/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage.Sdk/AverageBasedStatistics.cs&amp;version=GBmaster&amp;line=20">View Source</a>
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analysis%20Service/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage.Sdk/AverageBasedStatistics.cs&amp;version=GBmaster&amp;line=12">View Source</a>
   </span>
-  <a id="Hsm_DataAnalysisService_QueryLanguage_Sdk_AverageBasedStatistics_TimeWeighting_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageBasedStatistics.TimeWeighting*"></a>
-  <h4 id="Hsm_DataAnalysisService_QueryLanguage_Sdk_AverageBasedStatistics_TimeWeighting" data-uid="Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageBasedStatistics.TimeWeighting">TimeWeighting</h4>
-  <div class="markdown level1 summary"><p>Gets or sets</p>
+  <a id="Hsm_DataAnalysisService_QueryLanguage_Sdk_AverageBasedStatistics_AverageWeighting_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageBasedStatistics.AverageWeighting*"></a>
+  <h4 id="Hsm_DataAnalysisService_QueryLanguage_Sdk_AverageBasedStatistics_AverageWeighting" data-uid="Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageBasedStatistics.AverageWeighting">AverageWeighting</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the average weighting of the time aggregation.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TimeWeighting TimeWeighting { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public AverageWeighting AverageWeighting { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -164,7 +164,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeWeighting.html">TimeWeighting</a></td>
+        <td><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageWeighting.html">AverageWeighting</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -177,7 +177,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analysis%20Service/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage.Sdk/AverageBasedStatistics.cs&amp;version=GBmaster&amp;line=10" class="contribution-link">View Source</a>
+                    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analysis%20Service/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage.Sdk/AverageBasedStatistics.cs&amp;version=GBmaster&amp;line=7" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

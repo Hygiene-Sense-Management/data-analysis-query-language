@@ -1,18 +1,18 @@
 {
   "homepages": [],
-  "source_base_path": "C:/Users/daniel.egger/source/repos/HsmDataAnalysisServiceQueryLanguage/DotNet/Hsm.DataAnalysisService.QueryLanguage.Documentation",
+  "source_base_path": "C:/Git Repositories/HsMDataAnalysisQueryLanguage/DotNet/Hsm.DataAnalysisService.QueryLanguage.Documentation",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Sdk.AnalysisDateInterval.yml",
+      "source_relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Sdk.AggregationTimeInterval.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Sdk.AnalysisDateInterval.html",
-          "hash": "AH/ndCfeJ2okiHgpEyRtsw=="
+          "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Sdk.AggregationTimeInterval.html",
+          "hash": "54Kvoua1cROm1E1rDB1v0g=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -21,10 +21,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageBasedStatisticFunction.html",
-          "hash": "bpU1xcs3DocPhSpJtTe8Lw=="
+          "hash": "aR4T0pVVUtblMZbGIVkAUw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -33,10 +33,22 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageBasedStatistics.html",
-          "hash": "GiNXGhe+g6FuOrNJUQlbcw=="
+          "hash": "ZinrZ2JM2rqgGjtvdErP5A=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageWeighting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageWeighting.html",
+          "hash": "nyfnYkC5hnhyphn7yBaR2Q=="
+        }
+      },
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -45,10 +57,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Sdk.MaxVelocity.html",
-          "hash": "Ccwk8DQlSoNzptp7Jm4DPQ=="
+          "hash": "4ODaq9XCaT6kCg1Y/bfQ3g=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -57,10 +69,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Sdk.MinMaxValueFilter.html",
-          "hash": "Z6bSSVAQGjfDdNrMLVRAdw=="
+          "hash": "MeGLteWLS/t4NLrCw1meuA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -69,10 +81,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Sdk.NonAverageBasedStatistic.html",
-          "hash": "x50m29wyK/CmKbMwDZn1Wg=="
+          "hash": "HDfasQYqXwTocWYPmj540g=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -81,10 +93,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Sdk.NonAverageBasedStatisticFuntion.html",
-          "hash": "Rzspn0NAvuDPJfCZcm1Vsg=="
+          "hash": "0r+0dC3pt52f2D0hGve7fw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -93,10 +105,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Sdk.ResourceAggregationFunction.html",
-          "hash": "EkwMCBQgZcmxAkpSnOQ2RQ=="
+          "hash": "6q8fEkySLPVUdEKXUtPe4Q=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -105,34 +117,34 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Sdk.Source.html",
-          "hash": "bTPl5sc0L6C0151U4lmbAg=="
+          "hash": "XVLUWe2ojwj782UWr0C8Pw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeAggregation.yml",
+      "source_relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeAggregationDefinition.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeAggregation.html",
-          "hash": "NvX0S4/ELqrczbLn7BdY5g=="
+          "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeAggregationDefinition.html",
+          "hash": "aTWiKhmzbk4pQ4hLEiMbmQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Sdk.TimePartitioning.yml",
+      "source_relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Sdk.TimePartitioningForAggregation.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Sdk.TimePartitioning.html",
-          "hash": "ql74iWrrDp/QLogOxJE9zQ=="
+          "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Sdk.TimePartitioningForAggregation.html",
+          "hash": "hA7c7tbUThjwLiM/LQ+/jg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -141,22 +153,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeSeriesRequest.html",
-          "hash": "kuDNZ46vZUAbfOfuUPzHOA=="
+          "hash": "cCgQC/aZHwBarC54XmzCvA=="
         }
       },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeWeighting.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeWeighting.html",
-          "hash": "YSN8fw8tNf9hp9TNUAc5cQ=="
-        }
-      },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -165,10 +165,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Sdk.ValueFilter.html",
-          "hash": "mhqjJYrVikQLvexgjeDLDg=="
+          "hash": "HVM8U5WN8iJyI0T5oPrgPg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -177,10 +177,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Sdk.html",
-          "hash": "gk9u2GawiJMOo3fBhm4MjA=="
+          "hash": "uV6ktcybVXOL/ErOlVBFFA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -189,10 +189,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.Sdk.DataPoint.html",
-          "hash": "GXbgO/fb0psgohasNMClFQ=="
+          "hash": "puFSAQWDs2+qRndkobW2TA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -201,10 +201,22 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.Sdk.Request.html",
-          "hash": "zArvzPwXlygKkaXQ2Z7GLw=="
+          "hash": "ZGu+BMqaWNAYD9jwt8pBSw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hsm.DataAnalysisService.Sdk.SchemaStub.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hsm.DataAnalysisService.Sdk.SchemaStub.html",
+          "hash": "ZFldSbLEdLAvRaC356soWg=="
+        }
+      },
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -216,7 +228,7 @@
           "hash": "AqSDAHzik3wL0vX770HAOg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -225,10 +237,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.Sdk.html",
-          "hash": "isIvEftAhCYk3Kna6eGbqw=="
+          "hash": "opikv4YEwS7NkmB0LtQ7fQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -240,7 +252,7 @@
           "hash": "qetvXwfOLYcmzlOuxHZ5Ig=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -249,7 +261,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "C6Rlnvz9N7WG9mcU6MwC+Q=="
+          "hash": "C/i0yMkBt/eLDFyUdHHDPw=="
         }
       },
       "is_incremental": false,
@@ -264,7 +276,7 @@
           "hash": "H3dcUf59tA8wjGS+LTyYDQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -288,7 +300,7 @@
           "hash": "XYJzA4jVk0GMZvac6N1DZA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -307,25 +319,23 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": false,
-        "details": "Disable incremental build by force rebuild option.",
+        "can_incremental": true,
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0,
-        "full_build_reason_code": "ForceRebuild"
+        "skipped_file_count": 0
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 3,
-          "skipped_file_count": 0
+          "skipped_file_count": 3
         },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 19,
-          "skipped_file_count": 0
+          "total_file_count": 20,
+          "skipped_file_count": 20
         },
         "TocDocumentProcessor": {
           "can_incremental": false,
@@ -338,8 +348,8 @@
     },
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot support incremental post processing, the reason is: it's disabled.",
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
         "incrementalPhase": "postProcessing",
         "total_file_count": 0,
         "skipped_file_count": 0
