@@ -77,16 +77,15 @@
   <div class="markdown level0 remarks"></div>
     <h3 id="classes">Classes
   </h3>
-      <h4><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Sdk.AggregationTimeInterval.html">AggregationTimeInterval</a></h4>
-      <section><p>Defines the intervall of a request.</p>
+      <h4><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Sdk.AnalysisDateInterval.html">AnalysisDateInterval</a></h4>
+      <section><p>Defines the interval of a request.</p>
 </section>
       <h4><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageBasedStatistics.html">AverageBasedStatistics</a></h4>
       <section></section>
       <h4><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Sdk.MaxVelocity.html">MaxVelocity</a></h4>
-      <section><p>TODO: define...</p>
-</section>
+      <section></section>
       <h4><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Sdk.MinMaxValueFilter.html">MinMaxValueFilter</a></h4>
-      <section><p>Filter the minimum and maximium value of a graph's x dimension.
+      <section><p>Filter the minimum and maximum value of a graph's x dimension.
 A closed interval interval (which includes minimum and maximum points), in mathematics it is denoted with square brackets.
 For example, [0,1] means greater than or equal to 0 and less than or equal to 1.
 Example: TimeSeries max value...
@@ -95,32 +94,32 @@ TODO: Check if closed interval was intended by Clemens.</p>
       <h4><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Sdk.NonAverageBasedStatistic.html">NonAverageBasedStatistic</a></h4>
       <section></section>
       <h4><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Sdk.Source.html">Source</a></h4>
-      <section><p>TODO: Transfer to upper projects... such as HSM.datatype</p>
+      <section><p>Represents a source series consisting of a system id, a resource type id and a resource instance number.</p>
 </section>
-      <h4><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeAggregationDefinition.html">TimeAggregationDefinition</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Sdk.TimePartitioningForAggregation.html">TimePartitioningForAggregation</a></h4>
-      <section><p>TODO: Describe order of operation -&gt; first TimePartitioning on deviece -&gt; function on partitions.</p>
+      <h4><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeAggregation.html">TimeAggregation</a></h4>
+      <section><p>Defines how resource instance values are aggregated within a time partition.</p>
+</section>
+      <h4><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Sdk.TimePartitioning.html">TimePartitioning</a></h4>
+      <section><p>Time partitioning defines how a specific time interval shall be separated into an continuous set of time partitions.</p>
 </section>
       <h4><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeSeriesRequest.html">TimeSeriesRequest</a></h4>
       <section><p>Represents a TimeSeriesRequest Request. Some kind of Query.</p>
 </section>
       <h4><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Sdk.ValueFilter.html">ValueFilter</a></h4>
-      <section></section>
+      <section><p>Represents the base of any value filter classes.</p>
+</section>
     <h3 id="enums">Enums
   </h3>
       <h4><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageBasedStatisticFunction.html">AverageBasedStatisticFunction</a></h4>
-      <section><p>TODO: define....</p>
-</section>
-      <h4><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Sdk.AverageWeighting.html">AverageWeighting</a></h4>
-      <section><p>Defines a averageing strategy for the time components.</p>
-</section>
+      <section></section>
       <h4><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Sdk.NonAverageBasedStatisticFuntion.html">NonAverageBasedStatisticFuntion</a></h4>
-      <section><p>Defines the funtion for the time aggregation.</p>
+      <section><p>Defines possible functions for a non-average-based statistic.</p>
 </section>
       <h4><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Sdk.ResourceAggregationFunction.html">ResourceAggregationFunction</a></h4>
-      <section><p>Defines the statistical...
-TODO: Add proper definition.</p>
+      <section><p>Defines the statistical...</p>
+</section>
+      <h4><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Sdk.TimeWeighting.html">TimeWeighting</a></h4>
+      <section><p>Defines the weighting of samples within when applying average based aggregation functions.</p>
 </section>
 </article>
           </div>
