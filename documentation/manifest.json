@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Sdk.MinMaxValueFilter.html",
-          "hash": "nnu13dXa7dWl6TJZDqA9VQ=="
+          "hash": "Z6bSSVAQGjfDdNrMLVRAdw=="
         }
       },
       "is_incremental": false,
@@ -177,7 +177,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Sdk.html",
-          "hash": "YzqhUGRmzpLMxugKN8UNxw=="
+          "hash": "gk9u2GawiJMOo3fBhm4MjA=="
         }
       },
       "is_incremental": false,
@@ -209,18 +209,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Hsm.DataAnalysisService.Sdk.SchemaStub.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Hsm.DataAnalysisService.Sdk.SchemaStub.html",
-          "hash": "ZFldSbLEdLAvRaC356soWg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/Hsm.DataAnalysisService.Sdk.TransmissionMode.yml",
       "output": {
         ".html": {
@@ -237,7 +225,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.Sdk.html",
-          "hash": "Ubg+Hh5r6Lxn5WwRGUi46w=="
+          "hash": "isIvEftAhCYk3Kna6eGbqw=="
         }
       },
       "is_incremental": false,
@@ -261,7 +249,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "OJl628R7mWDisGkQmrrQ8A=="
+          "hash": "C6Rlnvz9N7WG9mcU6MwC+Q=="
         }
       },
       "is_incremental": false,
@@ -336,7 +324,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 20,
+          "total_file_count": 19,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {

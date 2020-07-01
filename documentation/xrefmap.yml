@@ -631,38 +631,6 @@ references:
   isSpec: "True"
   fullName: Hsm.DataAnalysisService.Sdk.Request.UtcStartTime
   nameWithType: Request.UtcStartTime
-- uid: Hsm.DataAnalysisService.Sdk.SchemaStub
-  name: SchemaStub
-  href: api/Hsm.DataAnalysisService.Sdk.SchemaStub.html
-  commentId: T:Hsm.DataAnalysisService.Sdk.SchemaStub
-  fullName: Hsm.DataAnalysisService.Sdk.SchemaStub
-  nameWithType: SchemaStub
-- uid: Hsm.DataAnalysisService.Sdk.SchemaStub.Number
-  name: Number
-  href: api/Hsm.DataAnalysisService.Sdk.SchemaStub.html#Hsm_DataAnalysisService_Sdk_SchemaStub_Number
-  commentId: P:Hsm.DataAnalysisService.Sdk.SchemaStub.Number
-  fullName: Hsm.DataAnalysisService.Sdk.SchemaStub.Number
-  nameWithType: SchemaStub.Number
-- uid: Hsm.DataAnalysisService.Sdk.SchemaStub.Number*
-  name: Number
-  href: api/Hsm.DataAnalysisService.Sdk.SchemaStub.html#Hsm_DataAnalysisService_Sdk_SchemaStub_Number_
-  commentId: Overload:Hsm.DataAnalysisService.Sdk.SchemaStub.Number
-  isSpec: "True"
-  fullName: Hsm.DataAnalysisService.Sdk.SchemaStub.Number
-  nameWithType: SchemaStub.Number
-- uid: Hsm.DataAnalysisService.Sdk.SchemaStub.Text
-  name: Text
-  href: api/Hsm.DataAnalysisService.Sdk.SchemaStub.html#Hsm_DataAnalysisService_Sdk_SchemaStub_Text
-  commentId: P:Hsm.DataAnalysisService.Sdk.SchemaStub.Text
-  fullName: Hsm.DataAnalysisService.Sdk.SchemaStub.Text
-  nameWithType: SchemaStub.Text
-- uid: Hsm.DataAnalysisService.Sdk.SchemaStub.Text*
-  name: Text
-  href: api/Hsm.DataAnalysisService.Sdk.SchemaStub.html#Hsm_DataAnalysisService_Sdk_SchemaStub_Text_
-  commentId: Overload:Hsm.DataAnalysisService.Sdk.SchemaStub.Text
-  isSpec: "True"
-  fullName: Hsm.DataAnalysisService.Sdk.SchemaStub.Text
-  nameWithType: SchemaStub.Text
 - uid: Hsm.DataAnalysisService.Sdk.TransmissionMode
   name: TransmissionMode
   href: api/Hsm.DataAnalysisService.Sdk.TransmissionMode.html
