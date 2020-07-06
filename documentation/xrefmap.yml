@@ -273,6 +273,76 @@ references:
   isSpec: "True"
   fullName: Hsm.DataAnalysisService.QueryLanguage.Result.DataPoint.Value
   nameWithType: DataPoint.Value
+- uid: Hsm.DataAnalysisService.QueryLanguage.Result.ProcessingInformation
+  name: ProcessingInformation
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Result.ProcessingInformation.html
+  commentId: T:Hsm.DataAnalysisService.QueryLanguage.Result.ProcessingInformation
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Result.ProcessingInformation
+  nameWithType: ProcessingInformation
+- uid: Hsm.DataAnalysisService.QueryLanguage.Result.ProcessingInformation.#ctor(System.TimeSpan)
+  name: ProcessingInformation(TimeSpan)
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Result.ProcessingInformation.html#Hsm_DataAnalysisService_QueryLanguage_Result_ProcessingInformation__ctor_System_TimeSpan_
+  commentId: M:Hsm.DataAnalysisService.QueryLanguage.Result.ProcessingInformation.#ctor(System.TimeSpan)
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Result.ProcessingInformation.ProcessingInformation(System.TimeSpan)
+  nameWithType: ProcessingInformation.ProcessingInformation(TimeSpan)
+- uid: Hsm.DataAnalysisService.QueryLanguage.Result.ProcessingInformation.#ctor*
+  name: ProcessingInformation
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Result.ProcessingInformation.html#Hsm_DataAnalysisService_QueryLanguage_Result_ProcessingInformation__ctor_
+  commentId: Overload:Hsm.DataAnalysisService.QueryLanguage.Result.ProcessingInformation.#ctor
+  isSpec: "True"
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Result.ProcessingInformation.ProcessingInformation
+  nameWithType: ProcessingInformation.ProcessingInformation
+- uid: Hsm.DataAnalysisService.QueryLanguage.Result.ProcessingInformation.ProcessingTime
+  name: ProcessingTime
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Result.ProcessingInformation.html#Hsm_DataAnalysisService_QueryLanguage_Result_ProcessingInformation_ProcessingTime
+  commentId: P:Hsm.DataAnalysisService.QueryLanguage.Result.ProcessingInformation.ProcessingTime
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Result.ProcessingInformation.ProcessingTime
+  nameWithType: ProcessingInformation.ProcessingTime
+- uid: Hsm.DataAnalysisService.QueryLanguage.Result.ProcessingInformation.ProcessingTime*
+  name: ProcessingTime
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Result.ProcessingInformation.html#Hsm_DataAnalysisService_QueryLanguage_Result_ProcessingInformation_ProcessingTime_
+  commentId: Overload:Hsm.DataAnalysisService.QueryLanguage.Result.ProcessingInformation.ProcessingTime
+  isSpec: "True"
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Result.ProcessingInformation.ProcessingTime
+  nameWithType: ProcessingInformation.ProcessingTime
+- uid: Hsm.DataAnalysisService.QueryLanguage.Result.Result
+  name: Result
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Result.Result.html
+  commentId: T:Hsm.DataAnalysisService.QueryLanguage.Result.Result
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Result.Result
+  nameWithType: Result
+- uid: Hsm.DataAnalysisService.QueryLanguage.Result.Result.ProcessingInformation
+  name: ProcessingInformation
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Result.Result.html#Hsm_DataAnalysisService_QueryLanguage_Result_Result_ProcessingInformation
+  commentId: P:Hsm.DataAnalysisService.QueryLanguage.Result.Result.ProcessingInformation
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Result.Result.ProcessingInformation
+  nameWithType: Result.ProcessingInformation
+- uid: Hsm.DataAnalysisService.QueryLanguage.Result.Result.ProcessingInformation*
+  name: ProcessingInformation
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Result.Result.html#Hsm_DataAnalysisService_QueryLanguage_Result_Result_ProcessingInformation_
+  commentId: Overload:Hsm.DataAnalysisService.QueryLanguage.Result.Result.ProcessingInformation
+  isSpec: "True"
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Result.Result.ProcessingInformation
+  nameWithType: Result.ProcessingInformation
+- uid: Hsm.DataAnalysisService.QueryLanguage.Result.TimeSeriesResult
+  name: TimeSeriesResult
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Result.TimeSeriesResult.html
+  commentId: T:Hsm.DataAnalysisService.QueryLanguage.Result.TimeSeriesResult
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Result.TimeSeriesResult
+  nameWithType: TimeSeriesResult
+- uid: Hsm.DataAnalysisService.QueryLanguage.Result.TimeSeriesResult.DataPoints
+  name: DataPoints
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Result.TimeSeriesResult.html#Hsm_DataAnalysisService_QueryLanguage_Result_TimeSeriesResult_DataPoints
+  commentId: P:Hsm.DataAnalysisService.QueryLanguage.Result.TimeSeriesResult.DataPoints
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Result.TimeSeriesResult.DataPoints
+  nameWithType: TimeSeriesResult.DataPoints
+- uid: Hsm.DataAnalysisService.QueryLanguage.Result.TimeSeriesResult.DataPoints*
+  name: DataPoints
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Result.TimeSeriesResult.html#Hsm_DataAnalysisService_QueryLanguage_Result_TimeSeriesResult_DataPoints_
+  commentId: Overload:Hsm.DataAnalysisService.QueryLanguage.Result.TimeSeriesResult.DataPoints
+  isSpec: "True"
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Result.TimeSeriesResult.DataPoints
+  nameWithType: TimeSeriesResult.DataPoints
 - uid: Hsm.DataAnalysisService.QueryLanguage.Source
   name: Source
   href: api/Hsm.DataAnalysisService.QueryLanguage.Source.html
@@ -420,19 +490,19 @@ references:
   isSpec: "True"
   fullName: Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest.TimeSeriesRequest
   nameWithType: TimeSeriesRequest.TimeSeriesRequest
-- uid: Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest.ResourceAggregationFunction
-  name: ResourceAggregationFunction
-  href: api/Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest.html#Hsm_DataAnalysisService_QueryLanguage_TimeSeriesRequest_ResourceAggregationFunction
-  commentId: P:Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest.ResourceAggregationFunction
-  fullName: Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest.ResourceAggregationFunction
-  nameWithType: TimeSeriesRequest.ResourceAggregationFunction
-- uid: Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest.ResourceAggregationFunction*
-  name: ResourceAggregationFunction
-  href: api/Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest.html#Hsm_DataAnalysisService_QueryLanguage_TimeSeriesRequest_ResourceAggregationFunction_
-  commentId: Overload:Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest.ResourceAggregationFunction
+- uid: Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest.ResourceAggregation
+  name: ResourceAggregation
+  href: api/Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest.html#Hsm_DataAnalysisService_QueryLanguage_TimeSeriesRequest_ResourceAggregation
+  commentId: P:Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest.ResourceAggregation
+  fullName: Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest.ResourceAggregation
+  nameWithType: TimeSeriesRequest.ResourceAggregation
+- uid: Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest.ResourceAggregation*
+  name: ResourceAggregation
+  href: api/Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest.html#Hsm_DataAnalysisService_QueryLanguage_TimeSeriesRequest_ResourceAggregation_
+  commentId: Overload:Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest.ResourceAggregation
   isSpec: "True"
-  fullName: Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest.ResourceAggregationFunction
-  nameWithType: TimeSeriesRequest.ResourceAggregationFunction
+  fullName: Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest.ResourceAggregation
+  nameWithType: TimeSeriesRequest.ResourceAggregation
 - uid: Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest.SourceSeries
   name: SourceSeries
   href: api/Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest.html#Hsm_DataAnalysisService_QueryLanguage_TimeSeriesRequest_SourceSeries
@@ -784,24 +854,24 @@ references:
   commentId: T:Hsm.DataAnalysisService.QueryLanguage.WeightedStatisticFunction
   fullName: Hsm.DataAnalysisService.QueryLanguage.WeightedStatisticFunction
   nameWithType: WeightedStatisticFunction
-- uid: Hsm.DataAnalysisService.QueryLanguage.WeightedStatisticFunction.Avg
-  name: Avg
-  href: api/Hsm.DataAnalysisService.QueryLanguage.WeightedStatisticFunction.html#Hsm_DataAnalysisService_QueryLanguage_WeightedStatisticFunction_Avg
-  commentId: F:Hsm.DataAnalysisService.QueryLanguage.WeightedStatisticFunction.Avg
-  fullName: Hsm.DataAnalysisService.QueryLanguage.WeightedStatisticFunction.Avg
-  nameWithType: WeightedStatisticFunction.Avg
-- uid: Hsm.DataAnalysisService.QueryLanguage.WeightedStatisticFunction.Std
-  name: Std
-  href: api/Hsm.DataAnalysisService.QueryLanguage.WeightedStatisticFunction.html#Hsm_DataAnalysisService_QueryLanguage_WeightedStatisticFunction_Std
-  commentId: F:Hsm.DataAnalysisService.QueryLanguage.WeightedStatisticFunction.Std
-  fullName: Hsm.DataAnalysisService.QueryLanguage.WeightedStatisticFunction.Std
-  nameWithType: WeightedStatisticFunction.Std
-- uid: Hsm.DataAnalysisService.QueryLanguage.WeightedStatisticFunction.Var
-  name: Var
-  href: api/Hsm.DataAnalysisService.QueryLanguage.WeightedStatisticFunction.html#Hsm_DataAnalysisService_QueryLanguage_WeightedStatisticFunction_Var
-  commentId: F:Hsm.DataAnalysisService.QueryLanguage.WeightedStatisticFunction.Var
-  fullName: Hsm.DataAnalysisService.QueryLanguage.WeightedStatisticFunction.Var
-  nameWithType: WeightedStatisticFunction.Var
+- uid: Hsm.DataAnalysisService.QueryLanguage.WeightedStatisticFunction.ArithmeticMean
+  name: ArithmeticMean
+  href: api/Hsm.DataAnalysisService.QueryLanguage.WeightedStatisticFunction.html#Hsm_DataAnalysisService_QueryLanguage_WeightedStatisticFunction_ArithmeticMean
+  commentId: F:Hsm.DataAnalysisService.QueryLanguage.WeightedStatisticFunction.ArithmeticMean
+  fullName: Hsm.DataAnalysisService.QueryLanguage.WeightedStatisticFunction.ArithmeticMean
+  nameWithType: WeightedStatisticFunction.ArithmeticMean
+- uid: Hsm.DataAnalysisService.QueryLanguage.WeightedStatisticFunction.StandardDeviation
+  name: StandardDeviation
+  href: api/Hsm.DataAnalysisService.QueryLanguage.WeightedStatisticFunction.html#Hsm_DataAnalysisService_QueryLanguage_WeightedStatisticFunction_StandardDeviation
+  commentId: F:Hsm.DataAnalysisService.QueryLanguage.WeightedStatisticFunction.StandardDeviation
+  fullName: Hsm.DataAnalysisService.QueryLanguage.WeightedStatisticFunction.StandardDeviation
+  nameWithType: WeightedStatisticFunction.StandardDeviation
+- uid: Hsm.DataAnalysisService.QueryLanguage.WeightedStatisticFunction.Variance
+  name: Variance
+  href: api/Hsm.DataAnalysisService.QueryLanguage.WeightedStatisticFunction.html#Hsm_DataAnalysisService_QueryLanguage_WeightedStatisticFunction_Variance
+  commentId: F:Hsm.DataAnalysisService.QueryLanguage.WeightedStatisticFunction.Variance
+  fullName: Hsm.DataAnalysisService.QueryLanguage.WeightedStatisticFunction.Variance
+  nameWithType: WeightedStatisticFunction.Variance
 - uid: Hsm.DataAnalysisService.QueryLanguage.WeightedTimeAggregation
   name: WeightedTimeAggregation
   href: api/Hsm.DataAnalysisService.QueryLanguage.WeightedTimeAggregation.html

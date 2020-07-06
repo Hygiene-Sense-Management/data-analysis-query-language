@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>HSM.DataAnalysis.Query Language </title>
+    <title>HSM.DataAnalysis.QueryLanguage </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="HSM.DataAnalysis.Query Language ">
+    <meta name="title" content="HSM.DataAnalysis.QueryLanguage ">
     <meta name="generator" content="docfx 2.56.0.0">
     
     <link rel="shortcut icon" href="favicon.ico">
@@ -60,9 +60,33 @@
         <div class="article row grid">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="hsmdataanalysisquery-language">HSM.DataAnalysis.Query Language</h1>
+<h1 id="hsmdataanalysisquerylanguage">HSM.DataAnalysis.QueryLanguage</h1>
 
-<p>This library is an implementation of the query language supported by the HSM DataAnalysisQuery.</p>
+<p>This library is an implementation of the query language supported by the HSM DataAnalysisService. The query language is a data structure describing
+what data shall be returned by the Analysis service. It allows you to create and validate queries that can then be posted to the DataAnalysisService
+and it provides the data structures for the query results.</p>
+<h2 id="basic-query-procedure">Basic query procedure</h2>
+<p>The result of a <a class="xref" href="api/Hsm.DataAnalysisService.QueryLanguage.Request.html">Request</a> query is always a single <a class="xref" href="api/Hsm.DataAnalysisService.QueryLanguage.Result.Result.html">Result</a>. Each type of request will have its
+own result type.</p>
+<h3 id="section"><a class="xref" href="api/Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest.html">TimeSeriesRequest</a></h3>
+<p>The result of a <a class="xref" href="api/Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest.html">TimeSeriesRequest</a> query is always a single <a class="xref" href="api/Hsm.DataAnalysisService.QueryLanguage.Result.TimeSeriesResult.html">TimeSeriesResult</a>
+and therefore always a single time series of time- value data. A <a class="xref" href="api/Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest.html">TimeSeriesRequest</a> will always only
+evaluate data within the defined time span of the <a class="xref" href="api/Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest.html">TimeSeriesRequest</a>.</p>
+<p>A <a class="xref" href="api/Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest.html">TimeSeriesRequest</a> requests data for resource instance values in one or more embedded systems. It will however always aggregate
+the data so that the result of the request will always be a single time series.</p>
+<h4 id="time-partitioning-and-time-aggregation">Time partitioning and time aggregation</h4>
+<p>The data of each requested resource instance of each embedded system is first partitioned using the
+<a class="xref" href="api/Hsm.DataAnalysisService.QueryLanguage.TimePartitioning.html">TimePartitioning</a> strategy defined in the
+<a class="xref" href="api/Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest.html">TimeSeriesRequest</a>.</p>
+<p>All data within a partition will be aggregated using the <a class="xref" href="api/Hsm.DataAnalysisService.QueryLanguage.TimeAggregation.html">TimeAggregation</a> strategy
+defined in the <a class="xref" href="api/Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest.html">TimeSeriesRequest</a>. I.e. for each time interval one value will
+be calculated for each resource instance of each embedded system.</p>
+<p>Values that do not pass the @&quot;Hsm.DataAnalysisService.QueryLanguage.ValueFilters&quot; set in the <a class="xref" href="api/Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest.html">TimeSeriesRequest</a>
+will be ignored during time aggregation.</p>
+<h4 id="resource-aggregation">Resource aggregation</h4>
+<p>After time aggregation, values for each resource instance of each embedded system in each time partition will be aggregated
+using the <a class="xref" href="api/Hsm.DataAnalysisService.QueryLanguage.ResourceAggregationFunction.html">ResourceAggregationFunction</a> defined in the
+<a class="xref" href="api/Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest.html">TimeSeriesRequest</a>.</p>
 </article>
           </div>
           
