@@ -780,19 +780,6 @@ references:
   commentId: T:Hsm.DataAnalysisService.QueryLanguage.SerializationClasses.TimeSeriesRequestSerialization
   fullName: Hsm.DataAnalysisService.QueryLanguage.SerializationClasses.TimeSeriesRequestSerialization
   nameWithType: TimeSeriesRequestSerialization
-- uid: Hsm.DataAnalysisService.QueryLanguage.SerializationClasses.TimeSeriesRequestSerialization.CopyFrom(Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest)
-  name: CopyFrom(TimeSeriesRequest)
-  href: api/Hsm.DataAnalysisService.QueryLanguage.SerializationClasses.TimeSeriesRequestSerialization.html#Hsm_DataAnalysisService_QueryLanguage_SerializationClasses_TimeSeriesRequestSerialization_CopyFrom_Hsm_DataAnalysisService_QueryLanguage_TimeSeriesRequest_
-  commentId: M:Hsm.DataAnalysisService.QueryLanguage.SerializationClasses.TimeSeriesRequestSerialization.CopyFrom(Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest)
-  fullName: Hsm.DataAnalysisService.QueryLanguage.SerializationClasses.TimeSeriesRequestSerialization.CopyFrom(Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest)
-  nameWithType: TimeSeriesRequestSerialization.CopyFrom(TimeSeriesRequest)
-- uid: Hsm.DataAnalysisService.QueryLanguage.SerializationClasses.TimeSeriesRequestSerialization.CopyFrom*
-  name: CopyFrom
-  href: api/Hsm.DataAnalysisService.QueryLanguage.SerializationClasses.TimeSeriesRequestSerialization.html#Hsm_DataAnalysisService_QueryLanguage_SerializationClasses_TimeSeriesRequestSerialization_CopyFrom_
-  commentId: Overload:Hsm.DataAnalysisService.QueryLanguage.SerializationClasses.TimeSeriesRequestSerialization.CopyFrom
-  isSpec: "True"
-  fullName: Hsm.DataAnalysisService.QueryLanguage.SerializationClasses.TimeSeriesRequestSerialization.CopyFrom
-  nameWithType: TimeSeriesRequestSerialization.CopyFrom
 - uid: Hsm.DataAnalysisService.QueryLanguage.SerializationClasses.TimeSeriesRequestSerialization.DataSeriesSources
   name: DataSeriesSources
   href: api/Hsm.DataAnalysisService.QueryLanguage.SerializationClasses.TimeSeriesRequestSerialization.html#Hsm_DataAnalysisService_QueryLanguage_SerializationClasses_TimeSeriesRequestSerialization_DataSeriesSources
