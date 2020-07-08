@@ -5,11 +5,59 @@
   "files": [
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.MaxVelocity.yml",
+      "source_relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.DataSeriesSource.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.MaxVelocity.html",
-          "hash": "I/r70Wrf0A6asrfl+C2kmw=="
+          "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.DataSeriesSource.html",
+          "hash": "EKvx9V2eN+7Att2hVhzHzw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.FluentValidation.RequestValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.FluentValidation.RequestValidator.html",
+          "hash": "P4FLFfeyy4pBSPk0RULftA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.FluentValidation.TimeSeriesRequestValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.FluentValidation.TimeSeriesRequestValidator.html",
+          "hash": "Yf7yNIZH3zSMrRnHCCuvNg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.FluentValidation.TimespanPartitioningValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.FluentValidation.TimespanPartitioningValidator.html",
+          "hash": "YE4ofqZyrebZ0gEZLioX4Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.FluentValidation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.FluentValidation.html",
+          "hash": "8Up3wdMZPf/fMepUA4ht9Q=="
         }
       },
       "is_incremental": false,
@@ -21,7 +69,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.MinMaxValueFilter.html",
-          "hash": "VJPjXY7iCfTb7UwC8+0cmA=="
+          "hash": "M6AYbYkcCf2fUJlQbsFkxA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.MonthPartitioning.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.MonthPartitioning.html",
+          "hash": "3r9Fac8/FA2ABG5D4gMiSA=="
         }
       },
       "is_incremental": false,
@@ -33,7 +93,67 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Request.html",
-          "hash": "uiSIwG/ebN0NVQYkh05eVw=="
+          "hash": "hxUp1Kvqoeip64bZP+64qw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.RequestResult.DataPoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.RequestResult.DataPoint.html",
+          "hash": "+1gVAyw0uWGhMWqYbOoh7g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.RequestResult.ProcessingInformation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.RequestResult.ProcessingInformation.html",
+          "hash": "+I9o4w88X7cwyQaYzjAhLw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.RequestResult.Result.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.RequestResult.Result.html",
+          "hash": "iEpo+SyEeOBGU2CE5VzSzg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.RequestResult.TimeSeriesResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.RequestResult.TimeSeriesResult.html",
+          "hash": "XRyldxcpSRLtLrptKqHGwQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.RequestResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.RequestResult.html",
+          "hash": "BfTgR3egKE4UzueArMSXfQ=="
         }
       },
       "is_incremental": false,
@@ -45,79 +165,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.ResourceAggregationFunction.html",
-          "hash": "f/T+JxMYbCdsMck4EJ1QXw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Result.DataPoint.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Result.DataPoint.html",
-          "hash": "dH/xL5aM3djBvN7fR866XA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Result.ProcessingInformation.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Result.ProcessingInformation.html",
-          "hash": "Axb5Hnhjda339bfTxPWbWg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Result.Result.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Result.Result.html",
-          "hash": "4De9k8jMa9ijz9Tahhocwg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Result.TimeSeriesResult.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Result.TimeSeriesResult.html",
-          "hash": "YJ04me+ZJ1U9Fi3ok/prKQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Result.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Result.html",
-          "hash": "HCIDf4IuWVUhARP1EcRAlg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Source.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Source.html",
-          "hash": "u2XR8YCUT7SauvUw1epmVw=="
+          "hash": "S75pGv0OHWLS/ssei/kZ8Q=="
         }
       },
       "is_incremental": false,
@@ -129,7 +177,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.TimeAggregation.html",
-          "hash": "F7cgNZGQHPmzuQY1+jIoCA=="
+          "hash": "/kYuxeInohF+QX8wCy9r7A=="
         }
       },
       "is_incremental": false,
@@ -153,7 +201,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.TimePartitioning.html",
-          "hash": "PGU9fVEpxgD22rpn9Xaq3A=="
+          "hash": "z6bqJAXkkkmc+qoWikz4Rw=="
         }
       },
       "is_incremental": false,
@@ -165,7 +213,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest.html",
-          "hash": "DAciTLnko63ATbZYnXmXJA=="
+          "hash": "tIEJnAaOyjORy8vV9k8ePQ=="
         }
       },
       "is_incremental": false,
@@ -178,6 +226,18 @@
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.TimeWeighting.html",
           "hash": "SVqsfrKcpH/s0CS2NB2O+Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.TimespanPartitioning.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.TimespanPartitioning.html",
+          "hash": "M2l6nhe4YEUfNldJGKni9Q=="
         }
       },
       "is_incremental": false,
@@ -201,7 +261,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.UnweightedStatisticFunction.html",
-          "hash": "q8nNHKoWoYO4W/Wb65tlhA=="
+          "hash": "5voQcdzWjkKQbXVWtg0aPQ=="
         }
       },
       "is_incremental": false,
@@ -213,67 +273,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.UnweightedTimeAggregation.html",
-          "hash": "nyFmvW8Biy6rrFXNhiAB0w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Validation.IValidatable.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Validation.IValidatable.html",
-          "hash": "LiM9FVOOyEsVQ+ufbDrdcg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationMessage.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationMessage.html",
-          "hash": "vRz3lBtsxpCzfpRc05z5Fg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationMessageTranslator.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationMessageTranslator.html",
-          "hash": "SB+sPcIxD6AsPjS9PoJszQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationResult.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationResult.html",
-          "hash": "ZlqLTL2EeqLIcYbbYEDyAw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Validation.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Validation.html",
-          "hash": "1se0ET9O7VZvHBVQ/Ci7nA=="
+          "hash": "C+dsnYSaGznigpwiEryG3g=="
         }
       },
       "is_incremental": false,
@@ -285,7 +285,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.ValueFilter.html",
-          "hash": "1ehibgUVENiG7kao1QQUdA=="
+          "hash": "69s5Xb5yS0WT1tOQHVsQIA=="
         }
       },
       "is_incremental": false,
@@ -309,7 +309,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.WeightedTimeAggregation.html",
-          "hash": "bSPtlw/nPwuo6ErX5A6zHQ=="
+          "hash": "vXAp4eMW4d4c/MwCXfcnuA=="
         }
       },
       "is_incremental": false,
@@ -321,7 +321,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.html",
-          "hash": "C5ap96JDzS4Oz16NgoH1DA=="
+          "hash": "h0AlJHAaYcQw3aLnCOH4KA=="
         }
       },
       "is_incremental": false,
@@ -345,7 +345,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "Ha+5zNV5YASMT6tckOvmXQ=="
+          "hash": "AQ8/tOEte/wo5tKMIh/NQw=="
         }
       },
       "is_incremental": false,
@@ -360,7 +360,7 @@
           "hash": "cPpsTK7ln5YVwmioaJ7YXg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -381,10 +381,10 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "iSOr3lJ4kt1J0o7Ny56pEA=="
+          "hash": "ZNhT1M5jW0JaIGSfL5SI+A=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -403,25 +403,23 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": false,
-        "details": "Disable incremental build by force rebuild option.",
+        "can_incremental": true,
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0,
-        "full_build_reason_code": "ForceRebuild"
+        "skipped_file_count": 0
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 3,
-          "skipped_file_count": 0
+          "skipped_file_count": 3
         },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 27,
-          "skipped_file_count": 0
+          "skipped_file_count": 24
         },
         "TocDocumentProcessor": {
           "can_incremental": false,
@@ -434,8 +432,8 @@
     },
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot support incremental post processing, the reason is: it's disabled.",
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
         "incrementalPhase": "postProcessing",
         "total_file_count": 0,
         "skipped_file_count": 0

@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class ValueFilter
+    <title>Class ProcessingInformation
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class ValueFilter
+    <meta name="title" content="Class ProcessingInformation
    ">
     <meta name="generator" content="docfx 2.56.0.0">
     
@@ -68,24 +68,29 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Hsm.DataAnalysisService.QueryLanguage.ValueFilter">
+            <article class="content wrap" id="_content" data-uid="Hsm.DataAnalysisService.QueryLanguage.RequestResult.ProcessingInformation">
   
   
-  <h1 id="Hsm_DataAnalysisService_QueryLanguage_ValueFilter" data-uid="Hsm.DataAnalysisService.QueryLanguage.ValueFilter" class="text-break">Class ValueFilter
+  <h1 id="Hsm_DataAnalysisService_QueryLanguage_RequestResult_ProcessingInformation" data-uid="Hsm.DataAnalysisService.QueryLanguage.RequestResult.ProcessingInformation" class="text-break">Class ProcessingInformation
   </h1>
-  <div class="markdown level0 summary"><p>Represents the base of any value filter classes.</p>
+  <div class="markdown level0 summary"><p>This class is used to communicate details about the handling of a request within the data analysis service.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">ValueFilter</span></div>
-      <div class="level2"><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.MinMaxValueFilter.html">MinMaxValueFilter</a></div>
+    <div class="level1"><span class="xref">ProcessingInformation</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
       <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
     </div>
     <div>
       <span class="xref">System.Object.GetType()</span>
@@ -100,25 +105,26 @@
       <span class="xref">System.Object.ToString()</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.html">Hsm.DataAnalysisService.QueryLanguage</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.RequestResult.html">Hsm.DataAnalysisService.QueryLanguage.RequestResult</a></h6>
   <h6><strong>Assembly</strong>: Hsm.DataAnalysisService.QueryLanguage.dll</h6>
-  <h5 id="Hsm_DataAnalysisService_QueryLanguage_ValueFilter_syntax">Syntax</h5>
+  <h5 id="Hsm_DataAnalysisService_QueryLanguage_RequestResult_ProcessingInformation_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class ValueFilter</code></pre>
+    <pre><code class="lang-csharp hljs">public class ProcessingInformation</code></pre>
   </div>
-  <h3 id="methods">Methods
+  <h3 id="constructors">Constructors
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analysis%20Service/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/ValueFilter.cs&amp;version=GBmaster&amp;line=12">View Source</a>
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analysis%20Service/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/RequestResult/ProcessingInformation.cs&amp;version=GBmaster&amp;line=14">View Source</a>
   </span>
-  <a id="Hsm_DataAnalysisService_QueryLanguage_ValueFilter_Equals_" data-uid="Hsm.DataAnalysisService.QueryLanguage.ValueFilter.Equals*"></a>
-  <h4 id="Hsm_DataAnalysisService_QueryLanguage_ValueFilter_Equals_System_Object_" data-uid="Hsm.DataAnalysisService.QueryLanguage.ValueFilter.Equals(System.Object)">Equals(Object)</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="Hsm_DataAnalysisService_QueryLanguage_RequestResult_ProcessingInformation__ctor_" data-uid="Hsm.DataAnalysisService.QueryLanguage.RequestResult.ProcessingInformation.#ctor*"></a>
+  <h4 id="Hsm_DataAnalysisService_QueryLanguage_RequestResult_ProcessingInformation__ctor_System_TimeSpan_" data-uid="Hsm.DataAnalysisService.QueryLanguage.RequestResult.ProcessingInformation.#ctor(System.TimeSpan)">ProcessingInformation(TimeSpan)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.RequestResult.ProcessingInformation.html">ProcessingInformation</a> class.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract override bool Equals(object obj)</code></pre>
+    <pre><code class="lang-csharp hljs">public ProcessingInformation(TimeSpan processingTime)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -131,42 +137,29 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Object</span></td>
-        <td><span class="parametername">obj</span></td>
-        <td></td>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="parametername">processingTime</span></td>
+        <td><p>Value for the <a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.RequestResult.ProcessingInformation.html#Hsm_DataAnalysisService_QueryLanguage_RequestResult_ProcessingInformation_ProcessingTime">ProcessingTime</a>.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Object.Equals(System.Object)</span></div>
+  <h3 id="properties">Properties
+  </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analysis%20Service/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/ValueFilter.cs&amp;version=GBmaster&amp;line=15">View Source</a>
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analysis%20Service/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/RequestResult/ProcessingInformation.cs&amp;version=GBmaster&amp;line=22">View Source</a>
   </span>
-  <a id="Hsm_DataAnalysisService_QueryLanguage_ValueFilter_GetHashCode_" data-uid="Hsm.DataAnalysisService.QueryLanguage.ValueFilter.GetHashCode*"></a>
-  <h4 id="Hsm_DataAnalysisService_QueryLanguage_ValueFilter_GetHashCode" data-uid="Hsm.DataAnalysisService.QueryLanguage.ValueFilter.GetHashCode">GetHashCode()</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="Hsm_DataAnalysisService_QueryLanguage_RequestResult_ProcessingInformation_ProcessingTime_" data-uid="Hsm.DataAnalysisService.QueryLanguage.RequestResult.ProcessingInformation.ProcessingTime*"></a>
+  <h4 id="Hsm_DataAnalysisService_QueryLanguage_RequestResult_ProcessingInformation_ProcessingTime" data-uid="Hsm.DataAnalysisService.QueryLanguage.RequestResult.ProcessingInformation.ProcessingTime">ProcessingTime</h4>
+  <div class="markdown level1 summary"><p>Gets the actual time needed to process a <a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Request.html">Request</a> and provide the results.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract override int GetHashCode()</code></pre>
+    <pre><code class="lang-csharp hljs">public TimeSpan ProcessingTime { get; }</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -176,13 +169,11 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
+        <td><span class="xref">System.TimeSpan</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Object.GetHashCode()</span></div>
 </article>
           </div>
           
@@ -191,7 +182,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analysis%20Service/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/ValueFilter.cs&amp;version=GBmaster&amp;line=9" class="contribution-link">View Source</a>
+                    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analysis%20Service/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/RequestResult/ProcessingInformation.cs&amp;version=GBmaster&amp;line=8" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class ValueFilter
+    <title>Class MonthPartitioning
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class ValueFilter
+    <meta name="title" content="Class MonthPartitioning
    ">
     <meta name="generator" content="docfx 2.56.0.0">
     
@@ -68,24 +68,30 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Hsm.DataAnalysisService.QueryLanguage.ValueFilter">
+            <article class="content wrap" id="_content" data-uid="Hsm.DataAnalysisService.QueryLanguage.MonthPartitioning">
   
   
-  <h1 id="Hsm_DataAnalysisService_QueryLanguage_ValueFilter" data-uid="Hsm.DataAnalysisService.QueryLanguage.ValueFilter" class="text-break">Class ValueFilter
+  <h1 id="Hsm_DataAnalysisService_QueryLanguage_MonthPartitioning" data-uid="Hsm.DataAnalysisService.QueryLanguage.MonthPartitioning" class="text-break">Class MonthPartitioning
   </h1>
-  <div class="markdown level0 summary"><p>Represents the base of any value filter classes.</p>
+  <div class="markdown level0 summary"><p>A time partitioning based on calendar months.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">ValueFilter</span></div>
-      <div class="level2"><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.MinMaxValueFilter.html">MinMaxValueFilter</a></div>
+    <div class="level1"><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.TimePartitioning.html">TimePartitioning</a></div>
+    <div class="level2"><span class="xref">MonthPartitioning</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
       <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
     </div>
     <div>
       <span class="xref">System.Object.GetType()</span>
@@ -102,23 +108,24 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.html">Hsm.DataAnalysisService.QueryLanguage</a></h6>
   <h6><strong>Assembly</strong>: Hsm.DataAnalysisService.QueryLanguage.dll</h6>
-  <h5 id="Hsm_DataAnalysisService_QueryLanguage_ValueFilter_syntax">Syntax</h5>
+  <h5 id="Hsm_DataAnalysisService_QueryLanguage_MonthPartitioning_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class ValueFilter</code></pre>
+    <pre><code class="lang-csharp hljs">public class MonthPartitioning : TimePartitioning</code></pre>
   </div>
-  <h3 id="methods">Methods
+  <h3 id="constructors">Constructors
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analysis%20Service/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/ValueFilter.cs&amp;version=GBmaster&amp;line=12">View Source</a>
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analysis%20Service/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/MonthPartitioning.cs&amp;version=GBmaster&amp;line=15">View Source</a>
   </span>
-  <a id="Hsm_DataAnalysisService_QueryLanguage_ValueFilter_Equals_" data-uid="Hsm.DataAnalysisService.QueryLanguage.ValueFilter.Equals*"></a>
-  <h4 id="Hsm_DataAnalysisService_QueryLanguage_ValueFilter_Equals_System_Object_" data-uid="Hsm.DataAnalysisService.QueryLanguage.ValueFilter.Equals(System.Object)">Equals(Object)</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="Hsm_DataAnalysisService_QueryLanguage_MonthPartitioning__ctor_" data-uid="Hsm.DataAnalysisService.QueryLanguage.MonthPartitioning.#ctor*"></a>
+  <h4 id="Hsm_DataAnalysisService_QueryLanguage_MonthPartitioning__ctor_System_Byte_" data-uid="Hsm.DataAnalysisService.QueryLanguage.MonthPartitioning.#ctor(System.Byte)">MonthPartitioning(Byte)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.MonthPartitioning.html">MonthPartitioning</a> class.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract override bool Equals(object obj)</code></pre>
+    <pre><code class="lang-csharp hljs">public MonthPartitioning(byte partitionSize)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -131,41 +138,75 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Object</span></td>
-        <td><span class="parametername">obj</span></td>
-        <td></td>
+        <td><span class="xref">System.Byte</span></td>
+        <td><span class="parametername">partitionSize</span></td>
+        <td><p>The size of a partition given in months.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Object.Equals(System.Object)</span></div>
+  <h3 id="properties">Properties
+  </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analysis%20Service/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/ValueFilter.cs&amp;version=GBmaster&amp;line=15">View Source</a>
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analysis%20Service/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/MonthPartitioning.cs&amp;version=GBmaster&amp;line=33">View Source</a>
   </span>
-  <a id="Hsm_DataAnalysisService_QueryLanguage_ValueFilter_GetHashCode_" data-uid="Hsm.DataAnalysisService.QueryLanguage.ValueFilter.GetHashCode*"></a>
-  <h4 id="Hsm_DataAnalysisService_QueryLanguage_ValueFilter_GetHashCode" data-uid="Hsm.DataAnalysisService.QueryLanguage.ValueFilter.GetHashCode">GetHashCode()</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="Hsm_DataAnalysisService_QueryLanguage_MonthPartitioning_PartitionSize_" data-uid="Hsm.DataAnalysisService.QueryLanguage.MonthPartitioning.PartitionSize*"></a>
+  <h4 id="Hsm_DataAnalysisService_QueryLanguage_MonthPartitioning_PartitionSize" data-uid="Hsm.DataAnalysisService.QueryLanguage.MonthPartitioning.PartitionSize">PartitionSize</h4>
+  <div class="markdown level1 summary"><p>Gets the number of months defining the size of one partition.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract override int GetHashCode()</code></pre>
+    <pre><code class="lang-csharp hljs">public byte PartitionSize { get; }</code></pre>
   </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analysis%20Service/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/MonthPartitioning.cs&amp;version=GBmaster&amp;line=36">View Source</a>
+  </span>
+  <a id="Hsm_DataAnalysisService_QueryLanguage_MonthPartitioning_GetPartitions_" data-uid="Hsm.DataAnalysisService.QueryLanguage.MonthPartitioning.GetPartitions*"></a>
+  <h4 id="Hsm_DataAnalysisService_QueryLanguage_MonthPartitioning_GetPartitions_Hsm_DataAnalysisService_QueryLanguage_TimeInterval_" data-uid="Hsm.DataAnalysisService.QueryLanguage.MonthPartitioning.GetPartitions(Hsm.DataAnalysisService.QueryLanguage.TimeInterval)">GetPartitions(TimeInterval)</h4>
+  <div class="markdown level1 summary"><p>Time partitioning defines how a specific time interval shall be separated into an continuous set of time partitions.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override List&lt;TimeInterval&gt; GetPartitions(TimeInterval timeInterval)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.TimeInterval.html">TimeInterval</a></td>
+        <td><span class="parametername">timeInterval</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -176,13 +217,13 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.TimeInterval.html">TimeInterval</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Object.GetHashCode()</span></div>
+  <div><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.TimePartitioning.html#Hsm_DataAnalysisService_QueryLanguage_TimePartitioning_GetPartitions_Hsm_DataAnalysisService_QueryLanguage_TimeInterval_">TimePartitioning.GetPartitions(TimeInterval)</a></div>
 </article>
           </div>
           
@@ -191,7 +232,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analysis%20Service/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/ValueFilter.cs&amp;version=GBmaster&amp;line=9" class="contribution-link">View Source</a>
+                    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analysis%20Service/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/MonthPartitioning.cs&amp;version=GBmaster&amp;line=9" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

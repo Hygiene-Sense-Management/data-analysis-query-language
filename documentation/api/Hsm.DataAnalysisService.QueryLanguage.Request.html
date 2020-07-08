@@ -82,10 +82,6 @@
     <div class="level1"><span class="xref">Request</span></div>
       <div class="level2"><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest.html">TimeSeriesRequest</a></div>
   </div>
-  <div classs="implements">
-    <h5>Implements</h5>
-    <div><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Validation.IValidatable.html">IValidatable</a></div>
-  </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
@@ -114,13 +110,13 @@
   <h6><strong>Assembly</strong>: Hsm.DataAnalysisService.QueryLanguage.dll</h6>
   <h5 id="Hsm_DataAnalysisService_QueryLanguage_Request_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class Request : IValidatable</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class Request</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analysis%20Service/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Request.cs&amp;version=GBmaster&amp;line=16">View Source</a>
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analysis%20Service/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Request.cs&amp;version=GBmaster&amp;line=15">View Source</a>
   </span>
   <a id="Hsm_DataAnalysisService_QueryLanguage_Request__ctor_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Request.#ctor*"></a>
   <h4 id="Hsm_DataAnalysisService_QueryLanguage_Request__ctor_Hsm_DataAnalysisService_QueryLanguage_TimeInterval_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Request.#ctor(Hsm.DataAnalysisService.QueryLanguage.TimeInterval)">Request(TimeInterval)</h4>
@@ -153,7 +149,7 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analysis%20Service/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Request.cs&amp;version=GBmaster&amp;line=24">View Source</a>
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analysis%20Service/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Request.cs&amp;version=GBmaster&amp;line=23">View Source</a>
   </span>
   <a id="Hsm_DataAnalysisService_QueryLanguage_Request_AnalysisDateInterval_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Request.AnalysisDateInterval*"></a>
   <h4 id="Hsm_DataAnalysisService_QueryLanguage_Request_AnalysisDateInterval" data-uid="Hsm.DataAnalysisService.QueryLanguage.Request.AnalysisDateInterval">AnalysisDateInterval</h4>
@@ -181,7 +177,7 @@
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analysis%20Service/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Request.cs&amp;version=GBmaster&amp;line=30">View Source</a>
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analysis%20Service/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Request.cs&amp;version=GBmaster&amp;line=29">View Source</a>
   </span>
   <a id="Hsm_DataAnalysisService_QueryLanguage_Request_TransmissionModeFilter_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Request.TransmissionModeFilter*"></a>
   <h4 id="Hsm_DataAnalysisService_QueryLanguage_Request_TransmissionModeFilter" data-uid="Hsm.DataAnalysisService.QueryLanguage.Request.TransmissionModeFilter">TransmissionModeFilter</h4>
@@ -208,41 +204,6 @@ only data in one of the given transmission modes will be included in the query r
       </tr>
     </tbody>
   </table>
-  <h3 id="methods">Methods
-  </h3>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analysis%20Service/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Request.cs&amp;version=GBmaster&amp;line=33">View Source</a>
-  </span>
-  <a id="Hsm_DataAnalysisService_QueryLanguage_Request_Validate_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Request.Validate*"></a>
-  <h4 id="Hsm_DataAnalysisService_QueryLanguage_Request_Validate" data-uid="Hsm.DataAnalysisService.QueryLanguage.Request.Validate">Validate()</h4>
-  <div class="markdown level1 summary"><p>This interface is used for language elements that need validation before execution.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual ValidationResult Validate()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationResult.html">ValidationResult</a></td>
-        <td><p>The validation result.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Validation.IValidatable.html">IValidatable</a>
-  </div>
 </article>
           </div>
           
@@ -251,7 +212,7 @@ only data in one of the given transmission modes will be included in the query r
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analysis%20Service/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Request.cs&amp;version=GBmaster&amp;line=10" class="contribution-link">View Source</a>
+                    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analysis%20Service/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Request.cs&amp;version=GBmaster&amp;line=9" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

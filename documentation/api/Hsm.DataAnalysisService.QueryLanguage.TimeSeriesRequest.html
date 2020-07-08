@@ -83,10 +83,6 @@ usually used in time-value charts or tabular presentations.</p>
     <div class="level1"><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Request.html">Request</a></div>
     <div class="level2"><span class="xref">TimeSeriesRequest</span></div>
   </div>
-  <div classs="implements">
-    <h5>Implements</h5>
-    <div><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Validation.IValidatable.html">IValidatable</a></div>
-  </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
@@ -121,13 +117,13 @@ usually used in time-value charts or tabular presentations.</p>
   <h6><strong>Assembly</strong>: Hsm.DataAnalysisService.QueryLanguage.dll</h6>
   <h5 id="Hsm_DataAnalysisService_QueryLanguage_TimeSeriesRequest_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class TimeSeriesRequest : Request, IValidatable</code></pre>
+    <pre><code class="lang-csharp hljs">public class TimeSeriesRequest : Request</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analysis%20Service/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/TimeSeriesRequest.cs&amp;version=GBmaster&amp;line=14">View Source</a>
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analysis%20Service/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/TimeSeriesRequest.cs&amp;version=GBmaster&amp;line=13">View Source</a>
   </span>
   <a id="Hsm_DataAnalysisService_QueryLanguage_TimeSeriesRequest__ctor_" data-uid="Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest.#ctor*"></a>
   <h4 id="Hsm_DataAnalysisService_QueryLanguage_TimeSeriesRequest__ctor_Hsm_DataAnalysisService_QueryLanguage_TimeInterval_" data-uid="Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest.#ctor(Hsm.DataAnalysisService.QueryLanguage.TimeInterval)">TimeSeriesRequest(TimeInterval)</h4>
@@ -160,7 +156,35 @@ usually used in time-value charts or tabular presentations.</p>
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analysis%20Service/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/TimeSeriesRequest.cs&amp;version=GBmaster&amp;line=44">View Source</a>
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analysis%20Service/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/TimeSeriesRequest.cs&amp;version=GBmaster&amp;line=28">View Source</a>
+  </span>
+  <a id="Hsm_DataAnalysisService_QueryLanguage_TimeSeriesRequest_DataSeriesSources_" data-uid="Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest.DataSeriesSources*"></a>
+  <h4 id="Hsm_DataAnalysisService_QueryLanguage_TimeSeriesRequest_DataSeriesSources" data-uid="Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest.DataSeriesSources">DataSeriesSources</h4>
+  <div class="markdown level1 summary"><p>Gets the list of the Sources (Devices, Gateway, etc.)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HashSet&lt;DataSeriesSource&gt; DataSeriesSources { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.HashSet</span>&lt;<a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.DataSeriesSource.html">DataSeriesSource</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analysis%20Service/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/TimeSeriesRequest.cs&amp;version=GBmaster&amp;line=43">View Source</a>
   </span>
   <a id="Hsm_DataAnalysisService_QueryLanguage_TimeSeriesRequest_ResourceAggregation_" data-uid="Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest.ResourceAggregation*"></a>
   <h4 id="Hsm_DataAnalysisService_QueryLanguage_TimeSeriesRequest_ResourceAggregation" data-uid="Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest.ResourceAggregation">ResourceAggregation</h4>
@@ -188,35 +212,7 @@ usually used in time-value charts or tabular presentations.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analysis%20Service/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/TimeSeriesRequest.cs&amp;version=GBmaster&amp;line=29">View Source</a>
-  </span>
-  <a id="Hsm_DataAnalysisService_QueryLanguage_TimeSeriesRequest_SourceSeries_" data-uid="Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest.SourceSeries*"></a>
-  <h4 id="Hsm_DataAnalysisService_QueryLanguage_TimeSeriesRequest_SourceSeries" data-uid="Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest.SourceSeries">SourceSeries</h4>
-  <div class="markdown level1 summary"><p>Gets the list of the Sources (Devices, Gateway, etc.)</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;Source&gt; SourceSeries { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Source.html">Source</a>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analysis%20Service/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/TimeSeriesRequest.cs&amp;version=GBmaster&amp;line=39">View Source</a>
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analysis%20Service/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/TimeSeriesRequest.cs&amp;version=GBmaster&amp;line=38">View Source</a>
   </span>
   <a id="Hsm_DataAnalysisService_QueryLanguage_TimeSeriesRequest_TimeAggregation_" data-uid="Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest.TimeAggregation*"></a>
   <h4 id="Hsm_DataAnalysisService_QueryLanguage_TimeSeriesRequest_TimeAggregation" data-uid="Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest.TimeAggregation">TimeAggregation</h4>
@@ -244,7 +240,7 @@ usually used in time-value charts or tabular presentations.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analysis%20Service/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/TimeSeriesRequest.cs&amp;version=GBmaster&amp;line=34">View Source</a>
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analysis%20Service/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/TimeSeriesRequest.cs&amp;version=GBmaster&amp;line=33">View Source</a>
   </span>
   <a id="Hsm_DataAnalysisService_QueryLanguage_TimeSeriesRequest_TimePartitioning_" data-uid="Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest.TimePartitioning*"></a>
   <h4 id="Hsm_DataAnalysisService_QueryLanguage_TimeSeriesRequest_TimePartitioning" data-uid="Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest.TimePartitioning">TimePartitioning</h4>
@@ -272,7 +268,7 @@ usually used in time-value charts or tabular presentations.</p>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analysis%20Service/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/TimeSeriesRequest.cs&amp;version=GBmaster&amp;line=24">View Source</a>
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analysis%20Service/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/TimeSeriesRequest.cs&amp;version=GBmaster&amp;line=23">View Source</a>
   </span>
   <a id="Hsm_DataAnalysisService_QueryLanguage_TimeSeriesRequest_ValueFilters_" data-uid="Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest.ValueFilters*"></a>
   <h4 id="Hsm_DataAnalysisService_QueryLanguage_TimeSeriesRequest_ValueFilters" data-uid="Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest.ValueFilters">ValueFilters</h4>
@@ -300,42 +296,6 @@ If the list is empty no filtering will be applied.</p>
       </tr>
     </tbody>
   </table>
-  <h3 id="methods">Methods
-  </h3>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analysis%20Service/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/TimeSeriesRequest.cs&amp;version=GBmaster&amp;line=47">View Source</a>
-  </span>
-  <a id="Hsm_DataAnalysisService_QueryLanguage_TimeSeriesRequest_Validate_" data-uid="Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest.Validate*"></a>
-  <h4 id="Hsm_DataAnalysisService_QueryLanguage_TimeSeriesRequest_Validate" data-uid="Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest.Validate">Validate()</h4>
-  <div class="markdown level1 summary"><p>Defines a basic Request for data.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override ValidationResult Validate()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationResult.html">ValidationResult</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Request.html#Hsm_DataAnalysisService_QueryLanguage_Request_Validate">Request.Validate()</a></div>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Validation.IValidatable.html">IValidatable</a>
-  </div>
 </article>
           </div>
           
@@ -344,7 +304,7 @@ If the list is empty no filtering will be applied.</p>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analysis%20Service/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/TimeSeriesRequest.cs&amp;version=GBmaster&amp;line=11" class="contribution-link">View Source</a>
+                    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analysis%20Service/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/TimeSeriesRequest.cs&amp;version=GBmaster&amp;line=10" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

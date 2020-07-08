@@ -66,10 +66,16 @@
 what data shall be returned by the Analysis service. It allows you to create and validate queries that can then be posted to the DataAnalysisService
 and it provides the data structures for the query results.</p>
 <h2 id="basic-query-procedure">Basic query procedure</h2>
-<p>The result of a <a class="xref" href="api/Hsm.DataAnalysisService.QueryLanguage.Request.html">Request</a> query is always a single <a class="xref" href="api/Hsm.DataAnalysisService.QueryLanguage.Result.Result.html">Result</a>. Each type of request will have its
-own result type.</p>
+<p>Requests to the HSM DataAnalysisService are formalized using one of the subtypes of <a class="xref" href="api/Hsm.DataAnalysisService.QueryLanguage.Request.html">Request</a>. The result of a
+<a class="xref" href="api/Hsm.DataAnalysisService.QueryLanguage.Request.html">Request</a> query is always a single @&quot;Hsm.DataAnalysisService.QueryLanguage.Result.Result&quot;. Each type of request
+will have its own result type.</p>
+<p>The DataAnalysisSerivice and the QueryLanguage are designed to support different types of <a class="xref" href="api/Hsm.DataAnalysisService.QueryLanguage.Request.html">Request</a>.
+Currently following types are supported:</p>
+<ul>
+<li><a class="xref" href="api/Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest.html">TimeSeriesRequest</a></li>
+</ul>
 <h3 id="section"><a class="xref" href="api/Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest.html">TimeSeriesRequest</a></h3>
-<p>The result of a <a class="xref" href="api/Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest.html">TimeSeriesRequest</a> query is always a single <a class="xref" href="api/Hsm.DataAnalysisService.QueryLanguage.Result.TimeSeriesResult.html">TimeSeriesResult</a>
+<p>The result of a <a class="xref" href="api/Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest.html">TimeSeriesRequest</a> query is always a single @&quot;Hsm.DataAnalysisService.QueryLanguage.Result.TimeSeriesResult&quot;
 and therefore always a single time series of time- value data. A <a class="xref" href="api/Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest.html">TimeSeriesRequest</a> will always only
 evaluate data within the defined time span of the <a class="xref" href="api/Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest.html">TimeSeriesRequest</a>.</p>
 <p>A <a class="xref" href="api/Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest.html">TimeSeriesRequest</a> requests data for resource instance values in one or more embedded systems. It will however always aggregate
