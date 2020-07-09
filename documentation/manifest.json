@@ -201,7 +201,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.SerializationClasses.MonthPartitioningSerialization.html",
-          "hash": "60o6XasiaVpBDOMK5IfFRg=="
+          "hash": "U9YIKKeTNn/rVqkbxpR8HQ=="
         }
       },
       "is_incremental": true,
@@ -249,7 +249,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.SerializationClasses.TimePartitioningSerialization-1.html",
-          "hash": "zVlODPnWb51zqDHMKlVM2w=="
+          "hash": "3ZVrfpkbyWDhHuycwE8Y/A=="
         }
       },
       "is_incremental": true,
@@ -273,7 +273,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.SerializationClasses.TimeSpanPartitioningSerialization.html",
-          "hash": "EFIfeGcknwxPi/WuRivkhw=="
+          "hash": "mDrAGl19slQMKd5DmYE7ZQ=="
         }
       },
       "is_incremental": true,
@@ -552,7 +552,7 @@
           "hash": "prhCGx9m+seBk/U46rXCmw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -605,7 +605,7 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 3,
-          "skipped_file_count": 2
+          "skipped_file_count": 3
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
