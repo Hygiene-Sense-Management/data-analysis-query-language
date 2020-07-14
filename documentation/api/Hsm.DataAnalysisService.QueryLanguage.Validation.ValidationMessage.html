@@ -73,13 +73,17 @@
   
   <h1 id="Hsm_DataAnalysisService_QueryLanguage_Validation_ValidationMessage" data-uid="Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationMessage" class="text-break">Class ValidationMessage
   </h1>
-  <div class="markdown level0 summary"><p>Represents validation error.</p>
+  <div class="markdown level0 summary"><p>A validation message.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">ValidationMessage</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Validation.IValidationMessage.html">IValidationMessage</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -109,22 +113,22 @@
   <h6><strong>Assembly</strong>: Hsm.DataAnalysisService.QueryLanguage.dll</h6>
   <h5 id="Hsm_DataAnalysisService_QueryLanguage_Validation_ValidationMessage_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ValidationMessage</code></pre>
+    <pre><code class="lang-csharp hljs">public class ValidationMessage : IValidationMessage</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analysis%20Service/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Validation/ValidationMessage.cs&amp;version=GBmaster&amp;line=19">View Source</a>
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analyis%20Service%20-%20Query%20Language/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Validation/ValidationMessage.cs&amp;version=GBfeature/remove-fluid-validation&amp;line=22">View Source</a>
   </span>
   <a id="Hsm_DataAnalysisService_QueryLanguage_Validation_ValidationMessage__ctor_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationMessage.#ctor*"></a>
-  <h4 id="Hsm_DataAnalysisService_QueryLanguage_Validation_ValidationMessage__ctor_System_Int32_System_String_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationMessage.#ctor(System.Int32,System.String)">ValidationMessage(Int32, String)</h4>
+  <h4 id="Hsm_DataAnalysisService_QueryLanguage_Validation_ValidationMessage__ctor_System_String_System_String_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationMessage.#ctor(System.String,System.String)">ValidationMessage(String, String)</h4>
   <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationMessage.html">ValidationMessage</a> class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ValidationMessage(int messageCode, string invariantEnglishMessageText)</code></pre>
+    <pre><code class="lang-csharp hljs">public ValidationMessage(string messageID, string invariantEnglishMessageText)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -137,9 +141,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">messageCode</span></td>
-        <td><p>Unique identifier for the message.</p>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">messageID</span></td>
+        <td><p>Id of the message.</p>
 </td>
       </tr>
       <tr>
@@ -150,25 +154,25 @@
       </tr>
     </tbody>
   </table>
-  <h5 id="Hsm_DataAnalysisService_QueryLanguage_Validation_ValidationMessage__ctor_System_Int32_System_String__remarks">Remarks</h5>
+  <h5 id="Hsm_DataAnalysisService_QueryLanguage_Validation_ValidationMessage__ctor_System_String_System_String__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>While this constructor takes a message in invariant English language, it will still try to get the translations
-for the message code from the <a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationMessageTranslator.html">ValidationMessageTranslator</a>. I.e. the developer can specify a primary translation
+for the message code from the <see cref="!:DummyMessageTranslator"></see>. I.e. the developer can specify a primary translation
 but this translation can be overwritten.</p>
 </div>
   <h3 id="properties">Properties
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analysis%20Service/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Validation/ValidationMessage.cs&amp;version=GBmaster&amp;line=32">View Source</a>
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analyis%20Service%20-%20Query%20Language/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Validation/ValidationMessage.cs&amp;version=GBfeature/remove-fluid-validation&amp;line=33">View Source</a>
   </span>
-  <a id="Hsm_DataAnalysisService_QueryLanguage_Validation_ValidationMessage_Code_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationMessage.Code*"></a>
-  <h4 id="Hsm_DataAnalysisService_QueryLanguage_Validation_ValidationMessage_Code" data-uid="Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationMessage.Code">Code</h4>
-  <div class="markdown level1 summary"><p>Gets or sets the error code.</p>
+  <a id="Hsm_DataAnalysisService_QueryLanguage_Validation_ValidationMessage_MessageId_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationMessage.MessageId*"></a>
+  <h4 id="Hsm_DataAnalysisService_QueryLanguage_Validation_ValidationMessage_MessageId" data-uid="Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationMessage.MessageId">MessageId</h4>
+  <div class="markdown level1 summary"><p>Gets the id of the message.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int Code { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string MessageId { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -180,23 +184,26 @@ but this translation can be overwritten.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
+        <td><span class="xref">System.String</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <h5 id="Hsm_DataAnalysisService_QueryLanguage_Validation_ValidationMessage_MessageId_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The message id is necessary for translation of the message. A <a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationMessage.html">ValidationMessage</a> without id cannot be translated.</p>
+</div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analysis%20Service/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Validation/ValidationMessage.cs&amp;version=GBmaster&amp;line=40">View Source</a>
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analyis%20Service%20-%20Query%20Language/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Validation/ValidationMessage.cs&amp;version=GBfeature/remove-fluid-validation&amp;line=41">View Source</a>
   </span>
   <a id="Hsm_DataAnalysisService_QueryLanguage_Validation_ValidationMessage_Phrase_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationMessage.Phrase*"></a>
   <h4 id="Hsm_DataAnalysisService_QueryLanguage_Validation_ValidationMessage_Phrase" data-uid="Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationMessage.Phrase">Phrase</h4>
-  <div class="markdown level1 summary"><p>Gets or sets the message.</p>
+  <div class="markdown level1 summary"><p>Gets the messages <a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationMessage.html#Hsm_DataAnalysisService_QueryLanguage_Validation_ValidationMessage_Phrase">Phrase</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Phrase Phrase { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Phrase Phrase { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -209,11 +216,15 @@ but this translation can be overwritten.</p>
     <tbody>
       <tr>
         <td><span class="xref">Hsm.MultiLanguage.Phrase</span></td>
-        <td><p>The message.</p>
+        <td><p>The <a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationMessage.html#Hsm_DataAnalysisService_QueryLanguage_Validation_ValidationMessage_Phrase">Phrase</a>.</p>
 </td>
       </tr>
     </tbody>
   </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Validation.IValidationMessage.html">IValidationMessage</a>
+  </div>
 </article>
           </div>
           
@@ -222,7 +233,7 @@ but this translation can be overwritten.</p>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analysis%20Service/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Validation/ValidationMessage.cs&amp;version=GBmaster&amp;line=9" class="contribution-link">View Source</a>
+                    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analyis%20Service%20-%20Query%20Language/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Validation/ValidationMessage.cs&amp;version=GBfeature/remove-fluid-validation&amp;line=11" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/Git Repositories/HsMDataAnalysisQueryLanguage/DotNet/Hsm.DataAnalysisService.QueryLanguage.Documentation",
+  "source_base_path": "C:/Git Repositories/HsM Data Analysis Service Query Language/DotNet/Hsm.DataAnalysisService.QueryLanguage.Documentation",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -9,58 +9,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.DataSeriesSource.html",
-          "hash": "EKvx9V2eN+7Att2hVhzHzw=="
+          "hash": "8/BY3TRuJ6IkePdkWbh+SQ=="
         }
       },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.FluentValidation.RequestValidator.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.FluentValidation.RequestValidator.html",
-          "hash": "P4FLFfeyy4pBSPk0RULftA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.FluentValidation.TimeSeriesRequestValidator.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.FluentValidation.TimeSeriesRequestValidator.html",
-          "hash": "Yf7yNIZH3zSMrRnHCCuvNg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.FluentValidation.TimespanPartitioningValidator.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.FluentValidation.TimespanPartitioningValidator.html",
-          "hash": "YE4ofqZyrebZ0gEZLioX4Q=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.FluentValidation.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.FluentValidation.html",
-          "hash": "8Up3wdMZPf/fMepUA4ht9Q=="
-        }
-      },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -69,10 +21,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.MinMaxValueFilter.html",
-          "hash": "M6AYbYkcCf2fUJlQbsFkxA=="
+          "hash": "coOhDWGFrjSyVExEzTOltw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -81,10 +33,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.MonthPartitioning.html",
-          "hash": "rs5/STnKWfstWhri/Bj23w=="
+          "hash": "vgiU5/BDZdJpxUxNspsceQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -93,10 +45,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Request.html",
-          "hash": "hxUp1Kvqoeip64bZP+64qw=="
+          "hash": "qt1jX9bqjsLjCNUECqZ7nw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -105,10 +57,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.RequestResult.DataPoint.html",
-          "hash": "+1gVAyw0uWGhMWqYbOoh7g=="
+          "hash": "p1CuIm5FfkcrBf5g0e/I2g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -117,10 +69,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.RequestResult.ProcessingInformation.html",
-          "hash": "+I9o4w88X7cwyQaYzjAhLw=="
+          "hash": "8guMeoB5NS+4QgHa+FmBPQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -129,10 +81,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.RequestResult.Result.html",
-          "hash": "iEpo+SyEeOBGU2CE5VzSzg=="
+          "hash": "zWujxYiedG2McS9AUR58vQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -141,10 +93,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.RequestResult.TimeSeriesResult.html",
-          "hash": "XRyldxcpSRLtLrptKqHGwQ=="
+          "hash": "g5sK1oXaEDinDcu0c+pp+A=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -156,7 +108,7 @@
           "hash": "BfTgR3egKE4UzueArMSXfQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -165,10 +117,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.ResourceAggregationFunction.html",
-          "hash": "S75pGv0OHWLS/ssei/kZ8Q=="
+          "hash": "ZLWW0i1lL0CWuZHWyUoPVQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -177,10 +129,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.SerializationClasses.ITransformable-1.html",
-          "hash": "1iWgd/wleBQrAxOt/wVisQ=="
+          "hash": "v6uE68AFAeyoN8+q9Mg6/A=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -189,10 +141,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.SerializationClasses.MinMaxValueFilterSerialization.html",
-          "hash": "p7J/wIevN2QItFkCYLL1hQ=="
+          "hash": "ITXRNlCQxGjKBh+lt5I95w=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -201,10 +153,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.SerializationClasses.MonthPartitioningSerialization.html",
-          "hash": "U9YIKKeTNn/rVqkbxpR8HQ=="
+          "hash": "Fo7vG2nBi7rzC31mDiv4Pg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -213,10 +165,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.SerializationClasses.RequestSerialization.html",
-          "hash": "bI5d+C3Ze5rtja5zW6BiMw=="
+          "hash": "CI3f3L4fSLXyvQV685YW1g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -225,10 +177,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.SerializationClasses.TimeAggregationSerialization.html",
-          "hash": "Wnf5Tog+l5D7fGfjyD+x1g=="
+          "hash": "y5jtdqZUXlgwLDWEJAv2IA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -237,10 +189,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.SerializationClasses.TimeIntervalSerialization.html",
-          "hash": "ZWYA6zu0zCAe3G1NHHNzfQ=="
+          "hash": "BI3T358vX43FeU9GDBlG3g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -249,10 +201,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.SerializationClasses.TimePartitioningSerialization-1.html",
-          "hash": "3ZVrfpkbyWDhHuycwE8Y/A=="
+          "hash": "jjQgy/PVJctoO634PhMYOA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -261,10 +213,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.SerializationClasses.TimeSeriesRequestSerialization.html",
-          "hash": "a6PNHgHeOm0PhrNVXu3ebg=="
+          "hash": "Npcu7WiEjaQ15HbwSEJaTg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -273,10 +225,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.SerializationClasses.TimeSpanPartitioningSerialization.html",
-          "hash": "mDrAGl19slQMKd5DmYE7ZQ=="
+          "hash": "2xmgvb54SQTuKvNv5zvY7Q=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -285,10 +237,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.SerializationClasses.UnweightedTimeAggregationSerialization.html",
-          "hash": "wri1EtdN6/YBp2p5yvI1ug=="
+          "hash": "AjJe3sV1ymJb6GB3bOftQg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -297,10 +249,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.SerializationClasses.ValueFilterSerialization.html",
-          "hash": "XluApaIWOe18xY86mvjWpA=="
+          "hash": "sAya/hcycgD/dReKgenWeQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -309,10 +261,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.SerializationClasses.WeightedTimeAggregationSerialization.html",
-          "hash": "x7eFVTOZQugN4DSoJYlS6g=="
+          "hash": "lfYcHLBlPV263KLvQRmnPQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -324,7 +276,7 @@
           "hash": "ezs5F2906uKYFUuNi2uVyw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -333,10 +285,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.SerializationTranslation.JsonRequestSerializer.html",
-          "hash": "eXtQI5mkHka0FfptAWCe8g=="
+          "hash": "P4yn9OlouEuu//AFtZpaCQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -345,10 +297,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.SerializationTranslation.RequestSerializer.html",
-          "hash": "oTAWvaJ+Hk7tK8nXVCn+3w=="
+          "hash": "E/mnMg6Dg7LVHW0R73tbeQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -360,7 +312,7 @@
           "hash": "38kUqt8Hc4Ns4ylsCRJ0fw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -369,22 +321,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.TimeAggregation.html",
-          "hash": "/kYuxeInohF+QX8wCy9r7A=="
+          "hash": "CTfNth/vC1DPSs1XHT/dfQ=="
         }
       },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.TimeInterval.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.TimeInterval.html",
-          "hash": "o/ETiyPoa4S8GZ8LW3zLEg=="
-        }
-      },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -393,10 +333,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.TimePartitioning.html",
-          "hash": "z6bqJAXkkkmc+qoWikz4Rw=="
+          "hash": "bzSsjx4MxwEX26SSwXL8SQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -405,10 +345,22 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest.html",
-          "hash": "LtnxTcGA4+lh6OIqNYD+DA=="
+          "hash": "lHJJLuTsC2zPN4KQioV1mg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.TimeSpanPartitioning.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.TimeSpanPartitioning.html",
+          "hash": "5uRFeFd9TUHsdXQo0DyUkA=="
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -417,22 +369,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.TimeWeighting.html",
-          "hash": "SVqsfrKcpH/s0CS2NB2O+Q=="
+          "hash": "xmPT4oP0XbS1jxTWyyOZRQ=="
         }
       },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.TimespanPartitioning.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.TimespanPartitioning.html",
-          "hash": "m8bsNIkUf65utVn+4+OIeA=="
-        }
-      },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -441,10 +381,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.TransmissionMode.html",
-          "hash": "YZfd0b4h/zPH3V0Zcsp5qQ=="
+          "hash": "/CCO/hpanNRFX06ziC9rHw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -453,10 +393,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.UnweightedStatisticFunction.html",
-          "hash": "5voQcdzWjkKQbXVWtg0aPQ=="
+          "hash": "V8npeKcQMof6nmxjvCN3og=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -465,10 +405,94 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.UnweightedTimeAggregation.html",
-          "hash": "C+dsnYSaGznigpwiEryG3g=="
+          "hash": "9TqA37EC5FRludbmnkLAOQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Validation.IValidatable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Validation.IValidatable.html",
+          "hash": "PfIiCrx+Q8y3roP5ArokgQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Validation.IValidationMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Validation.IValidationMessage.html",
+          "hash": "LPexKfQsSx+a+Lw3xSxUGA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Validation.IValidationResultTranslator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Validation.IValidationResultTranslator.html",
+          "hash": "Cx4/86g9A8Tu5bctSQ37/g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationException.html",
+          "hash": "REgGQ2bjnPV9H7cYUzEnqA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationMessage.html",
+          "hash": "M3xg/B4vZ+m4fVQQSMd9kw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationResult.html",
+          "hash": "4PSHMBye7hMEl0ttyC66Vw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Validation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Validation.html",
+          "hash": "et/CAiv1GVWIcBkrNVUs5Q=="
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -477,10 +501,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.ValueFilter.html",
-          "hash": "69s5Xb5yS0WT1tOQHVsQIA=="
+          "hash": "cMrHMtURIcDkgkUFsfUWYQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -489,10 +513,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.WeightedStatisticFunction.html",
-          "hash": "zcAc7MgYwJFcmlPas/WUSw=="
+          "hash": "OAE+XWoh5gxaRZJH5XrW6g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -501,10 +525,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.WeightedTimeAggregation.html",
-          "hash": "vXAp4eMW4d4c/MwCXfcnuA=="
+          "hash": "jLuxYpjjSnxC9Ttg3mm4Bw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -513,10 +537,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.html",
-          "hash": "h0AlJHAaYcQw3aLnCOH4KA=="
+          "hash": "G0Vj4ELDPje0wfBqvrwYgA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -525,10 +549,10 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "PoQJRUh5ECgcTSkcJ+e3Ag=="
+          "hash": "F32p33I40W7Y7sDC7K1w5w=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -537,7 +561,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "NT9YxCAFSlhfPZ2e0gLjKA=="
+          "hash": "inE9Rpz1f3FAicYiiajpEg=="
         }
       },
       "is_incremental": false,
@@ -549,7 +573,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "prhCGx9m+seBk/U46rXCmw=="
+          "hash": "Ynviny8ElD2r8oLjkH1NCg=="
         }
       },
       "is_incremental": true,
@@ -573,10 +597,10 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "ZNhT1M5jW0JaIGSfL5SI+A=="
+          "hash": "ccO3ykquM4aNI6Y/zvUxxg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -610,8 +634,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 43,
-          "skipped_file_count": 43
+          "total_file_count": 45,
+          "skipped_file_count": 25
         },
         "TocDocumentProcessor": {
           "can_incremental": false,

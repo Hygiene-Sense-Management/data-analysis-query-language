@@ -77,20 +77,25 @@
   <div class="markdown level0 remarks"></div>
     <h3 id="classes">Classes
   </h3>
-      <h4><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationMessage.html">ValidationMessage</a></h4>
-      <section><p>Represents validation error.</p>
+      <h4><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationException.html">ValidationException</a></h4>
+      <section><p>This <inheritdoc cref="T:System.Exception"></inheritdoc> is used when throwing a negative validation result.</p>
 </section>
-      <h4><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationMessageTranslator.html">ValidationMessageTranslator</a></h4>
-      <section><p>The <a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationMessageTranslator.html">ValidationMessageTranslator</a> provides a central possibility for translation of validation messages.</p>
+      <h4><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationMessage.html">ValidationMessage</a></h4>
+      <section><p>A validation message.</p>
 </section>
       <h4><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationResult.html">ValidationResult</a></h4>
-      <section><p>Result of Validate method of <see cref="!:IValidateable"></see> interface.</p>
+      <section><p>Result of a validation run produced by objects implementing the <a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Validation.IValidatable.html">IValidatable</a> interface.</p>
 </section>
     <h3 id="interfaces">Interfaces
   </h3>
       <h4><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Validation.IValidatable.html">IValidatable</a></h4>
-      <section><p>This interface is used for language elements that need validation before execution.</p>
+      <section><p>An interfaces for classes that implement validation using the notification pattern (<a href="https://martinfowler.com/articles/replaceThrowWithNotification.html">https://martinfowler.com/articles/replaceThrowWithNotification.html</a>).</p>
 </section>
+      <h4><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Validation.IValidationMessage.html">IValidationMessage</a></h4>
+      <section><p>Interface for validation messages.</p>
+</section>
+      <h4><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Validation.IValidationResultTranslator.html">IValidationResultTranslator</a></h4>
+      <section></section>
 </article>
           </div>
           
