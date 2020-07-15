@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.DataSeriesSource.html",
-          "hash": "8/BY3TRuJ6IkePdkWbh+SQ=="
+          "hash": "jtdVFeX4Ovz/fC5LJg2iSQ=="
         }
       },
       "is_incremental": false,
@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.MinMaxValueFilter.html",
-          "hash": "coOhDWGFrjSyVExEzTOltw=="
+          "hash": "KKQVj8ZRWLOvu9Tr3u/1cw=="
         }
       },
       "is_incremental": false,
@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.MonthPartitioning.html",
-          "hash": "vgiU5/BDZdJpxUxNspsceQ=="
+          "hash": "3YRWTRn3ye3sVh359Df2Rg=="
         }
       },
       "is_incremental": false,
@@ -45,7 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Request.html",
-          "hash": "qt1jX9bqjsLjCNUECqZ7nw=="
+          "hash": "wjunaWKpO7fYuuSp+VrVvw=="
         }
       },
       "is_incremental": false,
@@ -57,10 +57,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.RequestResult.DataPoint.html",
-          "hash": "p1CuIm5FfkcrBf5g0e/I2g=="
+          "hash": "HFN3eWHtU7ELZZRTpc0Ymg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -69,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.RequestResult.ProcessingInformation.html",
-          "hash": "8guMeoB5NS+4QgHa+FmBPQ=="
+          "hash": "/w5aV+EfhozZrvdMKBxKHw=="
         }
       },
       "is_incremental": false,
@@ -81,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.RequestResult.Result.html",
-          "hash": "zWujxYiedG2McS9AUR58vQ=="
+          "hash": "UAyouqVNJtJmzSngemXcuQ=="
         }
       },
       "is_incremental": false,
@@ -93,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.RequestResult.TimeSeriesResult.html",
-          "hash": "g5sK1oXaEDinDcu0c+pp+A=="
+          "hash": "haYw1nd9/XO2xGNsBtxlZg=="
         }
       },
       "is_incremental": false,
@@ -117,10 +117,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.ResourceAggregationFunction.html",
-          "hash": "ZLWW0i1lL0CWuZHWyUoPVQ=="
+          "hash": "fnIIqrfjPQqp800EPvopDg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -129,10 +129,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.SerializationClasses.ITransformable-1.html",
-          "hash": "v6uE68AFAeyoN8+q9Mg6/A=="
+          "hash": "akdgKjwL4nsHcKiNjbLCRg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -141,7 +141,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.SerializationClasses.MinMaxValueFilterSerialization.html",
-          "hash": "ITXRNlCQxGjKBh+lt5I95w=="
+          "hash": "9JIAmP1ycUgiINCZBIvSUw=="
         }
       },
       "is_incremental": false,
@@ -153,7 +153,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.SerializationClasses.MonthPartitioningSerialization.html",
-          "hash": "Fo7vG2nBi7rzC31mDiv4Pg=="
+          "hash": "ByJyBVv9RilZGlKjt9rxfA=="
         }
       },
       "is_incremental": false,
@@ -165,10 +165,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.SerializationClasses.RequestSerialization.html",
-          "hash": "CI3f3L4fSLXyvQV685YW1g=="
+          "hash": "qbtiYkw7JObU+oCnLPTbWQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -177,7 +177,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.SerializationClasses.TimeAggregationSerialization.html",
-          "hash": "y5jtdqZUXlgwLDWEJAv2IA=="
+          "hash": "WvTV3YnSYHYaGpVxh8iA6w=="
         }
       },
       "is_incremental": false,
@@ -189,10 +189,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.SerializationClasses.TimeIntervalSerialization.html",
-          "hash": "BI3T358vX43FeU9GDBlG3g=="
+          "hash": "R1GDW2cYL4XqqRhc7Eu8vA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -201,7 +201,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.SerializationClasses.TimePartitioningSerialization-1.html",
-          "hash": "jjQgy/PVJctoO634PhMYOA=="
+          "hash": "YVPCKQ1bVi3Yq4zIGgcWGQ=="
         }
       },
       "is_incremental": false,
@@ -213,7 +213,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.SerializationClasses.TimeSeriesRequestSerialization.html",
-          "hash": "Npcu7WiEjaQ15HbwSEJaTg=="
+          "hash": "6Mf6p6hQ4SemgtWmkk1DUw=="
         }
       },
       "is_incremental": false,
@@ -225,7 +225,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.SerializationClasses.TimeSpanPartitioningSerialization.html",
-          "hash": "2xmgvb54SQTuKvNv5zvY7Q=="
+          "hash": "/UR2L2Z6jAYNqa6O0fzpHA=="
         }
       },
       "is_incremental": false,
@@ -237,7 +237,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.SerializationClasses.UnweightedTimeAggregationSerialization.html",
-          "hash": "AjJe3sV1ymJb6GB3bOftQg=="
+          "hash": "SgwHEkJ/p1jdkuie73hW/A=="
         }
       },
       "is_incremental": false,
@@ -249,7 +249,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.SerializationClasses.ValueFilterSerialization.html",
-          "hash": "sAya/hcycgD/dReKgenWeQ=="
+          "hash": "/R2YRncm+I7prLz1VfKhpA=="
         }
       },
       "is_incremental": false,
@@ -261,7 +261,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.SerializationClasses.WeightedTimeAggregationSerialization.html",
-          "hash": "lfYcHLBlPV263KLvQRmnPQ=="
+          "hash": "i9RNMsHuhQPErJFzepN2pg=="
         }
       },
       "is_incremental": false,
@@ -285,7 +285,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.SerializationTranslation.JsonRequestSerializer.html",
-          "hash": "P4yn9OlouEuu//AFtZpaCQ=="
+          "hash": "MgRLmXXybk0cu0+u/DFpWg=="
         }
       },
       "is_incremental": false,
@@ -297,7 +297,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.SerializationTranslation.RequestSerializer.html",
-          "hash": "E/mnMg6Dg7LVHW0R73tbeQ=="
+          "hash": "8y+lmddy8FslJjha1hLY6w=="
         }
       },
       "is_incremental": false,
@@ -321,7 +321,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.TimeAggregation.html",
-          "hash": "CTfNth/vC1DPSs1XHT/dfQ=="
+          "hash": "TutAhW9nCVFFjRQ8/1F8/g=="
         }
       },
       "is_incremental": false,
@@ -333,7 +333,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.TimePartitioning.html",
-          "hash": "bzSsjx4MxwEX26SSwXL8SQ=="
+          "hash": "TAHQW9eS33C2TbSvz2cP7g=="
         }
       },
       "is_incremental": false,
@@ -345,7 +345,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest.html",
-          "hash": "lHJJLuTsC2zPN4KQioV1mg=="
+          "hash": "/vvPcT1zeQjia9/kFmKeQA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequestFluentExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequestFluentExtension.html",
+          "hash": "fR6WViza24enbQzbZT9Jjg=="
         }
       },
       "is_incremental": false,
@@ -357,7 +369,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.TimeSpanPartitioning.html",
-          "hash": "5uRFeFd9TUHsdXQo0DyUkA=="
+          "hash": "/buls9J8f9iVWNlgrzwnFQ=="
         }
       },
       "is_incremental": false,
@@ -369,10 +381,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.TimeWeighting.html",
-          "hash": "xmPT4oP0XbS1jxTWyyOZRQ=="
+          "hash": "gNYKVYFQkZdo5XUea1+tzw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -381,10 +393,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.TransmissionMode.html",
-          "hash": "/CCO/hpanNRFX06ziC9rHw=="
+          "hash": "Ux7uDQTaz/hiKLmHPXFAEQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -393,10 +405,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.UnweightedStatisticFunction.html",
-          "hash": "V8npeKcQMof6nmxjvCN3og=="
+          "hash": "LUjlMZqcn4QmEsLHdIFYpg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -405,7 +417,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.UnweightedTimeAggregation.html",
-          "hash": "9TqA37EC5FRludbmnkLAOQ=="
+          "hash": "aCya3mORNA339pnuP61SKw=="
         }
       },
       "is_incremental": false,
@@ -417,10 +429,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Validation.IValidatable.html",
-          "hash": "PfIiCrx+Q8y3roP5ArokgQ=="
+          "hash": "o61Lo80+d6OLOhnPGvMCsg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -429,10 +441,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Validation.IValidationMessage.html",
-          "hash": "LPexKfQsSx+a+Lw3xSxUGA=="
+          "hash": "aWw42Sh72AfW1Pu9xAKK2g=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -441,10 +453,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Validation.IValidationResultTranslator.html",
-          "hash": "Cx4/86g9A8Tu5bctSQ37/g=="
+          "hash": "/9tMMN64dLcxGpFRW2EJhw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -453,7 +465,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationException.html",
-          "hash": "REgGQ2bjnPV9H7cYUzEnqA=="
+          "hash": "cJ2izArjLnQ3SMyH1mgrPg=="
         }
       },
       "is_incremental": false,
@@ -465,7 +477,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationMessage.html",
-          "hash": "M3xg/B4vZ+m4fVQQSMd9kw=="
+          "hash": "7g9hUAfiIlse9A6/pZYPuA=="
         }
       },
       "is_incremental": false,
@@ -477,7 +489,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationResult.html",
-          "hash": "4PSHMBye7hMEl0ttyC66Vw=="
+          "hash": "tcHNXv05vJmmw1KRCluhTA=="
         }
       },
       "is_incremental": false,
@@ -501,7 +513,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.ValueFilter.html",
-          "hash": "cMrHMtURIcDkgkUFsfUWYQ=="
+          "hash": "tzvSQZElTN9Ei8x+Tn/DYg=="
         }
       },
       "is_incremental": false,
@@ -513,10 +525,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.WeightedStatisticFunction.html",
-          "hash": "OAE+XWoh5gxaRZJH5XrW6g=="
+          "hash": "AT3h6SDpOdLMn/+oMsAGYg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -525,7 +537,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.WeightedTimeAggregation.html",
-          "hash": "jLuxYpjjSnxC9Ttg3mm4Bw=="
+          "hash": "Gnr45n0oplaoXV4/uxfDCA=="
         }
       },
       "is_incremental": false,
@@ -537,7 +549,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.html",
-          "hash": "G0Vj4ELDPje0wfBqvrwYgA=="
+          "hash": "MQvMASaFRRIE03cU7U2M9g=="
         }
       },
       "is_incremental": false,
@@ -552,7 +564,7 @@
           "hash": "F32p33I40W7Y7sDC7K1w5w=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -561,7 +573,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "inE9Rpz1f3FAicYiiajpEg=="
+          "hash": "fXSm+ZvtgtINW3h6jjm46w=="
         }
       },
       "is_incremental": false,
@@ -634,8 +646,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 45,
-          "skipped_file_count": 25
+          "total_file_count": 46,
+          "skipped_file_count": 29
         },
         "TocDocumentProcessor": {
           "can_incremental": false,

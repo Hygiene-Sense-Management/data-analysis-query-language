@@ -1149,6 +1149,95 @@ references:
   isSpec: "True"
   fullName: Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest.ValueFilters
   nameWithType: TimeSeriesRequest.ValueFilters
+- uid: Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequestFluentExtension
+  name: TimeSeriesRequestFluentExtension
+  href: api/Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequestFluentExtension.html
+  commentId: T:Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequestFluentExtension
+  fullName: Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequestFluentExtension
+  nameWithType: TimeSeriesRequestFluentExtension
+- uid: Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequestFluentExtension.FilterValues(Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest,Hsm.DataAnalysisService.QueryLanguage.ValueFilter)
+  name: FilterValues(TimeSeriesRequest, ValueFilter)
+  href: api/Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequestFluentExtension.html#Hsm_DataAnalysisService_QueryLanguage_TimeSeriesRequestFluentExtension_FilterValues_Hsm_DataAnalysisService_QueryLanguage_TimeSeriesRequest_Hsm_DataAnalysisService_QueryLanguage_ValueFilter_
+  commentId: M:Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequestFluentExtension.FilterValues(Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest,Hsm.DataAnalysisService.QueryLanguage.ValueFilter)
+  fullName: Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequestFluentExtension.FilterValues(Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest, Hsm.DataAnalysisService.QueryLanguage.ValueFilter)
+  nameWithType: TimeSeriesRequestFluentExtension.FilterValues(TimeSeriesRequest, ValueFilter)
+- uid: Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequestFluentExtension.FilterValues(Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest,System.Collections.Generic.IEnumerable{Hsm.DataAnalysisService.QueryLanguage.ValueFilter})
+  name: FilterValues(TimeSeriesRequest, IEnumerable<ValueFilter>)
+  href: api/Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequestFluentExtension.html#Hsm_DataAnalysisService_QueryLanguage_TimeSeriesRequestFluentExtension_FilterValues_Hsm_DataAnalysisService_QueryLanguage_TimeSeriesRequest_System_Collections_Generic_IEnumerable_Hsm_DataAnalysisService_QueryLanguage_ValueFilter__
+  commentId: M:Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequestFluentExtension.FilterValues(Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest,System.Collections.Generic.IEnumerable{Hsm.DataAnalysisService.QueryLanguage.ValueFilter})
+  name.vb: FilterValues(TimeSeriesRequest, IEnumerable(Of ValueFilter))
+  fullName: Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequestFluentExtension.FilterValues(Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest, System.Collections.Generic.IEnumerable<Hsm.DataAnalysisService.QueryLanguage.ValueFilter>)
+  fullName.vb: Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequestFluentExtension.FilterValues(Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest, System.Collections.Generic.IEnumerable(Of Hsm.DataAnalysisService.QueryLanguage.ValueFilter))
+  nameWithType: TimeSeriesRequestFluentExtension.FilterValues(TimeSeriesRequest, IEnumerable<ValueFilter>)
+  nameWithType.vb: TimeSeriesRequestFluentExtension.FilterValues(TimeSeriesRequest, IEnumerable(Of ValueFilter))
+- uid: Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequestFluentExtension.FilterValues*
+  name: FilterValues
+  href: api/Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequestFluentExtension.html#Hsm_DataAnalysisService_QueryLanguage_TimeSeriesRequestFluentExtension_FilterValues_
+  commentId: Overload:Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequestFluentExtension.FilterValues
+  isSpec: "True"
+  fullName: Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequestFluentExtension.FilterValues
+  nameWithType: TimeSeriesRequestFluentExtension.FilterValues
+- uid: Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequestFluentExtension.QueryFor(Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest,Hsm.DataAnalysisService.QueryLanguage.DataSeriesSource)
+  name: QueryFor(TimeSeriesRequest, DataSeriesSource)
+  href: api/Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequestFluentExtension.html#Hsm_DataAnalysisService_QueryLanguage_TimeSeriesRequestFluentExtension_QueryFor_Hsm_DataAnalysisService_QueryLanguage_TimeSeriesRequest_Hsm_DataAnalysisService_QueryLanguage_DataSeriesSource_
+  commentId: M:Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequestFluentExtension.QueryFor(Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest,Hsm.DataAnalysisService.QueryLanguage.DataSeriesSource)
+  fullName: Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequestFluentExtension.QueryFor(Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest, Hsm.DataAnalysisService.QueryLanguage.DataSeriesSource)
+  nameWithType: TimeSeriesRequestFluentExtension.QueryFor(TimeSeriesRequest, DataSeriesSource)
+- uid: Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequestFluentExtension.QueryFor(Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest,System.Collections.Generic.IEnumerable{Hsm.DataAnalysisService.QueryLanguage.DataSeriesSource})
+  name: QueryFor(TimeSeriesRequest, IEnumerable<DataSeriesSource>)
+  href: api/Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequestFluentExtension.html#Hsm_DataAnalysisService_QueryLanguage_TimeSeriesRequestFluentExtension_QueryFor_Hsm_DataAnalysisService_QueryLanguage_TimeSeriesRequest_System_Collections_Generic_IEnumerable_Hsm_DataAnalysisService_QueryLanguage_DataSeriesSource__
+  commentId: M:Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequestFluentExtension.QueryFor(Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest,System.Collections.Generic.IEnumerable{Hsm.DataAnalysisService.QueryLanguage.DataSeriesSource})
+  name.vb: QueryFor(TimeSeriesRequest, IEnumerable(Of DataSeriesSource))
+  fullName: Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequestFluentExtension.QueryFor(Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest, System.Collections.Generic.IEnumerable<Hsm.DataAnalysisService.QueryLanguage.DataSeriesSource>)
+  fullName.vb: Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequestFluentExtension.QueryFor(Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest, System.Collections.Generic.IEnumerable(Of Hsm.DataAnalysisService.QueryLanguage.DataSeriesSource))
+  nameWithType: TimeSeriesRequestFluentExtension.QueryFor(TimeSeriesRequest, IEnumerable<DataSeriesSource>)
+  nameWithType.vb: TimeSeriesRequestFluentExtension.QueryFor(TimeSeriesRequest, IEnumerable(Of DataSeriesSource))
+- uid: Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequestFluentExtension.QueryFor*
+  name: QueryFor
+  href: api/Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequestFluentExtension.html#Hsm_DataAnalysisService_QueryLanguage_TimeSeriesRequestFluentExtension_QueryFor_
+  commentId: Overload:Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequestFluentExtension.QueryFor
+  isSpec: "True"
+  fullName: Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequestFluentExtension.QueryFor
+  nameWithType: TimeSeriesRequestFluentExtension.QueryFor
+- uid: Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequestFluentExtension.WithResourceAggregation(Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest,Hsm.DataAnalysisService.QueryLanguage.ResourceAggregationFunction)
+  name: WithResourceAggregation(TimeSeriesRequest, ResourceAggregationFunction)
+  href: api/Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequestFluentExtension.html#Hsm_DataAnalysisService_QueryLanguage_TimeSeriesRequestFluentExtension_WithResourceAggregation_Hsm_DataAnalysisService_QueryLanguage_TimeSeriesRequest_Hsm_DataAnalysisService_QueryLanguage_ResourceAggregationFunction_
+  commentId: M:Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequestFluentExtension.WithResourceAggregation(Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest,Hsm.DataAnalysisService.QueryLanguage.ResourceAggregationFunction)
+  fullName: Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequestFluentExtension.WithResourceAggregation(Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest, Hsm.DataAnalysisService.QueryLanguage.ResourceAggregationFunction)
+  nameWithType: TimeSeriesRequestFluentExtension.WithResourceAggregation(TimeSeriesRequest, ResourceAggregationFunction)
+- uid: Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequestFluentExtension.WithResourceAggregation*
+  name: WithResourceAggregation
+  href: api/Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequestFluentExtension.html#Hsm_DataAnalysisService_QueryLanguage_TimeSeriesRequestFluentExtension_WithResourceAggregation_
+  commentId: Overload:Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequestFluentExtension.WithResourceAggregation
+  isSpec: "True"
+  fullName: Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequestFluentExtension.WithResourceAggregation
+  nameWithType: TimeSeriesRequestFluentExtension.WithResourceAggregation
+- uid: Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequestFluentExtension.WithTimeAggregation(Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest,Hsm.DataAnalysisService.QueryLanguage.TimeAggregation)
+  name: WithTimeAggregation(TimeSeriesRequest, TimeAggregation)
+  href: api/Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequestFluentExtension.html#Hsm_DataAnalysisService_QueryLanguage_TimeSeriesRequestFluentExtension_WithTimeAggregation_Hsm_DataAnalysisService_QueryLanguage_TimeSeriesRequest_Hsm_DataAnalysisService_QueryLanguage_TimeAggregation_
+  commentId: M:Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequestFluentExtension.WithTimeAggregation(Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest,Hsm.DataAnalysisService.QueryLanguage.TimeAggregation)
+  fullName: Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequestFluentExtension.WithTimeAggregation(Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest, Hsm.DataAnalysisService.QueryLanguage.TimeAggregation)
+  nameWithType: TimeSeriesRequestFluentExtension.WithTimeAggregation(TimeSeriesRequest, TimeAggregation)
+- uid: Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequestFluentExtension.WithTimeAggregation*
+  name: WithTimeAggregation
+  href: api/Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequestFluentExtension.html#Hsm_DataAnalysisService_QueryLanguage_TimeSeriesRequestFluentExtension_WithTimeAggregation_
+  commentId: Overload:Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequestFluentExtension.WithTimeAggregation
+  isSpec: "True"
+  fullName: Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequestFluentExtension.WithTimeAggregation
+  nameWithType: TimeSeriesRequestFluentExtension.WithTimeAggregation
+- uid: Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequestFluentExtension.WithTimePartitioning(Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest,Hsm.DataAnalysisService.QueryLanguage.TimePartitioning)
+  name: WithTimePartitioning(TimeSeriesRequest, TimePartitioning)
+  href: api/Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequestFluentExtension.html#Hsm_DataAnalysisService_QueryLanguage_TimeSeriesRequestFluentExtension_WithTimePartitioning_Hsm_DataAnalysisService_QueryLanguage_TimeSeriesRequest_Hsm_DataAnalysisService_QueryLanguage_TimePartitioning_
+  commentId: M:Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequestFluentExtension.WithTimePartitioning(Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest,Hsm.DataAnalysisService.QueryLanguage.TimePartitioning)
+  fullName: Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequestFluentExtension.WithTimePartitioning(Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest, Hsm.DataAnalysisService.QueryLanguage.TimePartitioning)
+  nameWithType: TimeSeriesRequestFluentExtension.WithTimePartitioning(TimeSeriesRequest, TimePartitioning)
+- uid: Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequestFluentExtension.WithTimePartitioning*
+  name: WithTimePartitioning
+  href: api/Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequestFluentExtension.html#Hsm_DataAnalysisService_QueryLanguage_TimeSeriesRequestFluentExtension_WithTimePartitioning_
+  commentId: Overload:Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequestFluentExtension.WithTimePartitioning
+  isSpec: "True"
+  fullName: Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequestFluentExtension.WithTimePartitioning
+  nameWithType: TimeSeriesRequestFluentExtension.WithTimePartitioning
 - uid: Hsm.DataAnalysisService.QueryLanguage.TimeSpanPartitioning
   name: TimeSpanPartitioning
   href: api/Hsm.DataAnalysisService.QueryLanguage.TimeSpanPartitioning.html
@@ -1404,6 +1493,50 @@ references:
   commentId: T:Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationException
   fullName: Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationException
   nameWithType: ValidationException
+- uid: Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationException.#ctor
+  name: ValidationException()
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationException.html#Hsm_DataAnalysisService_QueryLanguage_Validation_ValidationException__ctor
+  commentId: M:Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationException.#ctor
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationException.ValidationException()
+  nameWithType: ValidationException.ValidationException()
+- uid: Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationException.#ctor(System.String)
+  name: ValidationException(String)
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationException.html#Hsm_DataAnalysisService_QueryLanguage_Validation_ValidationException__ctor_System_String_
+  commentId: M:Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationException.#ctor(System.String)
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationException.ValidationException(System.String)
+  nameWithType: ValidationException.ValidationException(String)
+- uid: Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationException.#ctor(System.String,Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationResult)
+  name: ValidationException(String, ValidationResult)
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationException.html#Hsm_DataAnalysisService_QueryLanguage_Validation_ValidationException__ctor_System_String_Hsm_DataAnalysisService_QueryLanguage_Validation_ValidationResult_
+  commentId: M:Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationException.#ctor(System.String,Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationResult)
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationException.ValidationException(System.String, Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationResult)
+  nameWithType: ValidationException.ValidationException(String, ValidationResult)
+- uid: Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationException.#ctor(System.String,System.Exception)
+  name: ValidationException(String, Exception)
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationException.html#Hsm_DataAnalysisService_QueryLanguage_Validation_ValidationException__ctor_System_String_System_Exception_
+  commentId: M:Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationException.#ctor(System.String,System.Exception)
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationException.ValidationException(System.String, System.Exception)
+  nameWithType: ValidationException.ValidationException(String, Exception)
+- uid: Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationException.#ctor*
+  name: ValidationException
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationException.html#Hsm_DataAnalysisService_QueryLanguage_Validation_ValidationException__ctor_
+  commentId: Overload:Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationException.#ctor
+  isSpec: "True"
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationException.ValidationException
+  nameWithType: ValidationException.ValidationException
+- uid: Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationException.ValidationResult
+  name: ValidationResult
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationException.html#Hsm_DataAnalysisService_QueryLanguage_Validation_ValidationException_ValidationResult
+  commentId: P:Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationException.ValidationResult
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationException.ValidationResult
+  nameWithType: ValidationException.ValidationResult
+- uid: Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationException.ValidationResult*
+  name: ValidationResult
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationException.html#Hsm_DataAnalysisService_QueryLanguage_Validation_ValidationException_ValidationResult_
+  commentId: Overload:Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationException.ValidationResult
+  isSpec: "True"
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationException.ValidationResult
+  nameWithType: ValidationException.ValidationResult
 - uid: Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationMessage
   name: ValidationMessage
   href: api/Hsm.DataAnalysisService.QueryLanguage.Validation.ValidationMessage.html
