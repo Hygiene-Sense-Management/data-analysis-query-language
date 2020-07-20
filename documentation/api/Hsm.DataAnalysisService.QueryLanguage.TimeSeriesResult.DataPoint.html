@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class MinMaxValueFilter
+    <title>Class DataPoint
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class MinMaxValueFilter
+    <meta name="title" content="Class DataPoint
    ">
     <meta name="generator" content="docfx 2.56.0.0">
     
@@ -68,24 +68,29 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Hsm.DataAnalysisService.QueryLanguage.MinMaxValueFilter">
+            <article class="content wrap" id="_content" data-uid="Hsm.DataAnalysisService.QueryLanguage.TimeSeriesResult.DataPoint">
   
   
-  <h1 id="Hsm_DataAnalysisService_QueryLanguage_MinMaxValueFilter" data-uid="Hsm.DataAnalysisService.QueryLanguage.MinMaxValueFilter" class="text-break">Class MinMaxValueFilter
+  <h1 id="Hsm_DataAnalysisService_QueryLanguage_TimeSeriesResult_DataPoint" data-uid="Hsm.DataAnalysisService.QueryLanguage.TimeSeriesResult.DataPoint" class="text-break">Class DataPoint
   </h1>
-  <div class="markdown level0 summary"><p>A <a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.ValueFilter.html">ValueFilter</a> for a simple upper and lower threshold value filtering.</p>
+  <div class="markdown level0 summary"><p>A DataPoint is a tuple. It is defined by it's two elements: UtcTimeStamp and Value.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.ValueFilter.html">ValueFilter</a></div>
-    <div class="level2"><span class="xref">MinMaxValueFilter</span></div>
+    <div class="level1"><span class="xref">DataPoint</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
       <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
     </div>
     <div>
       <span class="xref">System.Object.GetType()</span>
@@ -100,27 +105,27 @@
       <span class="xref">System.Object.ToString()</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.html">Hsm.DataAnalysisService.QueryLanguage</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.TimeSeriesResult.html">Hsm.DataAnalysisService.QueryLanguage.TimeSeriesResult</a></h6>
   <h6><strong>Assembly</strong>: Hsm.DataAnalysisService.QueryLanguage.dll</h6>
-  <h5 id="Hsm_DataAnalysisService_QueryLanguage_MinMaxValueFilter_syntax">Syntax</h5>
+  <h5 id="Hsm_DataAnalysisService_QueryLanguage_TimeSeriesResult_DataPoint_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class MinMaxValueFilter : ValueFilter</code></pre>
+    <pre><code class="lang-csharp hljs">public class DataPoint</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analyis%20Service%20-%20Query%20Language/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/MinMaxValueFilter.cs&amp;version=GBfeature/namespaces_and_class_naming&amp;line=17">View Source</a>
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analyis%20Service%20-%20Query%20Language/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/TimeSeriesResult/DataPoint.cs&amp;version=GBfeature/namespaces_and_class_naming&amp;line=17">View Source</a>
   </span>
-  <a id="Hsm_DataAnalysisService_QueryLanguage_MinMaxValueFilter__ctor_" data-uid="Hsm.DataAnalysisService.QueryLanguage.MinMaxValueFilter.#ctor*"></a>
-  <h4 id="Hsm_DataAnalysisService_QueryLanguage_MinMaxValueFilter__ctor_Hsm_BaseTypes_Intervals_DoubleInterval_" data-uid="Hsm.DataAnalysisService.QueryLanguage.MinMaxValueFilter.#ctor(Hsm.BaseTypes.Intervals.DoubleInterval)">MinMaxValueFilter(DoubleInterval)</h4>
-  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.MinMaxValueFilter.html">MinMaxValueFilter</a> class.
-It defines a closed interval by given minimum and maximum value.</p>
+  <a id="Hsm_DataAnalysisService_QueryLanguage_TimeSeriesResult_DataPoint__ctor_" data-uid="Hsm.DataAnalysisService.QueryLanguage.TimeSeriesResult.DataPoint.#ctor*"></a>
+  <h4 id="Hsm_DataAnalysisService_QueryLanguage_TimeSeriesResult_DataPoint__ctor_System_DateTime_System_Double_Hsm_DataAnalysisService_QueryLanguage_TransmissionMode_" data-uid="Hsm.DataAnalysisService.QueryLanguage.TimeSeriesResult.DataPoint.#ctor(System.DateTime,System.Double,Hsm.DataAnalysisService.QueryLanguage.TransmissionMode)">DataPoint(DateTime, Double, TransmissionMode)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.TimeSeriesResult.DataPoint.html">DataPoint</a> class.
+A DataPoint is a 2-tuple. It is defined by it's two elements: UtcTimeStamp and Value.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public MinMaxValueFilter(DoubleInterval doubleInterval)</code></pre>
+    <pre><code class="lang-csharp hljs">public DataPoint(DateTime utcTimeStamp, double value, TransmissionMode transmissionMode)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -133,9 +138,21 @@ It defines a closed interval by given minimum and maximum value.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Hsm.BaseTypes.Intervals.DoubleInterval</span></td>
-        <td><span class="parametername">doubleInterval</span></td>
-        <td><p>The <a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.MinMaxValueFilter.html#Hsm_DataAnalysisService_QueryLanguage_MinMaxValueFilter_DoubleInterval">DoubleInterval</a> defining the filter boundaries.</p>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">utcTimeStamp</span></td>
+        <td><p>The UtcTimeStamp of this data point.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The Value of this data point.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.TransmissionMode.html">TransmissionMode</a></td>
+        <td><span class="parametername">transmissionMode</span></td>
+        <td><p>The transmission mode used for this sample.</p>
 </td>
       </tr>
     </tbody>
@@ -144,16 +161,16 @@ It defines a closed interval by given minimum and maximum value.</p>
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analyis%20Service%20-%20Query%20Language/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/MinMaxValueFilter.cs&amp;version=GBfeature/namespaces_and_class_naming&amp;line=25">View Source</a>
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analyis%20Service%20-%20Query%20Language/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/TimeSeriesResult/DataPoint.cs&amp;version=GBfeature/namespaces_and_class_naming&amp;line=27">View Source</a>
   </span>
-  <a id="Hsm_DataAnalysisService_QueryLanguage_MinMaxValueFilter_DoubleInterval_" data-uid="Hsm.DataAnalysisService.QueryLanguage.MinMaxValueFilter.DoubleInterval*"></a>
-  <h4 id="Hsm_DataAnalysisService_QueryLanguage_MinMaxValueFilter_DoubleInterval" data-uid="Hsm.DataAnalysisService.QueryLanguage.MinMaxValueFilter.DoubleInterval">DoubleInterval</h4>
-  <div class="markdown level1 summary"><p>Gets the minimum value of the Interval.</p>
+  <a id="Hsm_DataAnalysisService_QueryLanguage_TimeSeriesResult_DataPoint_TransmissionMode_" data-uid="Hsm.DataAnalysisService.QueryLanguage.TimeSeriesResult.DataPoint.TransmissionMode*"></a>
+  <h4 id="Hsm_DataAnalysisService_QueryLanguage_TimeSeriesResult_DataPoint_TransmissionMode" data-uid="Hsm.DataAnalysisService.QueryLanguage.TimeSeriesResult.DataPoint.TransmissionMode">TransmissionMode</h4>
+  <div class="markdown level1 summary"><p>Gets the TransmissionMode.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DoubleInterval DoubleInterval { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public TransmissionMode TransmissionMode { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -165,43 +182,25 @@ It defines a closed interval by given minimum and maximum value.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Hsm.BaseTypes.Intervals.DoubleInterval</span></td>
+        <td><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.TransmissionMode.html">TransmissionMode</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h3 id="methods">Methods
-  </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analyis%20Service%20-%20Query%20Language/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/MinMaxValueFilter.cs&amp;version=GBfeature/namespaces_and_class_naming&amp;line=28">View Source</a>
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analyis%20Service%20-%20Query%20Language/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/TimeSeriesResult/DataPoint.cs&amp;version=GBfeature/namespaces_and_class_naming&amp;line=35">View Source</a>
   </span>
-  <a id="Hsm_DataAnalysisService_QueryLanguage_MinMaxValueFilter_Equals_" data-uid="Hsm.DataAnalysisService.QueryLanguage.MinMaxValueFilter.Equals*"></a>
-  <h4 id="Hsm_DataAnalysisService_QueryLanguage_MinMaxValueFilter_Equals_System_Object_" data-uid="Hsm.DataAnalysisService.QueryLanguage.MinMaxValueFilter.Equals(System.Object)">Equals(Object)</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="Hsm_DataAnalysisService_QueryLanguage_TimeSeriesResult_DataPoint_UtcTimeStamp_" data-uid="Hsm.DataAnalysisService.QueryLanguage.TimeSeriesResult.DataPoint.UtcTimeStamp*"></a>
+  <h4 id="Hsm_DataAnalysisService_QueryLanguage_TimeSeriesResult_DataPoint_UtcTimeStamp" data-uid="Hsm.DataAnalysisService.QueryLanguage.TimeSeriesResult.DataPoint.UtcTimeStamp">UtcTimeStamp</h4>
+  <div class="markdown level1 summary"><p>Gets the time stamp of this <a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.TimeSeriesResult.DataPoint.html">DataPoint</a>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override bool Equals(object obj)</code></pre>
+    <pre><code class="lang-csharp hljs">public DateTime UtcTimeStamp { get; }</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Object</span></td>
-        <td><span class="parametername">obj</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -211,26 +210,25 @@ It defines a closed interval by given minimum and maximum value.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="xref">System.DateTime</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.ValueFilter.html#Hsm_DataAnalysisService_QueryLanguage_ValueFilter_Equals_System_Object_">ValueFilter.Equals(Object)</a></div>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analyis%20Service%20-%20Query%20Language/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/MinMaxValueFilter.cs&amp;version=GBfeature/namespaces_and_class_naming&amp;line=45">View Source</a>
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analyis%20Service%20-%20Query%20Language/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/TimeSeriesResult/DataPoint.cs&amp;version=GBfeature/namespaces_and_class_naming&amp;line=43">View Source</a>
   </span>
-  <a id="Hsm_DataAnalysisService_QueryLanguage_MinMaxValueFilter_GetHashCode_" data-uid="Hsm.DataAnalysisService.QueryLanguage.MinMaxValueFilter.GetHashCode*"></a>
-  <h4 id="Hsm_DataAnalysisService_QueryLanguage_MinMaxValueFilter_GetHashCode" data-uid="Hsm.DataAnalysisService.QueryLanguage.MinMaxValueFilter.GetHashCode">GetHashCode()</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="Hsm_DataAnalysisService_QueryLanguage_TimeSeriesResult_DataPoint_Value_" data-uid="Hsm.DataAnalysisService.QueryLanguage.TimeSeriesResult.DataPoint.Value*"></a>
+  <h4 id="Hsm_DataAnalysisService_QueryLanguage_TimeSeriesResult_DataPoint_Value" data-uid="Hsm.DataAnalysisService.QueryLanguage.TimeSeriesResult.DataPoint.Value">Value</h4>
+  <div class="markdown level1 summary"><p>Gets the Value of a <a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.TimeSeriesResult.DataPoint.html">DataPoint</a>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+    <pre><code class="lang-csharp hljs">public double Value { get; }</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -240,13 +238,11 @@ It defines a closed interval by given minimum and maximum value.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
+        <td><span class="xref">System.Double</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.ValueFilter.html#Hsm_DataAnalysisService_QueryLanguage_ValueFilter_GetHashCode">ValueFilter.GetHashCode()</a></div>
 </article>
           </div>
           
@@ -255,7 +251,7 @@ It defines a closed interval by given minimum and maximum value.</p>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analyis%20Service%20-%20Query%20Language/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/MinMaxValueFilter.cs&amp;version=GBfeature/namespaces_and_class_naming&amp;line=10" class="contribution-link">View Source</a>
+                    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analyis%20Service%20-%20Query%20Language/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/TimeSeriesResult/DataPoint.cs&amp;version=GBfeature/namespaces_and_class_naming&amp;line=8" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
