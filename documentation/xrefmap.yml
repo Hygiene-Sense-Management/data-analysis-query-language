@@ -122,19 +122,6 @@ references:
   isSpec: "True"
   fullName: Hsm.DataAnalysisService.QueryLanguage.Request.MinMaxValueFilter.MinMaxValueFilter
   nameWithType: MinMaxValueFilter.MinMaxValueFilter
-- uid: Hsm.DataAnalysisService.QueryLanguage.Request.MinMaxValueFilter.DoubleInterval
-  name: DoubleInterval
-  href: api/Hsm.DataAnalysisService.QueryLanguage.Request.MinMaxValueFilter.html#Hsm_DataAnalysisService_QueryLanguage_Request_MinMaxValueFilter_DoubleInterval
-  commentId: P:Hsm.DataAnalysisService.QueryLanguage.Request.MinMaxValueFilter.DoubleInterval
-  fullName: Hsm.DataAnalysisService.QueryLanguage.Request.MinMaxValueFilter.DoubleInterval
-  nameWithType: MinMaxValueFilter.DoubleInterval
-- uid: Hsm.DataAnalysisService.QueryLanguage.Request.MinMaxValueFilter.DoubleInterval*
-  name: DoubleInterval
-  href: api/Hsm.DataAnalysisService.QueryLanguage.Request.MinMaxValueFilter.html#Hsm_DataAnalysisService_QueryLanguage_Request_MinMaxValueFilter_DoubleInterval_
-  commentId: Overload:Hsm.DataAnalysisService.QueryLanguage.Request.MinMaxValueFilter.DoubleInterval
-  isSpec: "True"
-  fullName: Hsm.DataAnalysisService.QueryLanguage.Request.MinMaxValueFilter.DoubleInterval
-  nameWithType: MinMaxValueFilter.DoubleInterval
 - uid: Hsm.DataAnalysisService.QueryLanguage.Request.MinMaxValueFilter.Equals(System.Object)
   name: Equals(Object)
   href: api/Hsm.DataAnalysisService.QueryLanguage.Request.MinMaxValueFilter.html#Hsm_DataAnalysisService_QueryLanguage_Request_MinMaxValueFilter_Equals_System_Object_
@@ -148,6 +135,19 @@ references:
   isSpec: "True"
   fullName: Hsm.DataAnalysisService.QueryLanguage.Request.MinMaxValueFilter.Equals
   nameWithType: MinMaxValueFilter.Equals
+- uid: Hsm.DataAnalysisService.QueryLanguage.Request.MinMaxValueFilter.FilterInterval
+  name: FilterInterval
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Request.MinMaxValueFilter.html#Hsm_DataAnalysisService_QueryLanguage_Request_MinMaxValueFilter_FilterInterval
+  commentId: P:Hsm.DataAnalysisService.QueryLanguage.Request.MinMaxValueFilter.FilterInterval
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Request.MinMaxValueFilter.FilterInterval
+  nameWithType: MinMaxValueFilter.FilterInterval
+- uid: Hsm.DataAnalysisService.QueryLanguage.Request.MinMaxValueFilter.FilterInterval*
+  name: FilterInterval
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Request.MinMaxValueFilter.html#Hsm_DataAnalysisService_QueryLanguage_Request_MinMaxValueFilter_FilterInterval_
+  commentId: Overload:Hsm.DataAnalysisService.QueryLanguage.Request.MinMaxValueFilter.FilterInterval
+  isSpec: "True"
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Request.MinMaxValueFilter.FilterInterval
+  nameWithType: MinMaxValueFilter.FilterInterval
 - uid: Hsm.DataAnalysisService.QueryLanguage.Request.MinMaxValueFilter.GetHashCode
   name: GetHashCode()
   href: api/Hsm.DataAnalysisService.QueryLanguage.Request.MinMaxValueFilter.html#Hsm_DataAnalysisService_QueryLanguage_Request_MinMaxValueFilter_GetHashCode
@@ -554,11 +554,11 @@ references:
   isSpec: "True"
   fullName: Hsm.DataAnalysisService.QueryLanguage.Request.TimeSpanPartitioning.TimeSpanPartitioning
   nameWithType: TimeSpanPartitioning.TimeSpanPartitioning
-- uid: Hsm.DataAnalysisService.QueryLanguage.Request.TimeSpanPartitioning.GetPartitions(DateTimeOffsetInterval)
+- uid: Hsm.DataAnalysisService.QueryLanguage.Request.TimeSpanPartitioning.GetPartitions(Hsm.BaseTypes.DateTimeOffsetInterval)
   name: GetPartitions(DateTimeOffsetInterval)
-  href: api/Hsm.DataAnalysisService.QueryLanguage.Request.TimeSpanPartitioning.html#Hsm_DataAnalysisService_QueryLanguage_Request_TimeSpanPartitioning_GetPartitions_DateTimeOffsetInterval_
-  commentId: M:Hsm.DataAnalysisService.QueryLanguage.Request.TimeSpanPartitioning.GetPartitions(DateTimeOffsetInterval)
-  fullName: Hsm.DataAnalysisService.QueryLanguage.Request.TimeSpanPartitioning.GetPartitions(DateTimeOffsetInterval)
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Request.TimeSpanPartitioning.html#Hsm_DataAnalysisService_QueryLanguage_Request_TimeSpanPartitioning_GetPartitions_Hsm_BaseTypes_DateTimeOffsetInterval_
+  commentId: M:Hsm.DataAnalysisService.QueryLanguage.Request.TimeSpanPartitioning.GetPartitions(Hsm.BaseTypes.DateTimeOffsetInterval)
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Request.TimeSpanPartitioning.GetPartitions(Hsm.BaseTypes.DateTimeOffsetInterval)
   nameWithType: TimeSpanPartitioning.GetPartitions(DateTimeOffsetInterval)
 - uid: Hsm.DataAnalysisService.QueryLanguage.Request.TimeSpanPartitioning.GetPartitions*
   name: GetPartitions
