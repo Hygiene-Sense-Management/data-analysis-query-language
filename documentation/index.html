@@ -76,11 +76,11 @@ Currently following types are supported:</p>
 </ul>
 <h3 id="timeseriesrequest">TimeSeriesRequest</h3>
 <p>The result of a @&quot;Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest.TimeSeriesRequest&quot; is always a single
-@&quot;Hsm.DataAnalysisService.QueryLanguage.TimeSeriesResult.TimeSeriesResult&quot; and therefore always a single series
-of time- value data. A @&quot;Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest.TimeSeriesRequest&quot; will always
+@&quot;Hsm.DataAnalysisService.QueryLanguage.TimeSeriesResult.TimeSeriesResult&quot; and therefore one or more series
+of time-value data. A @&quot;Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest.TimeSeriesRequest&quot; will always
 only evaluate data within the defined DateInterval of the @&quot;Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest.TimeSeriesRequest&quot;.</p>
-<p>A @&quot;Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest&quot; requests data for resource instance values in one or more embedded systems. It will however always aggregate
-the data so that the result of the request will always be a single time series.</p>
+<p>A @&quot;Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest&quot; requests data for resource instance values in one or
+more embedded systems. It will however always aggregate the data so that the result of the request will always be a single time series.</p>
 <h4 id="analysis-date-interval">Analysis date interval</h4>
 <p>A @&quot;Hsm.DataAnalysisService.QueryLanguage.TimeSeriesRequest.TimeSeriesRequest&quot; always requests data for a given
 date interval, i.e. only raw data within the specified date-interval will be processed. Note that the data interval

@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class WeightedTimeAggregationSerialization
+    <title>Class TimeSeriesRequestDto
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class WeightedTimeAggregationSerialization
+    <meta name="title" content="Class TimeSeriesRequestDto
    ">
     <meta name="generator" content="docfx 2.56.0.0">
     
@@ -68,19 +68,19 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.WeightedTimeAggregationSerialization">
+            <article class="content wrap" id="_content" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.TimeSeriesRequestDto">
   
   
-  <h1 id="Hsm_DataAnalysisService_QueryLanguage_Serialization_WeightedTimeAggregationSerialization" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.WeightedTimeAggregationSerialization" class="text-break">Class WeightedTimeAggregationSerialization
+  <h1 id="Hsm_DataAnalysisService_QueryLanguage_Serialization_TimeSeriesRequestDto" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.TimeSeriesRequestDto" class="text-break">Class TimeSeriesRequestDto
   </h1>
-  <div class="markdown level0 summary"><p>Specifies a method to aggregate resource interval values over time using a weighted statistical function.</p>
+  <div class="markdown level0 summary"><p>A time series request queries the data repository for a single ordered collection of time-value tuples,
+usually used in time-value charts or tabular presentations.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Serialization.TimeAggregationSerialization.html">TimeAggregationSerialization</a></div>
-    <div class="level2"><span class="xref">WeightedTimeAggregationSerialization</span></div>
+    <div class="level1"><span class="xref">TimeSeriesRequestDto</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -108,28 +108,24 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Serialization.html">Hsm.DataAnalysisService.QueryLanguage.Serialization</a></h6>
   <h6><strong>Assembly</strong>: Hsm.DataAnalysisService.QueryLanguage.dll</h6>
-  <h5 id="Hsm_DataAnalysisService_QueryLanguage_Serialization_WeightedTimeAggregationSerialization_syntax">Syntax</h5>
+  <h5 id="Hsm_DataAnalysisService_QueryLanguage_Serialization_TimeSeriesRequestDto_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class WeightedTimeAggregationSerialization : TimeAggregationSerialization</code></pre>
+    <pre><code class="lang-csharp hljs">public class TimeSeriesRequestDto</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
   
   <span class="small pull-right mobile-hide">
-<<<<<<< HEAD
-    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analyis%20Service%20-%20Query%20Language/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Serialization/TimeSeries/WeightedTimeAggregationSerialization.cs&amp;version=GBmaster&amp;line=19">View Source</a>
-=======
-    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analyis%20Service%20-%20Query%20Language/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Serialization/WeightedTimeAggregationSerialization.cs&amp;version=GBmaster&amp;line=19">View Source</a>
->>>>>>> 16a857c71afa6fd342d594c477a414bfdd9415d2
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analyis%20Service%20-%20Query%20Language/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Serialization/TimeSeries/TimeSeriesRequestDto.cs&amp;version=GBmaster&amp;line=14">View Source</a>
   </span>
-  <a id="Hsm_DataAnalysisService_QueryLanguage_Serialization_WeightedTimeAggregationSerialization_TimeWeighting_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.WeightedTimeAggregationSerialization.TimeWeighting*"></a>
-  <h4 id="Hsm_DataAnalysisService_QueryLanguage_Serialization_WeightedTimeAggregationSerialization_TimeWeighting" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.WeightedTimeAggregationSerialization.TimeWeighting">TimeWeighting</h4>
-  <div class="markdown level1 summary"><p>Gets or sets the time weighting to apply.</p>
+  <a id="Hsm_DataAnalysisService_QueryLanguage_Serialization_TimeSeriesRequestDto_AnalysisDateInterval_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.TimeSeriesRequestDto.AnalysisDateInterval*"></a>
+  <h4 id="Hsm_DataAnalysisService_QueryLanguage_Serialization_TimeSeriesRequestDto_AnalysisDateInterval" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.TimeSeriesRequestDto.AnalysisDateInterval">AnalysisDateInterval</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the analysis date interval.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TimeWeighting TimeWeighting { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public DateTimeOffsetIntervalDto AnalysisDateInterval { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -141,27 +137,25 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Request.TimeWeighting.html">TimeWeighting</a></td>
+        <td><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Serialization.DateTimeOffsetIntervalDto.html">DateTimeOffsetIntervalDto</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   <span class="small pull-right mobile-hide">
-<<<<<<< HEAD
-    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analyis%20Service%20-%20Query%20Language/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Serialization/TimeSeries/WeightedTimeAggregationSerialization.cs&amp;version=GBmaster&amp;line=13">View Source</a>
-=======
-    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analyis%20Service%20-%20Query%20Language/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Serialization/WeightedTimeAggregationSerialization.cs&amp;version=GBmaster&amp;line=13">View Source</a>
->>>>>>> 16a857c71afa6fd342d594c477a414bfdd9415d2
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analyis%20Service%20-%20Query%20Language/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Serialization/TimeSeries/TimeSeriesRequestDto.cs&amp;version=GBmaster&amp;line=21">View Source</a>
   </span>
-  <a id="Hsm_DataAnalysisService_QueryLanguage_Serialization_WeightedTimeAggregationSerialization_WeightedStatisticFunction_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.WeightedTimeAggregationSerialization.WeightedStatisticFunction*"></a>
-  <h4 id="Hsm_DataAnalysisService_QueryLanguage_Serialization_WeightedTimeAggregationSerialization_WeightedStatisticFunction" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.WeightedTimeAggregationSerialization.WeightedStatisticFunction">WeightedStatisticFunction</h4>
-  <div class="markdown level1 summary"><p>Gets or sets the function to apply.</p>
+  <a id="Hsm_DataAnalysisService_QueryLanguage_Serialization_TimeSeriesRequestDto_ValueFilters_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.TimeSeriesRequestDto.ValueFilters*"></a>
+  <h4 id="Hsm_DataAnalysisService_QueryLanguage_Serialization_TimeSeriesRequestDto_ValueFilters" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.TimeSeriesRequestDto.ValueFilters">ValueFilters</h4>
+  <div class="markdown level1 summary"><p>Gets the value filters for this request. Only resource instance values that fulfill any of these filters
+will be included in the analysis results (i.e. value filters will be combined using OR).
+If the list is empty no filtering will be applied.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public WeightedStatisticFunction WeightedStatisticFunction { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public List&lt;ValueFilterDto&gt; ValueFilters { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -173,7 +167,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Request.WeightedStatisticFunction.html">WeightedStatisticFunction</a></td>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Serialization.ValueFilterDto.html">ValueFilterDto</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -186,11 +180,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-<<<<<<< HEAD
-                    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analyis%20Service%20-%20Query%20Language/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Serialization/TimeSeries/WeightedTimeAggregationSerialization.cs&amp;version=GBmaster&amp;line=8" class="contribution-link">View Source</a>
-=======
-                    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analyis%20Service%20-%20Query%20Language/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Serialization/WeightedTimeAggregationSerialization.cs&amp;version=GBmaster&amp;line=8" class="contribution-link">View Source</a>
->>>>>>> 16a857c71afa6fd342d594c477a414bfdd9415d2
+                    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analyis%20Service%20-%20Query%20Language/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Serialization/TimeSeries/TimeSeriesRequestDto.cs&amp;version=GBmaster&amp;line=9" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
