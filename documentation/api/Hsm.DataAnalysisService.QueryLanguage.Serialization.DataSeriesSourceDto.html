@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class MinMaxValueFilterDto
+    <title>Class DataSeriesSourceDto
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class MinMaxValueFilterDto
+    <meta name="title" content="Class DataSeriesSourceDto
    ">
     <meta name="generator" content="docfx 2.56.0.0">
     
@@ -68,19 +68,18 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.MinMaxValueFilterDto">
+            <article class="content wrap" id="_content" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.DataSeriesSourceDto">
   
   
-  <h1 id="Hsm_DataAnalysisService_QueryLanguage_Serialization_MinMaxValueFilterDto" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.MinMaxValueFilterDto" class="text-break">Class MinMaxValueFilterDto
+  <h1 id="Hsm_DataAnalysisService_QueryLanguage_Serialization_DataSeriesSourceDto" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.DataSeriesSourceDto" class="text-break">Class DataSeriesSourceDto
   </h1>
-  <div class="markdown level0 summary"><p>A <a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Serialization.ValueFilter.html">Hsm.DataAnalysisService.QueryLanguage.Serialization.ValueFilter</a> for a simple upper and lower threshold value filtering.</p>
+  <div class="markdown level0 summary"><p>Represents a source series consisting of a system id, a resource type id and a resource instance number.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Serialization.ValueFilterDto.html">ValueFilterDto</a></div>
-    <div class="level2"><span class="xref">MinMaxValueFilterDto</span></div>
+    <div class="level1"><span class="xref">DataSeriesSourceDto</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -108,23 +107,24 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Serialization.html">Hsm.DataAnalysisService.QueryLanguage.Serialization</a></h6>
   <h6><strong>Assembly</strong>: Hsm.DataAnalysisService.QueryLanguage.dll</h6>
-  <h5 id="Hsm_DataAnalysisService_QueryLanguage_Serialization_MinMaxValueFilterDto_syntax">Syntax</h5>
+  <h5 id="Hsm_DataAnalysisService_QueryLanguage_Serialization_DataSeriesSourceDto_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class MinMaxValueFilterDto : ValueFilterDto</code></pre>
+    <pre><code class="lang-csharp hljs">public class DataSeriesSourceDto</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analyis%20Service%20-%20Query%20Language/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Serialization/ValueFilter/MinMaxValueFilterDto.cs&amp;version=GBmaster&amp;line=18">View Source</a>
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analyis%20Service%20-%20Query%20Language/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Serialization/DataSeriesSourceDto.cs&amp;version=GBmaster&amp;line=18">View Source</a>
   </span>
-  <a id="Hsm_DataAnalysisService_QueryLanguage_Serialization_MinMaxValueFilterDto_FilterInterval_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.MinMaxValueFilterDto.FilterInterval*"></a>
-  <h4 id="Hsm_DataAnalysisService_QueryLanguage_Serialization_MinMaxValueFilterDto_FilterInterval" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.MinMaxValueFilterDto.FilterInterval">FilterInterval</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="Hsm_DataAnalysisService_QueryLanguage_Serialization_DataSeriesSourceDto_ResourceInstanceNumber_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.DataSeriesSourceDto.ResourceInstanceNumber*"></a>
+  <h4 id="Hsm_DataAnalysisService_QueryLanguage_Serialization_DataSeriesSourceDto_ResourceInstanceNumber" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.DataSeriesSourceDto.ResourceInstanceNumber">ResourceInstanceNumber</h4>
+  <div class="markdown level1 summary"><p>Gets the number of the resource instance to be analyzed.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DoubleIntervalDto FilterInterval { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public short ResourceInstanceNumber { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -136,22 +136,23 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Serialization.DoubleIntervalDto.html">DoubleIntervalDto</a></td>
+        <td><span class="xref">System.Int16</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analyis%20Service%20-%20Query%20Language/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Serialization/ValueFilter/MinMaxValueFilterDto.cs&amp;version=GBmaster&amp;line=12">View Source</a>
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analyis%20Service%20-%20Query%20Language/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Serialization/DataSeriesSourceDto.cs&amp;version=GBmaster&amp;line=23">View Source</a>
   </span>
-  <a id="Hsm_DataAnalysisService_QueryLanguage_Serialization_MinMaxValueFilterDto_ValueFilterType_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.MinMaxValueFilterDto.ValueFilterType*"></a>
-  <h4 id="Hsm_DataAnalysisService_QueryLanguage_Serialization_MinMaxValueFilterDto_ValueFilterType" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.MinMaxValueFilterDto.ValueFilterType">ValueFilterType</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="Hsm_DataAnalysisService_QueryLanguage_Serialization_DataSeriesSourceDto_ResourceTypeId_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.DataSeriesSourceDto.ResourceTypeId*"></a>
+  <h4 id="Hsm_DataAnalysisService_QueryLanguage_Serialization_DataSeriesSourceDto_ResourceTypeId" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.DataSeriesSourceDto.ResourceTypeId">ResourceTypeId</h4>
+  <div class="markdown level1 summary"><p>Gets the id of the resource type to be analyzed.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override ValueFilterType ValueFilterType { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public short ResourceTypeId { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -163,26 +164,52 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Serialization.ValueFilterType.html">ValueFilterType</a></td>
+        <td><span class="xref">System.Int16</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Serialization.ValueFilterDto.html#Hsm_DataAnalysisService_QueryLanguage_Serialization_ValueFilterDto_ValueFilterType">ValueFilterDto.ValueFilterType</a></div>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analyis%20Service%20-%20Query%20Language/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Serialization/DataSeriesSourceDto.cs&amp;version=GBmaster&amp;line=13">View Source</a>
+  </span>
+  <a id="Hsm_DataAnalysisService_QueryLanguage_Serialization_DataSeriesSourceDto_SystemId_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.DataSeriesSourceDto.SystemId*"></a>
+  <h4 id="Hsm_DataAnalysisService_QueryLanguage_Serialization_DataSeriesSourceDto_SystemId" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.DataSeriesSourceDto.SystemId">SystemId</h4>
+  <div class="markdown level1 summary"><p>Gets the <span class="xref">Hsm.BaseTypes.Eui64</span> of the embedded system that issued the resource instance value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Eui64 SystemId { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Hsm.BaseTypes.Eui64</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analyis%20Service%20-%20Query%20Language/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Serialization/ValueFilter/MinMaxValueFilterDto.cs&amp;version=GBmaster&amp;line=20">View Source</a>
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analyis%20Service%20-%20Query%20Language/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Serialization/DataSeriesSourceDto.cs&amp;version=GBmaster&amp;line=25">View Source</a>
   </span>
-  <a id="Hsm_DataAnalysisService_QueryLanguage_Serialization_MinMaxValueFilterDto_CreateFrom_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.MinMaxValueFilterDto.CreateFrom*"></a>
-  <h4 id="Hsm_DataAnalysisService_QueryLanguage_Serialization_MinMaxValueFilterDto_CreateFrom_Hsm_DataAnalysisService_QueryLanguage_Request_MinMaxValueFilter_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.MinMaxValueFilterDto.CreateFrom(Hsm.DataAnalysisService.QueryLanguage.Request.MinMaxValueFilter)">CreateFrom(MinMaxValueFilter)</h4>
+  <a id="Hsm_DataAnalysisService_QueryLanguage_Serialization_DataSeriesSourceDto_CreateFrom_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.DataSeriesSourceDto.CreateFrom*"></a>
+  <h4 id="Hsm_DataAnalysisService_QueryLanguage_Serialization_DataSeriesSourceDto_CreateFrom_Hsm_DataAnalysisService_QueryLanguage_DataSeriesSource_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.DataSeriesSourceDto.CreateFrom(Hsm.DataAnalysisService.QueryLanguage.DataSeriesSource)">CreateFrom(DataSeriesSource)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static MinMaxValueFilterDto CreateFrom(MinMaxValueFilter minMaxValueFilter)</code></pre>
+    <pre><code class="lang-csharp hljs">public static DataSeriesSourceDto CreateFrom(DataSeriesSource source)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -195,8 +222,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Request.MinMaxValueFilter.html">MinMaxValueFilter</a></td>
-        <td><span class="parametername">minMaxValueFilter</span></td>
+        <td><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.DataSeriesSource.html">DataSeriesSource</a></td>
+        <td><span class="parametername">source</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -211,22 +238,22 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Serialization.MinMaxValueFilterDto.html">MinMaxValueFilterDto</a></td>
+        <td><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Serialization.DataSeriesSourceDto.html">DataSeriesSourceDto</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analyis%20Service%20-%20Query%20Language/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Serialization/ValueFilter/MinMaxValueFilterDto.cs&amp;version=GBmaster&amp;line=33">View Source</a>
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analyis%20Service%20-%20Query%20Language/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Serialization/DataSeriesSourceDto.cs&amp;version=GBmaster&amp;line=35">View Source</a>
   </span>
-  <a id="Hsm_DataAnalysisService_QueryLanguage_Serialization_MinMaxValueFilterDto_TransformTo_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.MinMaxValueFilterDto.TransformTo*"></a>
-  <h4 id="Hsm_DataAnalysisService_QueryLanguage_Serialization_MinMaxValueFilterDto_TransformTo" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.MinMaxValueFilterDto.TransformTo">TransformTo()</h4>
+  <a id="Hsm_DataAnalysisService_QueryLanguage_Serialization_DataSeriesSourceDto_TransformTo_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.DataSeriesSourceDto.TransformTo*"></a>
+  <h4 id="Hsm_DataAnalysisService_QueryLanguage_Serialization_DataSeriesSourceDto_TransformTo" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.DataSeriesSourceDto.TransformTo">TransformTo()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public MinMaxValueFilter TransformTo()</code></pre>
+    <pre><code class="lang-csharp hljs">public DataSeriesSource TransformTo()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -238,7 +265,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Request.MinMaxValueFilter.html">MinMaxValueFilter</a></td>
+        <td><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.DataSeriesSource.html">DataSeriesSource</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -251,7 +278,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analyis%20Service%20-%20Query%20Language/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Serialization/ValueFilter/MinMaxValueFilterDto.cs&amp;version=GBmaster&amp;line=10" class="contribution-link">View Source</a>
+                    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analyis%20Service%20-%20Query%20Language/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Serialization/DataSeriesSourceDto.cs&amp;version=GBmaster&amp;line=8" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
