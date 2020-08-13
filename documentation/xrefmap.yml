@@ -232,6 +232,19 @@ references:
   isSpec: "True"
   fullName: Hsm.DataAnalysisService.QueryLanguage.Request.MonthPartitioning.PartitionSize
   nameWithType: MonthPartitioning.PartitionSize
+- uid: Hsm.DataAnalysisService.QueryLanguage.Request.MonthPartitioning.Validate
+  name: Validate()
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Request.MonthPartitioning.html#Hsm_DataAnalysisService_QueryLanguage_Request_MonthPartitioning_Validate
+  commentId: M:Hsm.DataAnalysisService.QueryLanguage.Request.MonthPartitioning.Validate
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Request.MonthPartitioning.Validate()
+  nameWithType: MonthPartitioning.Validate()
+- uid: Hsm.DataAnalysisService.QueryLanguage.Request.MonthPartitioning.Validate*
+  name: Validate
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Request.MonthPartitioning.html#Hsm_DataAnalysisService_QueryLanguage_Request_MonthPartitioning_Validate_
+  commentId: Overload:Hsm.DataAnalysisService.QueryLanguage.Request.MonthPartitioning.Validate
+  isSpec: "True"
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Request.MonthPartitioning.Validate
+  nameWithType: MonthPartitioning.Validate
 - uid: Hsm.DataAnalysisService.QueryLanguage.Request.Request
   name: Request
   href: api/Hsm.DataAnalysisService.QueryLanguage.Request.Request.html
@@ -375,6 +388,19 @@ references:
   isSpec: "True"
   fullName: Hsm.DataAnalysisService.QueryLanguage.Request.TimePartitioning.GetPartitions
   nameWithType: TimePartitioning.GetPartitions
+- uid: Hsm.DataAnalysisService.QueryLanguage.Request.TimePartitioning.Validate
+  name: Validate()
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Request.TimePartitioning.html#Hsm_DataAnalysisService_QueryLanguage_Request_TimePartitioning_Validate
+  commentId: M:Hsm.DataAnalysisService.QueryLanguage.Request.TimePartitioning.Validate
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Request.TimePartitioning.Validate()
+  nameWithType: TimePartitioning.Validate()
+- uid: Hsm.DataAnalysisService.QueryLanguage.Request.TimePartitioning.Validate*
+  name: Validate
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Request.TimePartitioning.html#Hsm_DataAnalysisService_QueryLanguage_Request_TimePartitioning_Validate_
+  commentId: Overload:Hsm.DataAnalysisService.QueryLanguage.Request.TimePartitioning.Validate
+  isSpec: "True"
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Request.TimePartitioning.Validate
+  nameWithType: TimePartitioning.Validate
 - uid: Hsm.DataAnalysisService.QueryLanguage.Request.TimeSeriesRequest
   name: TimeSeriesRequest
   href: api/Hsm.DataAnalysisService.QueryLanguage.Request.TimeSeriesRequest.html
@@ -593,6 +619,19 @@ references:
   isSpec: "True"
   fullName: Hsm.DataAnalysisService.QueryLanguage.Request.TimeSpanPartitioning.PartitionSize
   nameWithType: TimeSpanPartitioning.PartitionSize
+- uid: Hsm.DataAnalysisService.QueryLanguage.Request.TimeSpanPartitioning.Validate
+  name: Validate()
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Request.TimeSpanPartitioning.html#Hsm_DataAnalysisService_QueryLanguage_Request_TimeSpanPartitioning_Validate
+  commentId: M:Hsm.DataAnalysisService.QueryLanguage.Request.TimeSpanPartitioning.Validate
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Request.TimeSpanPartitioning.Validate()
+  nameWithType: TimeSpanPartitioning.Validate()
+- uid: Hsm.DataAnalysisService.QueryLanguage.Request.TimeSpanPartitioning.Validate*
+  name: Validate
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Request.TimeSpanPartitioning.html#Hsm_DataAnalysisService_QueryLanguage_Request_TimeSpanPartitioning_Validate_
+  commentId: Overload:Hsm.DataAnalysisService.QueryLanguage.Request.TimeSpanPartitioning.Validate
+  isSpec: "True"
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Request.TimeSpanPartitioning.Validate
+  nameWithType: TimeSpanPartitioning.Validate
 - uid: Hsm.DataAnalysisService.QueryLanguage.Request.TimeWeighting
   name: TimeWeighting
   href: api/Hsm.DataAnalysisService.QueryLanguage.Request.TimeWeighting.html
@@ -1079,6 +1118,51 @@ references:
   commentId: N:Hsm.DataAnalysisService.QueryLanguage.Serialization
   fullName: Hsm.DataAnalysisService.QueryLanguage.Serialization
   nameWithType: Hsm.DataAnalysisService.QueryLanguage.Serialization
+- uid: Hsm.DataAnalysisService.QueryLanguage.Serialization.DataPointDto
+  name: DataPointDto
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Serialization.DataPointDto.html
+  commentId: T:Hsm.DataAnalysisService.QueryLanguage.Serialization.DataPointDto
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Serialization.DataPointDto
+  nameWithType: DataPointDto
+- uid: Hsm.DataAnalysisService.QueryLanguage.Serialization.DataPointDto.TransmissionMode
+  name: TransmissionMode
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Serialization.DataPointDto.html#Hsm_DataAnalysisService_QueryLanguage_Serialization_DataPointDto_TransmissionMode
+  commentId: P:Hsm.DataAnalysisService.QueryLanguage.Serialization.DataPointDto.TransmissionMode
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Serialization.DataPointDto.TransmissionMode
+  nameWithType: DataPointDto.TransmissionMode
+- uid: Hsm.DataAnalysisService.QueryLanguage.Serialization.DataPointDto.TransmissionMode*
+  name: TransmissionMode
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Serialization.DataPointDto.html#Hsm_DataAnalysisService_QueryLanguage_Serialization_DataPointDto_TransmissionMode_
+  commentId: Overload:Hsm.DataAnalysisService.QueryLanguage.Serialization.DataPointDto.TransmissionMode
+  isSpec: "True"
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Serialization.DataPointDto.TransmissionMode
+  nameWithType: DataPointDto.TransmissionMode
+- uid: Hsm.DataAnalysisService.QueryLanguage.Serialization.DataPointDto.UtcTimeStamp
+  name: UtcTimeStamp
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Serialization.DataPointDto.html#Hsm_DataAnalysisService_QueryLanguage_Serialization_DataPointDto_UtcTimeStamp
+  commentId: P:Hsm.DataAnalysisService.QueryLanguage.Serialization.DataPointDto.UtcTimeStamp
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Serialization.DataPointDto.UtcTimeStamp
+  nameWithType: DataPointDto.UtcTimeStamp
+- uid: Hsm.DataAnalysisService.QueryLanguage.Serialization.DataPointDto.UtcTimeStamp*
+  name: UtcTimeStamp
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Serialization.DataPointDto.html#Hsm_DataAnalysisService_QueryLanguage_Serialization_DataPointDto_UtcTimeStamp_
+  commentId: Overload:Hsm.DataAnalysisService.QueryLanguage.Serialization.DataPointDto.UtcTimeStamp
+  isSpec: "True"
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Serialization.DataPointDto.UtcTimeStamp
+  nameWithType: DataPointDto.UtcTimeStamp
+- uid: Hsm.DataAnalysisService.QueryLanguage.Serialization.DataPointDto.Value
+  name: Value
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Serialization.DataPointDto.html#Hsm_DataAnalysisService_QueryLanguage_Serialization_DataPointDto_Value
+  commentId: P:Hsm.DataAnalysisService.QueryLanguage.Serialization.DataPointDto.Value
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Serialization.DataPointDto.Value
+  nameWithType: DataPointDto.Value
+- uid: Hsm.DataAnalysisService.QueryLanguage.Serialization.DataPointDto.Value*
+  name: Value
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Serialization.DataPointDto.html#Hsm_DataAnalysisService_QueryLanguage_Serialization_DataPointDto_Value_
+  commentId: Overload:Hsm.DataAnalysisService.QueryLanguage.Serialization.DataPointDto.Value
+  isSpec: "True"
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Serialization.DataPointDto.Value
+  nameWithType: DataPointDto.Value
 - uid: Hsm.DataAnalysisService.QueryLanguage.Serialization.DataSeriesSourceDto
   name: DataSeriesSourceDto
   href: api/Hsm.DataAnalysisService.QueryLanguage.Serialization.DataSeriesSourceDto.html
@@ -1366,6 +1450,38 @@ references:
   isSpec: "True"
   fullName: Hsm.DataAnalysisService.QueryLanguage.Serialization.JsonRequestSerializer.Serialize
   nameWithType: JsonRequestSerializer.Serialize
+- uid: Hsm.DataAnalysisService.QueryLanguage.Serialization.JsonResponseSerializer
+  name: JsonResponseSerializer
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Serialization.JsonResponseSerializer.html
+  commentId: T:Hsm.DataAnalysisService.QueryLanguage.Serialization.JsonResponseSerializer
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Serialization.JsonResponseSerializer
+  nameWithType: JsonResponseSerializer
+- uid: Hsm.DataAnalysisService.QueryLanguage.Serialization.JsonResponseSerializer.DeSerialize(System.String)
+  name: DeSerialize(String)
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Serialization.JsonResponseSerializer.html#Hsm_DataAnalysisService_QueryLanguage_Serialization_JsonResponseSerializer_DeSerialize_System_String_
+  commentId: M:Hsm.DataAnalysisService.QueryLanguage.Serialization.JsonResponseSerializer.DeSerialize(System.String)
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Serialization.JsonResponseSerializer.DeSerialize(System.String)
+  nameWithType: JsonResponseSerializer.DeSerialize(String)
+- uid: Hsm.DataAnalysisService.QueryLanguage.Serialization.JsonResponseSerializer.DeSerialize*
+  name: DeSerialize
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Serialization.JsonResponseSerializer.html#Hsm_DataAnalysisService_QueryLanguage_Serialization_JsonResponseSerializer_DeSerialize_
+  commentId: Overload:Hsm.DataAnalysisService.QueryLanguage.Serialization.JsonResponseSerializer.DeSerialize
+  isSpec: "True"
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Serialization.JsonResponseSerializer.DeSerialize
+  nameWithType: JsonResponseSerializer.DeSerialize
+- uid: Hsm.DataAnalysisService.QueryLanguage.Serialization.JsonResponseSerializer.Serialize(Hsm.DataAnalysisService.QueryLanguage.Response.Response)
+  name: Serialize(Response)
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Serialization.JsonResponseSerializer.html#Hsm_DataAnalysisService_QueryLanguage_Serialization_JsonResponseSerializer_Serialize_Hsm_DataAnalysisService_QueryLanguage_Response_Response_
+  commentId: M:Hsm.DataAnalysisService.QueryLanguage.Serialization.JsonResponseSerializer.Serialize(Hsm.DataAnalysisService.QueryLanguage.Response.Response)
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Serialization.JsonResponseSerializer.Serialize(Hsm.DataAnalysisService.QueryLanguage.Response.Response)
+  nameWithType: JsonResponseSerializer.Serialize(Response)
+- uid: Hsm.DataAnalysisService.QueryLanguage.Serialization.JsonResponseSerializer.Serialize*
+  name: Serialize
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Serialization.JsonResponseSerializer.html#Hsm_DataAnalysisService_QueryLanguage_Serialization_JsonResponseSerializer_Serialize_
+  commentId: Overload:Hsm.DataAnalysisService.QueryLanguage.Serialization.JsonResponseSerializer.Serialize
+  isSpec: "True"
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Serialization.JsonResponseSerializer.Serialize
+  nameWithType: JsonResponseSerializer.Serialize
 - uid: Hsm.DataAnalysisService.QueryLanguage.Serialization.MinMaxValueFilterDto
   name: MinMaxValueFilterDto
   href: api/Hsm.DataAnalysisService.QueryLanguage.Serialization.MinMaxValueFilterDto.html
@@ -1533,38 +1649,38 @@ references:
   isSpec: "True"
   fullName: Hsm.DataAnalysisService.QueryLanguage.Serialization.RequestSerializer.Serialize
   nameWithType: RequestSerializer.Serialize
-- uid: Hsm.DataAnalysisService.QueryLanguage.Serialization.SerializationModelTransformer
-  name: SerializationModelTransformer
-  href: api/Hsm.DataAnalysisService.QueryLanguage.Serialization.SerializationModelTransformer.html
-  commentId: T:Hsm.DataAnalysisService.QueryLanguage.Serialization.SerializationModelTransformer
-  fullName: Hsm.DataAnalysisService.QueryLanguage.Serialization.SerializationModelTransformer
-  nameWithType: SerializationModelTransformer
-- uid: Hsm.DataAnalysisService.QueryLanguage.Serialization.SerializationModelTransformer.TransformFromSerializableModel(Hsm.DataAnalysisService.QueryLanguage.Serialization.TimeSeriesRequestDto)
-  name: TransformFromSerializableModel(TimeSeriesRequestDto)
-  href: api/Hsm.DataAnalysisService.QueryLanguage.Serialization.SerializationModelTransformer.html#Hsm_DataAnalysisService_QueryLanguage_Serialization_SerializationModelTransformer_TransformFromSerializableModel_Hsm_DataAnalysisService_QueryLanguage_Serialization_TimeSeriesRequestDto_
-  commentId: M:Hsm.DataAnalysisService.QueryLanguage.Serialization.SerializationModelTransformer.TransformFromSerializableModel(Hsm.DataAnalysisService.QueryLanguage.Serialization.TimeSeriesRequestDto)
-  fullName: Hsm.DataAnalysisService.QueryLanguage.Serialization.SerializationModelTransformer.TransformFromSerializableModel(Hsm.DataAnalysisService.QueryLanguage.Serialization.TimeSeriesRequestDto)
-  nameWithType: SerializationModelTransformer.TransformFromSerializableModel(TimeSeriesRequestDto)
-- uid: Hsm.DataAnalysisService.QueryLanguage.Serialization.SerializationModelTransformer.TransformFromSerializableModel*
-  name: TransformFromSerializableModel
-  href: api/Hsm.DataAnalysisService.QueryLanguage.Serialization.SerializationModelTransformer.html#Hsm_DataAnalysisService_QueryLanguage_Serialization_SerializationModelTransformer_TransformFromSerializableModel_
-  commentId: Overload:Hsm.DataAnalysisService.QueryLanguage.Serialization.SerializationModelTransformer.TransformFromSerializableModel
+- uid: Hsm.DataAnalysisService.QueryLanguage.Serialization.ResponseSerializer
+  name: ResponseSerializer
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Serialization.ResponseSerializer.html
+  commentId: T:Hsm.DataAnalysisService.QueryLanguage.Serialization.ResponseSerializer
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Serialization.ResponseSerializer
+  nameWithType: ResponseSerializer
+- uid: Hsm.DataAnalysisService.QueryLanguage.Serialization.ResponseSerializer.DeSerialize(System.String)
+  name: DeSerialize(String)
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Serialization.ResponseSerializer.html#Hsm_DataAnalysisService_QueryLanguage_Serialization_ResponseSerializer_DeSerialize_System_String_
+  commentId: M:Hsm.DataAnalysisService.QueryLanguage.Serialization.ResponseSerializer.DeSerialize(System.String)
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Serialization.ResponseSerializer.DeSerialize(System.String)
+  nameWithType: ResponseSerializer.DeSerialize(String)
+- uid: Hsm.DataAnalysisService.QueryLanguage.Serialization.ResponseSerializer.DeSerialize*
+  name: DeSerialize
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Serialization.ResponseSerializer.html#Hsm_DataAnalysisService_QueryLanguage_Serialization_ResponseSerializer_DeSerialize_
+  commentId: Overload:Hsm.DataAnalysisService.QueryLanguage.Serialization.ResponseSerializer.DeSerialize
   isSpec: "True"
-  fullName: Hsm.DataAnalysisService.QueryLanguage.Serialization.SerializationModelTransformer.TransformFromSerializableModel
-  nameWithType: SerializationModelTransformer.TransformFromSerializableModel
-- uid: Hsm.DataAnalysisService.QueryLanguage.Serialization.SerializationModelTransformer.TransformToSerializableModel(Hsm.DataAnalysisService.QueryLanguage.Request.TimeSeriesRequest)
-  name: TransformToSerializableModel(TimeSeriesRequest)
-  href: api/Hsm.DataAnalysisService.QueryLanguage.Serialization.SerializationModelTransformer.html#Hsm_DataAnalysisService_QueryLanguage_Serialization_SerializationModelTransformer_TransformToSerializableModel_Hsm_DataAnalysisService_QueryLanguage_Request_TimeSeriesRequest_
-  commentId: M:Hsm.DataAnalysisService.QueryLanguage.Serialization.SerializationModelTransformer.TransformToSerializableModel(Hsm.DataAnalysisService.QueryLanguage.Request.TimeSeriesRequest)
-  fullName: Hsm.DataAnalysisService.QueryLanguage.Serialization.SerializationModelTransformer.TransformToSerializableModel(Hsm.DataAnalysisService.QueryLanguage.Request.TimeSeriesRequest)
-  nameWithType: SerializationModelTransformer.TransformToSerializableModel(TimeSeriesRequest)
-- uid: Hsm.DataAnalysisService.QueryLanguage.Serialization.SerializationModelTransformer.TransformToSerializableModel*
-  name: TransformToSerializableModel
-  href: api/Hsm.DataAnalysisService.QueryLanguage.Serialization.SerializationModelTransformer.html#Hsm_DataAnalysisService_QueryLanguage_Serialization_SerializationModelTransformer_TransformToSerializableModel_
-  commentId: Overload:Hsm.DataAnalysisService.QueryLanguage.Serialization.SerializationModelTransformer.TransformToSerializableModel
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Serialization.ResponseSerializer.DeSerialize
+  nameWithType: ResponseSerializer.DeSerialize
+- uid: Hsm.DataAnalysisService.QueryLanguage.Serialization.ResponseSerializer.Serialize(Hsm.DataAnalysisService.QueryLanguage.Response.Response)
+  name: Serialize(Response)
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Serialization.ResponseSerializer.html#Hsm_DataAnalysisService_QueryLanguage_Serialization_ResponseSerializer_Serialize_Hsm_DataAnalysisService_QueryLanguage_Response_Response_
+  commentId: M:Hsm.DataAnalysisService.QueryLanguage.Serialization.ResponseSerializer.Serialize(Hsm.DataAnalysisService.QueryLanguage.Response.Response)
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Serialization.ResponseSerializer.Serialize(Hsm.DataAnalysisService.QueryLanguage.Response.Response)
+  nameWithType: ResponseSerializer.Serialize(Response)
+- uid: Hsm.DataAnalysisService.QueryLanguage.Serialization.ResponseSerializer.Serialize*
+  name: Serialize
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Serialization.ResponseSerializer.html#Hsm_DataAnalysisService_QueryLanguage_Serialization_ResponseSerializer_Serialize_
+  commentId: Overload:Hsm.DataAnalysisService.QueryLanguage.Serialization.ResponseSerializer.Serialize
   isSpec: "True"
-  fullName: Hsm.DataAnalysisService.QueryLanguage.Serialization.SerializationModelTransformer.TransformToSerializableModel
-  nameWithType: SerializationModelTransformer.TransformToSerializableModel
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Serialization.ResponseSerializer.Serialize
+  nameWithType: ResponseSerializer.Serialize
 - uid: Hsm.DataAnalysisService.QueryLanguage.Serialization.TimeAggregationSerialization
   name: TimeAggregationSerialization
   href: api/Hsm.DataAnalysisService.QueryLanguage.Serialization.TimeAggregationSerialization.html
@@ -1620,6 +1736,51 @@ references:
   fullName.vb: Hsm.DataAnalysisService.QueryLanguage.Serialization.TimePartitioningSerialization(Of T).TransformTo
   nameWithType: TimePartitioningSerialization<T>.TransformTo
   nameWithType.vb: TimePartitioningSerialization(Of T).TransformTo
+- uid: Hsm.DataAnalysisService.QueryLanguage.Serialization.TimeSeriesDto
+  name: TimeSeriesDto
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Serialization.TimeSeriesDto.html
+  commentId: T:Hsm.DataAnalysisService.QueryLanguage.Serialization.TimeSeriesDto
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Serialization.TimeSeriesDto
+  nameWithType: TimeSeriesDto
+- uid: Hsm.DataAnalysisService.QueryLanguage.Serialization.TimeSeriesDto.#ctor
+  name: TimeSeriesDto()
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Serialization.TimeSeriesDto.html#Hsm_DataAnalysisService_QueryLanguage_Serialization_TimeSeriesDto__ctor
+  commentId: M:Hsm.DataAnalysisService.QueryLanguage.Serialization.TimeSeriesDto.#ctor
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Serialization.TimeSeriesDto.TimeSeriesDto()
+  nameWithType: TimeSeriesDto.TimeSeriesDto()
+- uid: Hsm.DataAnalysisService.QueryLanguage.Serialization.TimeSeriesDto.#ctor*
+  name: TimeSeriesDto
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Serialization.TimeSeriesDto.html#Hsm_DataAnalysisService_QueryLanguage_Serialization_TimeSeriesDto__ctor_
+  commentId: Overload:Hsm.DataAnalysisService.QueryLanguage.Serialization.TimeSeriesDto.#ctor
+  isSpec: "True"
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Serialization.TimeSeriesDto.TimeSeriesDto
+  nameWithType: TimeSeriesDto.TimeSeriesDto
+- uid: Hsm.DataAnalysisService.QueryLanguage.Serialization.TimeSeriesDto.DataPoints
+  name: DataPoints
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Serialization.TimeSeriesDto.html#Hsm_DataAnalysisService_QueryLanguage_Serialization_TimeSeriesDto_DataPoints
+  commentId: P:Hsm.DataAnalysisService.QueryLanguage.Serialization.TimeSeriesDto.DataPoints
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Serialization.TimeSeriesDto.DataPoints
+  nameWithType: TimeSeriesDto.DataPoints
+- uid: Hsm.DataAnalysisService.QueryLanguage.Serialization.TimeSeriesDto.DataPoints*
+  name: DataPoints
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Serialization.TimeSeriesDto.html#Hsm_DataAnalysisService_QueryLanguage_Serialization_TimeSeriesDto_DataPoints_
+  commentId: Overload:Hsm.DataAnalysisService.QueryLanguage.Serialization.TimeSeriesDto.DataPoints
+  isSpec: "True"
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Serialization.TimeSeriesDto.DataPoints
+  nameWithType: TimeSeriesDto.DataPoints
+- uid: Hsm.DataAnalysisService.QueryLanguage.Serialization.TimeSeriesDto.DataSeriesSources
+  name: DataSeriesSources
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Serialization.TimeSeriesDto.html#Hsm_DataAnalysisService_QueryLanguage_Serialization_TimeSeriesDto_DataSeriesSources
+  commentId: P:Hsm.DataAnalysisService.QueryLanguage.Serialization.TimeSeriesDto.DataSeriesSources
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Serialization.TimeSeriesDto.DataSeriesSources
+  nameWithType: TimeSeriesDto.DataSeriesSources
+- uid: Hsm.DataAnalysisService.QueryLanguage.Serialization.TimeSeriesDto.DataSeriesSources*
+  name: DataSeriesSources
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Serialization.TimeSeriesDto.html#Hsm_DataAnalysisService_QueryLanguage_Serialization_TimeSeriesDto_DataSeriesSources_
+  commentId: Overload:Hsm.DataAnalysisService.QueryLanguage.Serialization.TimeSeriesDto.DataSeriesSources
+  isSpec: "True"
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Serialization.TimeSeriesDto.DataSeriesSources
+  nameWithType: TimeSeriesDto.DataSeriesSources
 - uid: Hsm.DataAnalysisService.QueryLanguage.Serialization.TimeSeriesRequestDto
   name: TimeSeriesRequestDto
   href: api/Hsm.DataAnalysisService.QueryLanguage.Serialization.TimeSeriesRequestDto.html
@@ -1691,6 +1852,12 @@ references:
   isSpec: "True"
   fullName: Hsm.DataAnalysisService.QueryLanguage.Serialization.TimeSeriesRequestDto.ValueFilters
   nameWithType: TimeSeriesRequestDto.ValueFilters
+- uid: Hsm.DataAnalysisService.QueryLanguage.Serialization.TimeSeriesResponseDto
+  name: TimeSeriesResponseDto
+  href: api/Hsm.DataAnalysisService.QueryLanguage.Serialization.TimeSeriesResponseDto.html
+  commentId: T:Hsm.DataAnalysisService.QueryLanguage.Serialization.TimeSeriesResponseDto
+  fullName: Hsm.DataAnalysisService.QueryLanguage.Serialization.TimeSeriesResponseDto
+  nameWithType: TimeSeriesResponseDto
 - uid: Hsm.DataAnalysisService.QueryLanguage.Serialization.TimeSpanPartitioningDto
   name: TimeSpanPartitioningDto
   href: api/Hsm.DataAnalysisService.QueryLanguage.Serialization.TimeSpanPartitioningDto.html

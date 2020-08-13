@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class UnweightedTimeAggregation
+    <title>Class JsonResponseSerializer
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class UnweightedTimeAggregation
+    <meta name="title" content="Class JsonResponseSerializer
    ">
     <meta name="generator" content="docfx 2.56.2.0">
     
@@ -68,19 +68,18 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Hsm.DataAnalysisService.QueryLanguage.Request.UnweightedTimeAggregation">
+            <article class="content wrap" id="_content" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.JsonResponseSerializer">
   
   
-  <h1 id="Hsm_DataAnalysisService_QueryLanguage_Request_UnweightedTimeAggregation" data-uid="Hsm.DataAnalysisService.QueryLanguage.Request.UnweightedTimeAggregation" class="text-break">Class UnweightedTimeAggregation
+  <h1 id="Hsm_DataAnalysisService_QueryLanguage_Serialization_JsonResponseSerializer" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.JsonResponseSerializer" class="text-break">Class JsonResponseSerializer
   </h1>
-  <div class="markdown level0 summary"><p>Aggregation over time with non-weighted aggregation methods.</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Request.TimeAggregation.html">TimeAggregation</a></div>
-    <div class="level2"><span class="xref">UnweightedTimeAggregation</span></div>
+    <div class="level1"><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Serialization.ResponseSerializer.html">ResponseSerializer</a></div>
+    <div class="level2"><span class="xref">JsonResponseSerializer</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -106,26 +105,25 @@
       <span class="xref">System.Object.ToString()</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Request.html">Hsm.DataAnalysisService.QueryLanguage.Request</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Serialization.html">Hsm.DataAnalysisService.QueryLanguage.Serialization</a></h6>
   <h6><strong>Assembly</strong>: Hsm.DataAnalysisService.QueryLanguage.dll</h6>
-  <h5 id="Hsm_DataAnalysisService_QueryLanguage_Request_UnweightedTimeAggregation_syntax">Syntax</h5>
+  <h5 id="Hsm_DataAnalysisService_QueryLanguage_Serialization_JsonResponseSerializer_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class UnweightedTimeAggregation : TimeAggregation</code></pre>
+    <pre><code class="lang-csharp hljs">public class JsonResponseSerializer : ResponseSerializer</code></pre>
   </div>
-  <h3 id="constructors">Constructors
+  <h3 id="methods">Methods
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/hsm%20data%20analyis%20service%20-%20query%20language/_git/hsm%20data%20analysis%20service%20query%20language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Request/TimeSeries/UnweightedTimeAggregation.cs&amp;version=GBmaster&amp;line=12">View Source</a>
+    <a href="https://dev.azure.com/hagleitner-dev/hsm%20data%20analyis%20service%20-%20query%20language/_git/hsm%20data%20analysis%20service%20query%20language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Serialization/JsonResponseSerializer.cs&amp;version=GBmaster&amp;line=14">View Source</a>
   </span>
-  <a id="Hsm_DataAnalysisService_QueryLanguage_Request_UnweightedTimeAggregation__ctor_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Request.UnweightedTimeAggregation.#ctor*"></a>
-  <h4 id="Hsm_DataAnalysisService_QueryLanguage_Request_UnweightedTimeAggregation__ctor_Hsm_DataAnalysisService_QueryLanguage_Request_UnweightedStatisticFunction_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Request.UnweightedTimeAggregation.#ctor(Hsm.DataAnalysisService.QueryLanguage.Request.UnweightedStatisticFunction)">UnweightedTimeAggregation(UnweightedStatisticFunction)</h4>
-  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Request.UnweightedTimeAggregation.html">UnweightedTimeAggregation</a> class.</p>
-</div>
+  <a id="Hsm_DataAnalysisService_QueryLanguage_Serialization_JsonResponseSerializer_DeSerialize_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.JsonResponseSerializer.DeSerialize*"></a>
+  <h4 id="Hsm_DataAnalysisService_QueryLanguage_Serialization_JsonResponseSerializer_DeSerialize_System_String_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.JsonResponseSerializer.DeSerialize(System.String)">DeSerialize(String)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UnweightedTimeAggregation(UnweightedStatisticFunction unweightedStatisticFunction)</code></pre>
+    <pre><code class="lang-csharp hljs">public override Response DeSerialize(string serializedResponseString)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -138,29 +136,13 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Request.UnweightedStatisticFunction.html">UnweightedStatisticFunction</a></td>
-        <td><span class="parametername">unweightedStatisticFunction</span></td>
-        <td><p>The statistic function to apply on aggregation.</p>
-</td>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">serializedResponseString</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
-  <h3 id="properties">Properties
-  </h3>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/hsm%20data%20analyis%20service%20-%20query%20language/_git/hsm%20data%20analysis%20service%20query%20language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Request/TimeSeries/UnweightedTimeAggregation.cs&amp;version=GBmaster&amp;line=20">View Source</a>
-  </span>
-  <a id="Hsm_DataAnalysisService_QueryLanguage_Request_UnweightedTimeAggregation_UnweightedStatisticFunction_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Request.UnweightedTimeAggregation.UnweightedStatisticFunction*"></a>
-  <h4 id="Hsm_DataAnalysisService_QueryLanguage_Request_UnweightedTimeAggregation_UnweightedStatisticFunction" data-uid="Hsm.DataAnalysisService.QueryLanguage.Request.UnweightedTimeAggregation.UnweightedStatisticFunction">UnweightedStatisticFunction</h4>
-  <div class="markdown level1 summary"><p>Gets the <a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Request.UnweightedTimeAggregation.html#Hsm_DataAnalysisService_QueryLanguage_Request_UnweightedTimeAggregation_UnweightedStatisticFunction">UnweightedStatisticFunction</a> used to aggregate values over time.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UnweightedStatisticFunction UnweightedStatisticFunction { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -170,11 +152,59 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Request.UnweightedStatisticFunction.html">UnweightedStatisticFunction</a></td>
+        <td><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Response.Response.html">Response</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Serialization.ResponseSerializer.html#Hsm_DataAnalysisService_QueryLanguage_Serialization_ResponseSerializer_DeSerialize_System_String_">ResponseSerializer.DeSerialize(String)</a></div>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/hagleitner-dev/hsm%20data%20analyis%20service%20-%20query%20language/_git/hsm%20data%20analysis%20service%20query%20language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Serialization/JsonResponseSerializer.cs&amp;version=GBmaster&amp;line=7">View Source</a>
+  </span>
+  <a id="Hsm_DataAnalysisService_QueryLanguage_Serialization_JsonResponseSerializer_Serialize_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.JsonResponseSerializer.Serialize*"></a>
+  <h4 id="Hsm_DataAnalysisService_QueryLanguage_Serialization_JsonResponseSerializer_Serialize_Hsm_DataAnalysisService_QueryLanguage_Response_Response_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.JsonResponseSerializer.Serialize(Hsm.DataAnalysisService.QueryLanguage.Response.Response)">Serialize(Response)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string Serialize(Response response)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Response.Response.html">Response</a></td>
+        <td><span class="parametername">response</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Serialization.ResponseSerializer.html#Hsm_DataAnalysisService_QueryLanguage_Serialization_ResponseSerializer_Serialize_Hsm_DataAnalysisService_QueryLanguage_Response_Response_">ResponseSerializer.Serialize(Response)</a></div>
 </article>
           </div>
           
@@ -183,7 +213,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/hagleitner-dev/hsm%20data%20analyis%20service%20-%20query%20language/_git/hsm%20data%20analysis%20service%20query%20language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Request/TimeSeries/UnweightedTimeAggregation.cs&amp;version=GBmaster&amp;line=6" class="contribution-link">View Source</a>
+                    <a href="https://dev.azure.com/hagleitner-dev/hsm%20data%20analyis%20service%20-%20query%20language/_git/hsm%20data%20analysis%20service%20query%20language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Serialization/JsonResponseSerializer.cs&amp;version=GBmaster&amp;line=5" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

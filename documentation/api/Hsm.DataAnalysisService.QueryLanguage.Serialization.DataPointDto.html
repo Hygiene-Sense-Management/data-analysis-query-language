@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Interface ITransformable&lt;T&gt;
+    <title>Class DataPointDto
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Interface ITransformable&lt;T&gt;
+    <meta name="title" content="Class DataPointDto
    ">
     <meta name="generator" content="docfx 2.56.2.0">
     
@@ -68,80 +68,93 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.ITransformable`1">
+            <article class="content wrap" id="_content" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.DataPointDto">
   
   
-  <h1 id="Hsm_DataAnalysisService_QueryLanguage_Serialization_ITransformable_1" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.ITransformable`1" class="text-break">Interface ITransformable&lt;T&gt;
+  <h1 id="Hsm_DataAnalysisService_QueryLanguage_Serialization_DataPointDto" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.DataPointDto" class="text-break">Class DataPointDto
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Represents a single datum in a response.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">DataPointDto</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Serialization.html">Hsm.DataAnalysisService.QueryLanguage.Serialization</a></h6>
   <h6><strong>Assembly</strong>: Hsm.DataAnalysisService.QueryLanguage.dll</h6>
-  <h5 id="Hsm_DataAnalysisService_QueryLanguage_Serialization_ITransformable_1_syntax">Syntax</h5>
+  <h5 id="Hsm_DataAnalysisService_QueryLanguage_Serialization_DataPointDto_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface ITransformable&lt;T&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public class DataPointDto</code></pre>
   </div>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="methods">Methods
+  <h3 id="properties">Properties
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/hsm%20data%20analyis%20service%20-%20query%20language/_git/hsm%20data%20analysis%20service%20query%20language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Serialization/ITransformable.cs&amp;version=GBmaster&amp;line=9">View Source</a>
+    <a href="https://dev.azure.com/hagleitner-dev/hsm%20data%20analyis%20service%20-%20query%20language/_git/hsm%20data%20analysis%20service%20query%20language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Serialization/TimeSeries/DataPointDto.cs&amp;version=GBmaster&amp;line=13">View Source</a>
   </span>
-  <a id="Hsm_DataAnalysisService_QueryLanguage_Serialization_ITransformable_1_CopyFrom_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.ITransformable`1.CopyFrom*"></a>
-  <h4 id="Hsm_DataAnalysisService_QueryLanguage_Serialization_ITransformable_1_CopyFrom__0_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.ITransformable`1.CopyFrom(`0)">CopyFrom(T)</h4>
-  <div class="markdown level1 summary"><p>Copies the values from the business object to the serialization object</p>
+  <a id="Hsm_DataAnalysisService_QueryLanguage_Serialization_DataPointDto_TransmissionMode_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.DataPointDto.TransmissionMode*"></a>
+  <h4 id="Hsm_DataAnalysisService_QueryLanguage_Serialization_DataPointDto_TransmissionMode" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.DataPointDto.TransmissionMode">TransmissionMode</h4>
+  <div class="markdown level1 summary"><p>Gets the TransmissionMode.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void CopyFrom(T businessObject)</code></pre>
+    <pre><code class="lang-csharp hljs">public TransmissionMode TransmissionMode { get; set; }</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">T</span></td>
-        <td><span class="parametername">businessObject</span></td>
+        <td><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.TransmissionMode.html">TransmissionMode</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/hsm%20data%20analyis%20service%20-%20query%20language/_git/hsm%20data%20analysis%20service%20query%20language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Serialization/ITransformable.cs&amp;version=GBmaster&amp;line=15">View Source</a>
+    <a href="https://dev.azure.com/hagleitner-dev/hsm%20data%20analyis%20service%20-%20query%20language/_git/hsm%20data%20analysis%20service%20query%20language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Serialization/TimeSeries/DataPointDto.cs&amp;version=GBmaster&amp;line=21">View Source</a>
   </span>
-  <a id="Hsm_DataAnalysisService_QueryLanguage_Serialization_ITransformable_1_TransformTo_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.ITransformable`1.TransformTo*"></a>
-  <h4 id="Hsm_DataAnalysisService_QueryLanguage_Serialization_ITransformable_1_TransformTo" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.ITransformable`1.TransformTo">TransformTo()</h4>
-  <div class="markdown level1 summary"><p>Creates a business object from the serialization object.</p>
+  <a id="Hsm_DataAnalysisService_QueryLanguage_Serialization_DataPointDto_UtcTimeStamp_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.DataPointDto.UtcTimeStamp*"></a>
+  <h4 id="Hsm_DataAnalysisService_QueryLanguage_Serialization_DataPointDto_UtcTimeStamp" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.DataPointDto.UtcTimeStamp">UtcTimeStamp</h4>
+  <div class="markdown level1 summary"><p>Gets the time stamp of this <see cref="!:DataPoint"></see>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">T TransformTo()</code></pre>
+    <pre><code class="lang-csharp hljs">public DateTime UtcTimeStamp { get; set; }</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -151,7 +164,35 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">T</span></td>
+        <td><span class="xref">System.DateTime</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/hagleitner-dev/hsm%20data%20analyis%20service%20-%20query%20language/_git/hsm%20data%20analysis%20service%20query%20language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Serialization/TimeSeries/DataPointDto.cs&amp;version=GBmaster&amp;line=29">View Source</a>
+  </span>
+  <a id="Hsm_DataAnalysisService_QueryLanguage_Serialization_DataPointDto_Value_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.DataPointDto.Value*"></a>
+  <h4 id="Hsm_DataAnalysisService_QueryLanguage_Serialization_DataPointDto_Value" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.DataPointDto.Value">Value</h4>
+  <div class="markdown level1 summary"><p>Gets the Value of a <see cref="!:DataPoint"></see>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double Value { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -164,7 +205,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/hagleitner-dev/hsm%20data%20analyis%20service%20-%20query%20language/_git/hsm%20data%20analysis%20service%20query%20language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Serialization/ITransformable.cs&amp;version=GBmaster&amp;line=3" class="contribution-link">View Source</a>
+                    <a href="https://dev.azure.com/hagleitner-dev/hsm%20data%20analyis%20service%20-%20query%20language/_git/hsm%20data%20analysis%20service%20query%20language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Serialization/TimeSeries/DataPointDto.cs&amp;version=GBmaster&amp;line=8" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

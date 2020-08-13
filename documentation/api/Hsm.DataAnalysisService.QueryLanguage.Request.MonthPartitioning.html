@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class MonthPartitioning
    ">
-    <meta name="generator" content="docfx 2.56.0.0">
+    <meta name="generator" content="docfx 2.56.2.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -82,6 +82,10 @@
     <div class="level1"><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Request.TimePartitioning.html">TimePartitioning</a></div>
     <div class="level2"><span class="xref">MonthPartitioning</span></div>
   </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">Hsm.BaseTypes.IValidatable</span></div>
+  </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
@@ -110,13 +114,13 @@
   <h6><strong>Assembly</strong>: Hsm.DataAnalysisService.QueryLanguage.dll</h6>
   <h5 id="Hsm_DataAnalysisService_QueryLanguage_Request_MonthPartitioning_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class MonthPartitioning : TimePartitioning</code></pre>
+    <pre><code class="lang-csharp hljs">public class MonthPartitioning : TimePartitioning, IValidatable</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analyis%20Service%20-%20Query%20Language/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Request/TimeSeries/MonthPartitioning.cs&amp;version=GBFeature/TimePartitioning&amp;line=16">View Source</a>
+    <a href="https://dev.azure.com/hagleitner-dev/hsm%20data%20analyis%20service%20-%20query%20language/_git/hsm%20data%20analysis%20service%20query%20language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Request/TimeSeries/MonthPartitioning.cs&amp;version=GBmaster&amp;line=16">View Source</a>
   </span>
   <a id="Hsm_DataAnalysisService_QueryLanguage_Request_MonthPartitioning__ctor_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Request.MonthPartitioning.#ctor*"></a>
   <h4 id="Hsm_DataAnalysisService_QueryLanguage_Request_MonthPartitioning__ctor_System_Byte_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Request.MonthPartitioning.#ctor(System.Byte)">MonthPartitioning(Byte)</h4>
@@ -149,7 +153,7 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analyis%20Service%20-%20Query%20Language/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Request/TimeSeries/MonthPartitioning.cs&amp;version=GBFeature/TimePartitioning&amp;line=34">View Source</a>
+    <a href="https://dev.azure.com/hagleitner-dev/hsm%20data%20analyis%20service%20-%20query%20language/_git/hsm%20data%20analysis%20service%20query%20language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Request/TimeSeries/MonthPartitioning.cs&amp;version=GBmaster&amp;line=24">View Source</a>
   </span>
   <a id="Hsm_DataAnalysisService_QueryLanguage_Request_MonthPartitioning_PartitionSize_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Request.MonthPartitioning.PartitionSize*"></a>
   <h4 id="Hsm_DataAnalysisService_QueryLanguage_Request_MonthPartitioning_PartitionSize" data-uid="Hsm.DataAnalysisService.QueryLanguage.Request.MonthPartitioning.PartitionSize">PartitionSize</h4>
@@ -179,7 +183,7 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analyis%20Service%20-%20Query%20Language/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Request/TimeSeries/MonthPartitioning.cs&amp;version=GBFeature/TimePartitioning&amp;line=37">View Source</a>
+    <a href="https://dev.azure.com/hagleitner-dev/hsm%20data%20analyis%20service%20-%20query%20language/_git/hsm%20data%20analysis%20service%20query%20language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Request/TimeSeries/MonthPartitioning.cs&amp;version=GBmaster&amp;line=27">View Source</a>
   </span>
   <a id="Hsm_DataAnalysisService_QueryLanguage_Request_MonthPartitioning_GetPartitions_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Request.MonthPartitioning.GetPartitions*"></a>
   <h4 id="Hsm_DataAnalysisService_QueryLanguage_Request_MonthPartitioning_GetPartitions_Hsm_BaseTypes_DateTimeOffsetInterval_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Request.MonthPartitioning.GetPartitions(Hsm.BaseTypes.DateTimeOffsetInterval)">GetPartitions(DateTimeOffsetInterval)</h4>
@@ -224,6 +228,39 @@
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Request.TimePartitioning.html#Hsm_DataAnalysisService_QueryLanguage_Request_TimePartitioning_GetPartitions_Hsm_BaseTypes_DateTimeOffsetInterval_">TimePartitioning.GetPartitions(DateTimeOffsetInterval)</a></div>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/hagleitner-dev/hsm%20data%20analyis%20service%20-%20query%20language/_git/hsm%20data%20analysis%20service%20query%20language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Request/TimeSeries/MonthPartitioning.cs&amp;version=GBmaster&amp;line=75">View Source</a>
+  </span>
+  <a id="Hsm_DataAnalysisService_QueryLanguage_Request_MonthPartitioning_Validate_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Request.MonthPartitioning.Validate*"></a>
+  <h4 id="Hsm_DataAnalysisService_QueryLanguage_Request_MonthPartitioning_Validate" data-uid="Hsm.DataAnalysisService.QueryLanguage.Request.MonthPartitioning.Validate">Validate()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override ValidationResult Validate()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Hsm.BaseTypes.ValidationResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Request.TimePartitioning.html#Hsm_DataAnalysisService_QueryLanguage_Request_TimePartitioning_Validate">TimePartitioning.Validate()</a></div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">Hsm.BaseTypes.IValidatable</span>
+  </div>
 </article>
           </div>
           
@@ -232,7 +269,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analyis%20Service%20-%20Query%20Language/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Request/TimeSeries/MonthPartitioning.cs&amp;version=GBFeature/TimePartitioning&amp;line=10" class="contribution-link">View Source</a>
+                    <a href="https://dev.azure.com/hagleitner-dev/hsm%20data%20analyis%20service%20-%20query%20language/_git/hsm%20data%20analysis%20service%20query%20language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Request/TimeSeries/MonthPartitioning.cs&amp;version=GBmaster&amp;line=10" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
