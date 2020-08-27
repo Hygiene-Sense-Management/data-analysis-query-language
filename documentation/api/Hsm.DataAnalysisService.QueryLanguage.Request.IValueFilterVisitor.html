@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class Response
+    <title>Interface IValueFilterVisitor
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class Response
+    <meta name="title" content="Interface IValueFilterVisitor
    ">
     <meta name="generator" content="docfx 2.56.2.0">
     
@@ -68,117 +68,84 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Hsm.DataAnalysisService.QueryLanguage.Response.Response">
+            <article class="content wrap" id="_content" data-uid="Hsm.DataAnalysisService.QueryLanguage.Request.IValueFilterVisitor">
   
   
-  <h1 id="Hsm_DataAnalysisService_QueryLanguage_Response_Response" data-uid="Hsm.DataAnalysisService.QueryLanguage.Response.Response" class="text-break">Class Response
+  <h1 id="Hsm_DataAnalysisService_QueryLanguage_Request_IValueFilterVisitor" data-uid="Hsm.DataAnalysisService.QueryLanguage.Request.IValueFilterVisitor" class="text-break">Interface IValueFilterVisitor
   </h1>
-  <div class="markdown level0 summary"><p>Base Class for all results delivered by the analysis service in answer to a <a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Request.html">Hsm.DataAnalysisService.QueryLanguage.Request</a>.</p>
+  <div class="markdown level0 summary"><p>A visitor for <a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Request.ValueFilter.html">ValueFilter</a> instances.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
-  <div class="inheritance">
-    <h5>Inheritance</h5>
-    <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">Response</span></div>
-      <div class="level2"><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Response.TimeSeriesResponse.html">TimeSeriesResponse</a></div>
-  </div>
-  <div classs="implements">
-    <h5>Implements</h5>
-    <div><span class="xref">Hsm.BaseTypes.IValidatable</span></div>
-  </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Response.html">Hsm.DataAnalysisService.QueryLanguage.Response</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Request.html">Hsm.DataAnalysisService.QueryLanguage.Request</a></h6>
   <h6><strong>Assembly</strong>: Hsm.DataAnalysisService.QueryLanguage.dll</h6>
-  <h5 id="Hsm_DataAnalysisService_QueryLanguage_Response_Response_syntax">Syntax</h5>
+  <h5 id="Hsm_DataAnalysisService_QueryLanguage_Request_IValueFilterVisitor_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class Response : IValidatable</code></pre>
+    <pre><code class="lang-csharp hljs">public interface IValueFilterVisitor</code></pre>
   </div>
-  <h3 id="properties">Properties
-  </h3>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analyis%20Service%20-%20Query%20Language/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Response/Response.cs&amp;version=GBmaster&amp;line=14">View Source</a>
-  </span>
-  <a id="Hsm_DataAnalysisService_QueryLanguage_Response_Response_ProcessingInformation_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Response.Response.ProcessingInformation*"></a>
-  <h4 id="Hsm_DataAnalysisService_QueryLanguage_Response_Response_ProcessingInformation" data-uid="Hsm.DataAnalysisService.QueryLanguage.Response.Response.ProcessingInformation">ProcessingInformation</h4>
-  <div class="markdown level1 summary"><p>Gets or sets <a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Response.Response.html#Hsm_DataAnalysisService_QueryLanguage_Response_Response_ProcessingInformation">ProcessingInformation</a> describing how the analysis service handled the request.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ProcessingInformation ProcessingInformation { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Response.ProcessingInformation.html">ProcessingInformation</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analyis%20Service%20-%20Query%20Language/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Response/Response.cs&amp;version=GBmaster&amp;line=17">View Source</a>
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analyis%20Service%20-%20Query%20Language/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Request/ValueFilters/IValueFilterVisitor.cs&amp;version=GBmaster&amp;line=14">View Source</a>
   </span>
-  <a id="Hsm_DataAnalysisService_QueryLanguage_Response_Response_Validate_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Response.Response.Validate*"></a>
-  <h4 id="Hsm_DataAnalysisService_QueryLanguage_Response_Response_Validate" data-uid="Hsm.DataAnalysisService.QueryLanguage.Response.Response.Validate">Validate()</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="Hsm_DataAnalysisService_QueryLanguage_Request_IValueFilterVisitor_Visit_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Request.IValueFilterVisitor.Visit*"></a>
+  <h4 id="Hsm_DataAnalysisService_QueryLanguage_Request_IValueFilterVisitor_Visit_Hsm_DataAnalysisService_QueryLanguage_Request_MinMaxValueFilter_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Request.IValueFilterVisitor.Visit(Hsm.DataAnalysisService.QueryLanguage.Request.MinMaxValueFilter)">Visit(MinMaxValueFilter)</h4>
+  <div class="markdown level1 summary"><p>Called for <a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Request.MinMaxValueFilter.html">MinMaxValueFilter</a> instances.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract ValidationResult Validate()</code></pre>
+    <pre><code class="lang-csharp hljs">void Visit(MinMaxValueFilter filter)</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Hsm.BaseTypes.ValidationResult</span></td>
-        <td></td>
+        <td><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Request.MinMaxValueFilter.html">MinMaxValueFilter</a></td>
+        <td><span class="parametername">filter</span></td>
+        <td><p>The filter to work with.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <span class="xref">Hsm.BaseTypes.IValidatable</span>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analyis%20Service%20-%20Query%20Language/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Request/ValueFilters/IValueFilterVisitor.cs&amp;version=GBmaster&amp;line=20">View Source</a>
+  </span>
+  <a id="Hsm_DataAnalysisService_QueryLanguage_Request_IValueFilterVisitor_Visit_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Request.IValueFilterVisitor.Visit*"></a>
+  <h4 id="Hsm_DataAnalysisService_QueryLanguage_Request_IValueFilterVisitor_Visit_Hsm_DataAnalysisService_QueryLanguage_Request_TransmissionModeValueFilter_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Request.IValueFilterVisitor.Visit(Hsm.DataAnalysisService.QueryLanguage.Request.TransmissionModeValueFilter)">Visit(TransmissionModeValueFilter)</h4>
+  <div class="markdown level1 summary"><p>Called for <a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Request.TransmissionModeValueFilter.html">TransmissionModeValueFilter</a> instances.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Visit(TransmissionModeValueFilter filter)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Request.TransmissionModeValueFilter.html">TransmissionModeValueFilter</a></td>
+        <td><span class="parametername">filter</span></td>
+        <td><p>The filter to work with.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           
@@ -187,7 +154,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analyis%20Service%20-%20Query%20Language/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Response/Response.cs&amp;version=GBmaster&amp;line=9" class="contribution-link">View Source</a>
+                    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analyis%20Service%20-%20Query%20Language/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Request/ValueFilters/IValueFilterVisitor.cs&amp;version=GBmaster&amp;line=8" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

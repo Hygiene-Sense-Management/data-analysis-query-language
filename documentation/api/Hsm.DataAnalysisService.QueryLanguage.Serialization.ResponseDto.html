@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class DataPointDto
+    <title>Class ResponseDto
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class DataPointDto
+    <meta name="title" content="Class ResponseDto
    ">
     <meta name="generator" content="docfx 2.56.2.0">
     
@@ -68,19 +68,19 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.DataPointDto">
+            <article class="content wrap" id="_content" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.ResponseDto">
   
   
-  <h1 id="Hsm_DataAnalysisService_QueryLanguage_Serialization_DataPointDto" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.DataPointDto" class="text-break">Class DataPointDto
+  <h1 id="Hsm_DataAnalysisService_QueryLanguage_Serialization_ResponseDto" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.ResponseDto" class="text-break">Class ResponseDto
   </h1>
-  <div class="markdown level0 summary"><p>Represents a single datum in a response.
-Field names in this DTO are shortened to reduce the memory footprint.</p>
+  <div class="markdown level0 summary"><p>Base Class for all results delivered by the analysis service in answer to a <see cref="!:RequestDto"></see>.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">DataPointDto</span></div>
+    <div class="level1"><span class="xref">ResponseDto</span></div>
+      <div class="level2"><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Serialization.TimeSeriesResponseDto.html">TimeSeriesResponseDto</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -108,24 +108,24 @@ Field names in this DTO are shortened to reduce the memory footprint.</p>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Serialization.html">Hsm.DataAnalysisService.QueryLanguage.Serialization</a></h6>
   <h6><strong>Assembly</strong>: Hsm.DataAnalysisService.QueryLanguage.dll</h6>
-  <h5 id="Hsm_DataAnalysisService_QueryLanguage_Serialization_DataPointDto_syntax">Syntax</h5>
+  <h5 id="Hsm_DataAnalysisService_QueryLanguage_Serialization_ResponseDto_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class DataPointDto</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class ResponseDto</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analyis%20Service%20-%20Query%20Language/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Serialization/TimeSeries/DataPointDto.cs&amp;version=GBmaster&amp;line=12">View Source</a>
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analyis%20Service%20-%20Query%20Language/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Serialization/ResponseDto.cs&amp;version=GBmaster&amp;line=11">View Source</a>
   </span>
-  <a id="Hsm_DataAnalysisService_QueryLanguage_Serialization_DataPointDto_M_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.DataPointDto.M*"></a>
-  <h4 id="Hsm_DataAnalysisService_QueryLanguage_Serialization_DataPointDto_M" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.DataPointDto.M">M</h4>
-  <div class="markdown level1 summary"><p>Gets or sets the TransmissionMode. Defaults to <a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.TransmissionMode.html#Hsm_DataAnalysisService_QueryLanguage_TransmissionMode_Unknown">Unknown</a>.</p>
+  <a id="Hsm_DataAnalysisService_QueryLanguage_Serialization_ResponseDto_ProcessingInformation_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.ResponseDto.ProcessingInformation*"></a>
+  <h4 id="Hsm_DataAnalysisService_QueryLanguage_Serialization_ResponseDto_ProcessingInformation" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.ResponseDto.ProcessingInformation">ProcessingInformation</h4>
+  <div class="markdown level1 summary"><p>Gets or sets <a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Serialization.ProcessingInformationDto.html">ProcessingInformationDto</a> describing how the analysis service handled the request.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int? M { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public ProcessingInformationDto ProcessingInformation { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -137,65 +137,7 @@ Field names in this DTO are shortened to reduce the memory footprint.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analyis%20Service%20-%20Query%20Language/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Serialization/TimeSeries/DataPointDto.cs&amp;version=GBmaster&amp;line=18">View Source</a>
-  </span>
-  <a id="Hsm_DataAnalysisService_QueryLanguage_Serialization_DataPointDto_T_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.DataPointDto.T*"></a>
-  <h4 id="Hsm_DataAnalysisService_QueryLanguage_Serialization_DataPointDto_T" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.DataPointDto.T">T</h4>
-  <div class="markdown level1 summary"><p>Gets or sets the time stamp of this <a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Serialization.DataPointDto.html">DataPointDto</a>.
-It is transmitted in ISO 8601 UTC format.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string T { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analyis%20Service%20-%20Query%20Language/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Serialization/TimeSeries/DataPointDto.cs&amp;version=GBmaster&amp;line=24">View Source</a>
-  </span>
-  <a id="Hsm_DataAnalysisService_QueryLanguage_Serialization_DataPointDto_V_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.DataPointDto.V*"></a>
-  <h4 id="Hsm_DataAnalysisService_QueryLanguage_Serialization_DataPointDto_V" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.DataPointDto.V">V</h4>
-  <div class="markdown level1 summary"><p>Gets or sets the value of a <a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Serialization.DataPointDto.html">DataPointDto</a>.
-If it is null, no value is available.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public double? V { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Double</span>&gt;</td>
+        <td><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Serialization.ProcessingInformationDto.html">ProcessingInformationDto</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -208,7 +150,7 @@ If it is null, no value is available.</p>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analyis%20Service%20-%20Query%20Language/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Serialization/TimeSeries/DataPointDto.cs&amp;version=GBmaster&amp;line=7" class="contribution-link">View Source</a>
+                    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analyis%20Service%20-%20Query%20Language/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Serialization/ResponseDto.cs&amp;version=GBmaster&amp;line=6" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

@@ -73,14 +73,13 @@
   
   <h1 id="Hsm_DataAnalysisService_QueryLanguage_Serialization_TimeSpanPartitioningDto" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.TimeSpanPartitioningDto" class="text-break">Class TimeSpanPartitioningDto
   </h1>
-  <div class="markdown level0 summary"><p>A time partitioning based on the definition of a fixed <a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Serialization.TimeSpanPartitioningDto.html#Hsm_DataAnalysisService_QueryLanguage_Serialization_TimeSpanPartitioningDto_PartitionSize">PartitionSize</a>.</p>
+  <div class="markdown level0 summary"><p>A time partitioning based on the definition of a fixed <see cref="!:PartitionSizeDays"></see>.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Serialization.TimePartitioningDto.html">TimePartitioningDto</a></div>
-    <div class="level2"><span class="xref">TimeSpanPartitioningDto</span></div>
+    <div class="level1"><span class="xref">TimeSpanPartitioningDto</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -110,22 +109,24 @@
   <h6><strong>Assembly</strong>: Hsm.DataAnalysisService.QueryLanguage.dll</h6>
   <h5 id="Hsm_DataAnalysisService_QueryLanguage_Serialization_TimeSpanPartitioningDto_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class TimeSpanPartitioningDto : TimePartitioningDto</code></pre>
+    <pre><code class="lang-csharp hljs">public class TimeSpanPartitioningDto</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/hsm%20data%20analyis%20service%20-%20query%20language/_git/hsm%20data%20analysis%20service%20query%20language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Serialization/TimeSeries/TimeSpanPartitioningDto.cs&amp;version=GBmaster&amp;line=14">View Source</a>
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analyis%20Service%20-%20Query%20Language/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Serialization/TimeSeries/TimeSpanPartitioningDto.cs&amp;version=GBmaster&amp;line=16">View Source</a>
   </span>
   <a id="Hsm_DataAnalysisService_QueryLanguage_Serialization_TimeSpanPartitioningDto_PartitionSize_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.TimeSpanPartitioningDto.PartitionSize*"></a>
   <h4 id="Hsm_DataAnalysisService_QueryLanguage_Serialization_TimeSpanPartitioningDto_PartitionSize" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.TimeSpanPartitioningDto.PartitionSize">PartitionSize</h4>
-  <div class="markdown level1 summary"><p>Gets or sets the size of each partition.</p>
+  <div class="markdown level1 summary"><p>Gets or sets the size of each partition, formatted as ISO 8601 duration.
+Only days, hours, minutes, and seconds (with fractions) are allowed, with overflows accumulated in days.
+Examples: <code>P90D</code>, <code>PT4H</code>, <code>PT15M30.5S</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TimeSpan PartitionSize { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string PartitionSize { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -137,7 +138,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="xref">System.String</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -146,15 +147,16 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/hsm%20data%20analyis%20service%20-%20query%20language/_git/hsm%20data%20analysis%20service%20query%20language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Serialization/TimeSeries/TimeSpanPartitioningDto.cs&amp;version=GBmaster&amp;line=21">View Source</a>
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analyis%20Service%20-%20Query%20Language/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Serialization/TimeSeries/TimeSpanPartitioningDto.cs&amp;version=GBmaster&amp;line=23">View Source</a>
   </span>
-  <a id="Hsm_DataAnalysisService_QueryLanguage_Serialization_TimeSpanPartitioningDto_CopyFrom_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.TimeSpanPartitioningDto.CopyFrom*"></a>
-  <h4 id="Hsm_DataAnalysisService_QueryLanguage_Serialization_TimeSpanPartitioningDto_CopyFrom_Hsm_DataAnalysisService_QueryLanguage_Request_TimeSpanPartitioning_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.TimeSpanPartitioningDto.CopyFrom(Hsm.DataAnalysisService.QueryLanguage.Request.TimeSpanPartitioning)">CopyFrom(TimeSpanPartitioning)</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="Hsm_DataAnalysisService_QueryLanguage_Serialization_TimeSpanPartitioningDto_CreateFrom_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.TimeSpanPartitioningDto.CreateFrom*"></a>
+  <h4 id="Hsm_DataAnalysisService_QueryLanguage_Serialization_TimeSpanPartitioningDto_CreateFrom_Hsm_DataAnalysisService_QueryLanguage_Request_TimeSpanPartitioning_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.TimeSpanPartitioningDto.CreateFrom(Hsm.DataAnalysisService.QueryLanguage.Request.TimeSpanPartitioning)">CreateFrom(TimeSpanPartitioning)</h4>
+  <div class="markdown level1 summary"><p><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Serialization.TimeSpanPartitioningDto.html#Hsm_DataAnalysisService_QueryLanguage_Serialization_TimeSpanPartitioningDto_CreateFrom_Hsm_DataAnalysisService_QueryLanguage_Request_TimeSpanPartitioning_">CreateFrom(TimeSpanPartitioning)</a> creates a DTO instance matching the given object.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void CopyFrom(TimeSpanPartitioning timeSpanPartitioning)</code></pre>
+    <pre><code class="lang-csharp hljs">public static TimePartitioningDto CreateFrom(TimeSpanPartitioning partitioning)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -168,18 +170,36 @@
     <tbody>
       <tr>
         <td><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Request.TimeSpanPartitioning.html">TimeSpanPartitioning</a></td>
-        <td><span class="parametername">timeSpanPartitioning</span></td>
-        <td></td>
+        <td><span class="parametername">partitioning</span></td>
+        <td><p>The object to transform.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Serialization.TimePartitioningDto.html">TimePartitioningDto</a></td>
+        <td><p>A DTO instance.</p>
+</td>
       </tr>
     </tbody>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/hsm%20data%20analyis%20service%20-%20query%20language/_git/hsm%20data%20analysis%20service%20query%20language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Serialization/TimeSeries/TimeSpanPartitioningDto.cs&amp;version=GBmaster&amp;line=16">View Source</a>
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analyis%20Service%20-%20Query%20Language/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Serialization/TimeSeries/TimeSpanPartitioningDto.cs&amp;version=GBmaster&amp;line=43">View Source</a>
   </span>
   <a id="Hsm_DataAnalysisService_QueryLanguage_Serialization_TimeSpanPartitioningDto_TransformTo_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.TimeSpanPartitioningDto.TransformTo*"></a>
   <h4 id="Hsm_DataAnalysisService_QueryLanguage_Serialization_TimeSpanPartitioningDto_TransformTo" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.TimeSpanPartitioningDto.TransformTo">TransformTo()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Serialization.TimeSpanPartitioningDto.html#Hsm_DataAnalysisService_QueryLanguage_Serialization_TimeSpanPartitioningDto_TransformTo">TransformTo()</a> creates a domain object from this DTO.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -196,7 +216,8 @@
     <tbody>
       <tr>
         <td><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Request.TimeSpanPartitioning.html">TimeSpanPartitioning</a></td>
-        <td></td>
+        <td><p>A domain object.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -208,7 +229,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/hagleitner-dev/hsm%20data%20analyis%20service%20-%20query%20language/_git/hsm%20data%20analysis%20service%20query%20language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Serialization/TimeSeries/TimeSpanPartitioningDto.cs&amp;version=GBmaster&amp;line=9" class="contribution-link">View Source</a>
+                    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analyis%20Service%20-%20Query%20Language/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Serialization/TimeSeries/TimeSpanPartitioningDto.cs&amp;version=GBmaster&amp;line=9" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

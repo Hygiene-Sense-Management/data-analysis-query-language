@@ -115,16 +115,16 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/hsm%20data%20analyis%20service%20-%20query%20language/_git/hsm%20data%20analysis%20service%20query%20language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Serialization/DataSeriesSourceDto.cs&amp;version=GBmaster&amp;line=18">View Source</a>
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analyis%20Service%20-%20Query%20Language/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Serialization/DataSeriesSourceDto.cs&amp;version=GBmaster&amp;line=20">View Source</a>
   </span>
   <a id="Hsm_DataAnalysisService_QueryLanguage_Serialization_DataSeriesSourceDto_ResourceInstanceNumber_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.DataSeriesSourceDto.ResourceInstanceNumber*"></a>
   <h4 id="Hsm_DataAnalysisService_QueryLanguage_Serialization_DataSeriesSourceDto_ResourceInstanceNumber" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.DataSeriesSourceDto.ResourceInstanceNumber">ResourceInstanceNumber</h4>
-  <div class="markdown level1 summary"><p>Gets the number of the resource instance to be analyzed.</p>
+  <div class="markdown level1 summary"><p>Gets or sets the number of the resource instance to be analyzed.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public short ResourceInstanceNumber { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public byte ResourceInstanceNumber { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -136,23 +136,23 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int16</span></td>
+        <td><span class="xref">System.Byte</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/hsm%20data%20analyis%20service%20-%20query%20language/_git/hsm%20data%20analysis%20service%20query%20language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Serialization/DataSeriesSourceDto.cs&amp;version=GBmaster&amp;line=23">View Source</a>
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analyis%20Service%20-%20Query%20Language/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Serialization/DataSeriesSourceDto.cs&amp;version=GBmaster&amp;line=25">View Source</a>
   </span>
   <a id="Hsm_DataAnalysisService_QueryLanguage_Serialization_DataSeriesSourceDto_ResourceTypeId_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.DataSeriesSourceDto.ResourceTypeId*"></a>
   <h4 id="Hsm_DataAnalysisService_QueryLanguage_Serialization_DataSeriesSourceDto_ResourceTypeId" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.DataSeriesSourceDto.ResourceTypeId">ResourceTypeId</h4>
-  <div class="markdown level1 summary"><p>Gets the id of the resource type to be analyzed.</p>
+  <div class="markdown level1 summary"><p>Gets or sets the id of the resource type to be analyzed.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public short ResourceTypeId { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public ushort ResourceTypeId { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -164,23 +164,23 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int16</span></td>
+        <td><span class="xref">System.UInt16</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/hsm%20data%20analyis%20service%20-%20query%20language/_git/hsm%20data%20analysis%20service%20query%20language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Serialization/DataSeriesSourceDto.cs&amp;version=GBmaster&amp;line=13">View Source</a>
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analyis%20Service%20-%20Query%20Language/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Serialization/DataSeriesSourceDto.cs&amp;version=GBmaster&amp;line=15">View Source</a>
   </span>
   <a id="Hsm_DataAnalysisService_QueryLanguage_Serialization_DataSeriesSourceDto_SystemId_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.DataSeriesSourceDto.SystemId*"></a>
   <h4 id="Hsm_DataAnalysisService_QueryLanguage_Serialization_DataSeriesSourceDto_SystemId" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.DataSeriesSourceDto.SystemId">SystemId</h4>
-  <div class="markdown level1 summary"><p>Gets the <span class="xref">Hsm.BaseTypes.Eui64</span> of the embedded system that issued the resource instance value.</p>
+  <div class="markdown level1 summary"><p>Gets or sets the <span class="xref">Hsm.BaseTypes.Eui64</span> of the embedded system that issued the resource instance value.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Eui64 SystemId { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string SystemId { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -192,7 +192,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Hsm.BaseTypes.Eui64</span></td>
+        <td><span class="xref">System.String</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -201,11 +201,12 @@
   </h3>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/hsm%20data%20analyis%20service%20-%20query%20language/_git/hsm%20data%20analysis%20service%20query%20language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Serialization/DataSeriesSourceDto.cs&amp;version=GBmaster&amp;line=25">View Source</a>
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analyis%20Service%20-%20Query%20Language/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Serialization/DataSeriesSourceDto.cs&amp;version=GBmaster&amp;line=32">View Source</a>
   </span>
   <a id="Hsm_DataAnalysisService_QueryLanguage_Serialization_DataSeriesSourceDto_CreateFrom_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.DataSeriesSourceDto.CreateFrom*"></a>
   <h4 id="Hsm_DataAnalysisService_QueryLanguage_Serialization_DataSeriesSourceDto_CreateFrom_Hsm_DataAnalysisService_QueryLanguage_DataSeriesSource_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.DataSeriesSourceDto.CreateFrom(Hsm.DataAnalysisService.QueryLanguage.DataSeriesSource)">CreateFrom(DataSeriesSource)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Serialization.DataSeriesSourceDto.html#Hsm_DataAnalysisService_QueryLanguage_Serialization_DataSeriesSourceDto_CreateFrom_Hsm_DataAnalysisService_QueryLanguage_DataSeriesSource_">CreateFrom(DataSeriesSource)</a> creates a DTO instance matching the given object.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -224,7 +225,8 @@
       <tr>
         <td><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.DataSeriesSource.html">DataSeriesSource</a></td>
         <td><span class="parametername">source</span></td>
-        <td></td>
+        <td><p>The object to transform.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -239,17 +241,19 @@
     <tbody>
       <tr>
         <td><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Serialization.DataSeriesSourceDto.html">DataSeriesSourceDto</a></td>
-        <td></td>
+        <td><p>A DTO instance.</p>
+</td>
       </tr>
     </tbody>
   </table>
   
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/hagleitner-dev/hsm%20data%20analyis%20service%20-%20query%20language/_git/hsm%20data%20analysis%20service%20query%20language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Serialization/DataSeriesSourceDto.cs&amp;version=GBmaster&amp;line=35">View Source</a>
+    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analyis%20Service%20-%20Query%20Language/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Serialization/DataSeriesSourceDto.cs&amp;version=GBmaster&amp;line=51">View Source</a>
   </span>
   <a id="Hsm_DataAnalysisService_QueryLanguage_Serialization_DataSeriesSourceDto_TransformTo_" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.DataSeriesSourceDto.TransformTo*"></a>
   <h4 id="Hsm_DataAnalysisService_QueryLanguage_Serialization_DataSeriesSourceDto_TransformTo" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.DataSeriesSourceDto.TransformTo">TransformTo()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Serialization.DataSeriesSourceDto.html#Hsm_DataAnalysisService_QueryLanguage_Serialization_DataSeriesSourceDto_TransformTo">TransformTo()</a> creates a domain object from this DTO.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -266,7 +270,8 @@
     <tbody>
       <tr>
         <td><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.DataSeriesSource.html">DataSeriesSource</a></td>
-        <td></td>
+        <td><p>A domain object.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -278,7 +283,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/hagleitner-dev/hsm%20data%20analyis%20service%20-%20query%20language/_git/hsm%20data%20analysis%20service%20query%20language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Serialization/DataSeriesSourceDto.cs&amp;version=GBmaster&amp;line=8" class="contribution-link">View Source</a>
+                    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analyis%20Service%20-%20Query%20Language/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Serialization/DataSeriesSourceDto.cs&amp;version=GBmaster&amp;line=10" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

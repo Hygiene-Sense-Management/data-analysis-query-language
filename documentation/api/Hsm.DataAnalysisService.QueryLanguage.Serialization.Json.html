@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Enum TimeWeighting
+    <title>Namespace Hsm.DataAnalysisService.QueryLanguage.Serialization.Json
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Enum TimeWeighting
+    <meta name="title" content="Namespace Hsm.DataAnalysisService.QueryLanguage.Serialization.Json
    ">
     <meta name="generator" content="docfx 2.56.2.0">
     
@@ -68,56 +68,24 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Hsm.DataAnalysisService.QueryLanguage.Request.TimeWeighting">
+            <article class="content wrap" id="_content" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.Json">
   
-  
-  <h1 id="Hsm_DataAnalysisService_QueryLanguage_Request_TimeWeighting" data-uid="Hsm.DataAnalysisService.QueryLanguage.Request.TimeWeighting" class="text-break">Enum TimeWeighting
+  <h1 id="Hsm_DataAnalysisService_QueryLanguage_Serialization_Json" data-uid="Hsm.DataAnalysisService.QueryLanguage.Serialization.Json" class="text-break">Namespace Hsm.DataAnalysisService.QueryLanguage.Serialization.Json
   </h1>
-  <div class="markdown level0 summary"><p>Defines the weighting of samples within when applying average based aggregation functions.</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Request.html">Hsm.DataAnalysisService.QueryLanguage.Request</a></h6>
-  <h6><strong>Assembly</strong>: Hsm.DataAnalysisService.QueryLanguage.dll</h6>
-  <h5 id="Hsm_DataAnalysisService_QueryLanguage_Request_TimeWeighting_syntax">Syntax</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public enum TimeWeighting</code></pre>
-  </div>
-  <h3 id="fields">Fields
+  <div class="markdown level0 remarks"></div>
+    <h3 id="classes">Classes
   </h3>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    <thead>
-    <tbody>
-      <tr>
-        <td id="Hsm_DataAnalysisService_QueryLanguage_Request_TimeWeighting_Equal">Equal</td>
-        <td><p>All samples are equally weighted.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="Hsm_DataAnalysisService_QueryLanguage_Request_TimeWeighting_HalfTimePreviousNext">HalfTimePreviousNext</td>
-        <td><p>The weighting of a sample is the half time to the previous plus the half time to the next sample.
-The first sample is weighted with half the time to the start of the analysis interval.
-The last sample is weighted with half the time to the end of the analysis interval.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="Hsm_DataAnalysisService_QueryLanguage_Request_TimeWeighting_TimeToNext">TimeToNext</td>
-        <td><p>The weighting of a sample is the timespan to the next sample.
-Last sample in a series of samples is weighted with the timespan to the end of the analysis interval.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="Hsm_DataAnalysisService_QueryLanguage_Request_TimeWeighting_TimeToPrevious">TimeToPrevious</td>
-        <td><p>The weighting of a sample is the timespan to the previous sample.
-the First sample in a series of samples is weighted with the timespan to the start of the analysis interval.</p>
-</td>
-      </tr>
-    </tbody>
-  </thead></thead></table>
+      <h4><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Serialization.Json.Deserializer.html">Deserializer</a></h4>
+      <section><p><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Serialization.Json.Deserializer.html">Deserializer</a> de-serializes a JSON string into a requested object.</p>
+</section>
+      <h4><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Serialization.Json.Schema.html">Schema</a></h4>
+      <section><p><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Serialization.Json.Schema.html">Schema</a> provides methods to create and work with schemata of the interface.</p>
+</section>
+      <h4><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Serialization.Json.Serializer.html">Serializer</a></h4>
+      <section><p><a class="xref" href="Hsm.DataAnalysisService.QueryLanguage.Serialization.Json.Serializer.html">Serializer</a> serializes the given objects into a JSON string.</p>
+</section>
 </article>
           </div>
           
@@ -125,9 +93,6 @@ the First sample in a series of samples is weighted with the timespan to the sta
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
-                  <li>
-                    <a href="https://dev.azure.com/hagleitner-dev/HsM%20Data%20Analyis%20Service%20-%20Query%20Language/_git/HsM%20Data%20Analysis%20Service%20Query%20Language?path=DotNet/Hsm.DataAnalysisService.QueryLanguage/Request/TimeSeries/TimeWeighting.cs&amp;version=GBmaster&amp;line=6" class="contribution-link">View Source</a>
-                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
