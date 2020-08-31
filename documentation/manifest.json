@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/Users/daniel.egger/source/repos/HsmDataAnalysisQueryLanuguage/DotNet/Hsm.DataAnalysisService.QueryLanguage.Documentation",
+  "source_base_path": "C:/Users/daniel.egger/source/repos/HsmDataanalysisServiceQueryLanguage/DotNet/Hsm.DataAnalysisService.QueryLanguage.Documentation",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -405,7 +405,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Hsm.DataAnalysisService.QueryLanguage.Serialization.Json.Deserializer.html",
-          "hash": "zg8XfobD5GFJx+clo+ozbQ=="
+          "hash": "74fUTt7uHB1yTtA3UYJmYg=="
         }
       },
       "is_incremental": true,
